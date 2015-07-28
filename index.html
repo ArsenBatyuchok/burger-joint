@@ -45,7 +45,12 @@
                                 </div>
                                 <div class="burger-info">
                                     <div class="burger-header clearfix">
-                                        <h3 class="f-left">{{ burger.name }}</h3>
+                                        <h3 class="f-left">
+                                            {{ burger.name }}
+                                            <span class="item-details">
+                                                {{ burger.details }}
+                                            </span>
+                                        </h3>
                                         <a href="javascript:void(0)" 
                                            class="burger-add" 
                                            ng-click="burgerIncrement(burger)" 
@@ -183,6 +188,9 @@
                                 <label for="drinkInput{{$index}}">
                                     <span class="item-name">
                                         {{ drink.name }}
+                                        <span class="item-details">
+                                            {{ drink.details }}
+                                        </span>
                                     </span>
                                     <span class="price">
                                         {{ drink.price }}
@@ -208,6 +216,9 @@
                                 <label for="beerInput{{$index}}">
                                     <span class="item-name">
                                         {{ beer.name }}
+                                        <span class="item-details">
+                                            {{ beer.details }}
+                                        </span>
                                     </span>
                                     <span class="price">
                                         {{ beer.price }}
@@ -231,6 +242,9 @@
                                 <label for="waterInput{{$index}}">
                                     <span class="item-name">
                                         {{ water.name }}
+                                        <span class="item-details">
+                                            {{ water.details }}
+                                        </span>
                                     </span>
                                     <span class="price">
                                         {{ water.price }}
@@ -392,15 +406,30 @@
                             <form action="">
                                 <label for="phoneNumberInput" class="o-hid">
                                     <div class="label-msg">Ваш телефон</div>
-                                    <input type="text" id="phoneNumberInput" placeholder="(067) 374 57 73" />
+                                    <input type="text" id="phoneNumberInput" placeholder="(067) 374 57 73"
+                                           ng-model="fullOrderDetails.phoneNumber" />
                                 </label>
                                 <label for="deliveryInput" class="textarea-holder o-hid">
                                     <div class="label-msg">Куди веземо?</div>
-                                    <textarea id="deliveryInput" placeholder="Вулиця, номер будинку, номер квартири"></textarea>
+                                    <textarea id="deliveryInput" ng-model="fullOrderDetails.textMessage" placeholder="Вулиця, номер будинку, номер квартири"></textarea>
                                 </label>
-                                <button class="order-btn">
+                                <button type="button" class="order-btn" ng-click="getFullOrderDetails()">
                                     Замовити
                                 </button>
+                                <div class="payment-label-group">
+                                    <input type="radio" id="cashPaymentInput" class="bj-radio" checked name="paymentMethod" />
+                                    <label for="cashPaymentInput">
+                                        Готівкою кур’єру
+                                    </label>
+                                    <input type="radio" id="cardPaymentInput" class="bj-radio" name="paymentMethod" />
+                                    <label for="cardPaymentInput">
+                                        Карткою на місці
+                                    </label>
+                                    <input type="radio" id="onlinePaymentInput" class="bj-radio" name="paymentMethod" />
+                                    <label for="onlinePaymentInput">
+                                        Карткою онлайн
+                                    </label>
+                                </div>
                             </form>
                         </div>
                     </div>
@@ -413,6 +442,9 @@
                         <a href="tel:+380671345834">+38 (067) 134 58 34</a>
                         <div>Староеврейська, 26</div>
                     </div>
+                    <div>
+                        {{ fullOrderDetails }}
+                    </div>
                 </footer>
             </section>
         </div>
@@ -423,20 +455,20 @@
         <script src="js/vendor/jquery.maskedinput.min.js"></script>
         <script src="js/main.js"></script>
         <script>
-            $(document).ready(function() {
-                // phone input validation
-                $("#phoneNumberInput").mask("(999) 999 99 99");
-                $("#phoneNumberInput").on("blur", function() {
-                    var last = $(this).val().substr( $(this).val().indexOf("-") + 1 );
-                    if( last.length == 3 ) {
-                        var move = $(this).val().substr( $(this).val().indexOf("-") - 1, 1 );
-                        var lastfour = move + last;
-                        var first = $(this).val().substr( 0, 9 );
-                        $(this).val( first + '-' + lastfour );
-                    }
-                });
-                // END phone input validation
-            });
+            // $(document).ready(function() {
+            //     // phone input validation
+            //     $("#phoneNumberInput").mask("(999) 999 99 99");
+            //     $("#phoneNumberInput").on("blur", function() {
+            //         var last = $(this).val().substr( $(this).val().indexOf("-") + 1 );
+            //         if( last.length == 3 ) {
+            //             var move = $(this).val().substr( $(this).val().indexOf("-") - 1, 1 );
+            //             var lastfour = move + last;
+            //             var first = $(this).val().substr( 0, 9 );
+            //             $(this).val( first + '-' + lastfour );
+            //         }
+            //     });
+            //     // END phone input validation
+            // });
         </script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <!--<script>

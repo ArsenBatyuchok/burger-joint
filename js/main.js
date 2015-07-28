@@ -81,6 +81,7 @@ angular
                 },
                 {
                     name: "З куркою",
+                    details: "в медово-гiрчичному соусi",
                     desc: "Булка з сезамом та котлета з яловичини з листям салату, соленим огiрком, цибулею, помiдором i соусом",
                     img: "img/burger8.png",
                     price: 86,
@@ -116,22 +117,22 @@ angular
                 { name: "Гостра", price: 25, qty: 0, checked: false}
             ],
             drinks: [
-                { name: "Pepsi", price: 20, qty: 0, checked: false},
-                { name: "Pepsi Light", price: 20, qty: 0, checked: false},
-                { name: "Schweppes", price: 20, qty: 0, checked: false},
-                { name: "7UP", price: 20, qty: 0, checked: false},
-                { name: "Mirinda", price: 20, qty: 0, checked: false},
-                { name: "Redbull", price: 20, qty: 0, checked: false}
+                { name: "Pepsi", details: "0.5", price: 20, qty: 0, checked: false},
+                { name: "Pepsi Light", details: "0.5", price: 20, qty: 0, checked: false},
+                { name: "Schweppes", details: "0.5", price: 20, qty: 0, checked: false},
+                { name: "7UP", details: "0.5", price: 20, qty: 0, checked: false},
+                { name: "Mirinda", details: "0.5", price: 20, qty: 0, checked: false},
+                { name: "Redbull", details: "0.5", price: 20, qty: 0, checked: false}
             ],
             beer: [
-                {name: "Corona", price: 33, qty: 0, checked: false},
-                {name: "Bavaria", price: 20, qty: 0, checked: false},
-                {name: "STELLA ARTOIS N/A", price: 25, qty: 0, checked: false}
+                {name: "Corona", details: "0.33", price: 33, qty: 0, checked: false},
+                {name: "Bavaria", details: "0.5", price: 20, qty: 0, checked: false},
+                {name: "STELLA ARTOIS N/A", details: "0.5", price: 25, qty: 0, checked: false}
             ],
             water: [
-                {name: "AQ. MINERALE AERATED", price: 20, qty: 0, checked: false},
-                {name: "AQ. MINERALE STILL", price: 20, qty: 0, checked: false},
-                {name: "BORJOMI AERATED", price: 20, qty: 0, checked: false}
+                {name: "AQ. MINERALE AERATED", details: "0.6", price: 20, qty: 0, checked: false},
+                {name: "AQ. MINERALE STILL", details: "0.6", price: 20, qty: 0, checked: false},
+                {name: "BORJOMI AERATED", details: "0.33", price: 20, qty: 0, checked: false}
             ]
         }
         // end data
@@ -163,10 +164,23 @@ angular
             return sum;
         }
 
-        $scope.getOrdered = function (arr) {
-            return $filter.ordered(arr);
-        }
+        $scope.fullOrderDetails = {
+            ordered: [],
+            phoneNumber: '0634031924',
+            textMessage: ""
+        };
 
+        $scope.getFullOrderDetails = function() {
+            for (var array in $scope.menu) {
+                for (var i=0; i < $scope.menu[array].length; i++) {
+                    if ($scope.menu[array][i].qty > 0) {
+                        $scope.fullOrderDetails.ordered.push($scope.menu[array][i]);
+                    }
+                }
+            }
+            // return $scope.fullOrderDetails;
+            console.log($scope.fullOrderDetails);
+        }
     })
 
 // doneness directive

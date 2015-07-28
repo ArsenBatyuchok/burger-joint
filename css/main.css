@@ -64,6 +64,19 @@ section.banner {
 	height: 100%;
 	background: url('../img/background-img.jpg') no-repeat 50% 100%;
 	background-size: cover;
+	background-attachment: fixed;
+	-webkit-background-attachment: fixed;
+	position: relative;
+}
+section.banner:after {
+	content: " ";
+	display: block;
+	position: absolute;
+	bottom: 0;
+	height: 27px;
+	width: 100%;
+	background: url('../img/background-img-border-btm.png') no-repeat 50% 100%;
+	background-size: cover;
 }
 header.container {
 	margin-top: 48px;
@@ -162,6 +175,10 @@ h2:after {
 	line-height: 1.2;
 	margin: 0;
 	letter-spacing: 1px;
+}
+.burger-block .item-details {
+	position: relative;
+	top: -5px;
 }
 .burger-block .burger-add {
 	background: url('../img/sprite.svg') no-repeat 0 0;
@@ -308,6 +325,10 @@ h2:after {
 .additional-list-item .item-name {
 	margin-left: 10px;
 }
+.item-details {
+	font-size: 14px;
+	font-family: 'bebas_neue_book';
+}
 /*END Additional Section styles*/
 
 /*END Page Styles*/
@@ -339,6 +360,34 @@ h2:after {
 	background-position: -50px -50px;
 }
 /*END Custom Checkbox Styles*/
+
+/*Custom radio Styles*/
+.bj-radio {
+	position: absolute;
+	left: -9999px;
+}
+
+.bj-radio + label:before {
+	content: "";
+	position: relative;
+	top: 7px;
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	background-image: url('../img/sprite.svg');
+	background-repeat: no-repeat;
+}
+.bj-radio + label {
+	cursor: pointer;
+}
+.bj-radio + label:before {
+	background-position: 0px -100px;
+}
+
+.bj-radio:checked + label:before {
+	background-position: -50px -100px;
+}
+/*END Custom radio Styles*/
 
 
 /*Custom Radio Styles*/
@@ -649,8 +698,12 @@ footer .footer-info a {
 
 
 
-
-
+.payment-label-group {
+	margin-top: 12px;
+}
+.payment-label-group label {
+	margin-bottom: 2px;
+}
 
 
 

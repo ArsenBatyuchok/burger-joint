@@ -4,6 +4,10 @@
 		padding-right: 20px;
 		box-sizing: border-box;
 	}
+	section.banner {
+		background-attachment: scroll;
+		-webkit-background-attachment: scroll;
+	}
 	.order-section-wrapper,
 	.form-wrapper {
 		float: none;
@@ -37,6 +41,17 @@
 		float: none;
 		margin-left: auto;
   		margin-right: auto;
+	}
+	.burger-block .item-details {
+		position: relative;
+		top: 0;
+	}
+	.payment-label-group label {
+		padding-top: 4px;
+	    padding-bottom: 7px;
+	}
+	.payment-label-group {
+	    margin-top: 40px;
 	}
 }
 @media (max-width: 1080px) {
