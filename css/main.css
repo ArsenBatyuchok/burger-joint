@@ -578,6 +578,10 @@ h2:after {
 	border-radius: 6px;
 	margin-top: 22px;
 }
+.form-wrapper .order-btn:disabled {
+	opacity: 0.5;
+	cursor: no-drop;
+}
 /*END Form styles*/
 
 /*Footer styles*/

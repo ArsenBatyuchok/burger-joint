@@ -403,29 +403,32 @@
                             </div>
                         </div>
                         <div class="form-wrapper">
-                            <form action="">
+                            <form name="orderForm">
                                 <label for="phoneNumberInput" class="o-hid">
                                     <div class="label-msg">Ваш телефон</div>
-                                    <input type="text" id="phoneNumberInput" placeholder="(067) 374 57 73"
-                                           ng-model="fullOrderDetails.phoneNumber" />
+                                    <input type="text" id="phoneNumberInput" 
+                                           placeholder="(067) 374 57 73"
+                                           ng-model="fullOrderDetails.phoneNumber" required />
                                 </label>
                                 <label for="deliveryInput" class="textarea-holder o-hid">
                                     <div class="label-msg">Куди веземо?</div>
-                                    <textarea id="deliveryInput" ng-model="fullOrderDetails.textMessage" placeholder="Вулиця, номер будинку, номер квартири"></textarea>
+                                    <textarea id="deliveryInput" 
+                                              ng-model="fullOrderDetails.textMessage" 
+                                              placeholder="Вулиця, номер будинку, номер квартири" required></textarea>
                                 </label>
-                                <button type="button" class="order-btn" ng-click="getFullOrderDetails()">
+                                <button type="button" class="order-btn" ng-click="getFullOrderDetails()" ng-disabled="orderForm.$invalid">
                                     Замовити
                                 </button>
                                 <div class="payment-label-group">
-                                    <input type="radio" id="cashPaymentInput" class="bj-radio" checked name="paymentMethod" />
+                                    <input type="radio" id="cashPaymentInput" class="bj-radio" name="paymentMethod" ng-model="fullOrderDetails.paymentMethod" value="cashPayment" />
                                     <label for="cashPaymentInput">
                                         Готівкою кур’єру
                                     </label>
-                                    <input type="radio" id="cardPaymentInput" class="bj-radio" name="paymentMethod" />
+                                    <input type="radio" id="cardPaymentInput" class="bj-radio" name="paymentMethod" ng-model="fullOrderDetails.paymentMethod" value="cardPayment" />
                                     <label for="cardPaymentInput">
                                         Карткою на місці
                                     </label>
-                                    <input type="radio" id="onlinePaymentInput" class="bj-radio" name="paymentMethod" />
+                                    <input type="radio" id="onlinePaymentInput" class="bj-radio" name="paymentMethod" ng-model="fullOrderDetails.paymentMethod" value="onlinePayment" />
                                     <label for="onlinePaymentInput">
                                         Карткою онлайн
                                     </label>

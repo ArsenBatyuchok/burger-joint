@@ -166,11 +166,21 @@ angular
 
         $scope.fullOrderDetails = {
             ordered: [],
-            phoneNumber: '0634031924',
-            textMessage: ""
+            phoneNumber: "",
+            textMessage: "",
+            paymentMethod: "cashPayment"
         };
 
+        // for (var array in $scope.menu) {
+        //     for (var i=0; i < $scope.menu[array].length; i++) {
+        //         if ($scope.menu[array][i].qty > 0) {
+        //             $scope.fullOrderDetails.ordered.push($scope.menu[array][i]);
+        //         }
+        //     }
+        // }
+
         $scope.getFullOrderDetails = function() {
+            var data;
             for (var array in $scope.menu) {
                 for (var i=0; i < $scope.menu[array].length; i++) {
                     if ($scope.menu[array][i].qty > 0) {
@@ -179,7 +189,8 @@ angular
                 }
             }
             // return $scope.fullOrderDetails;
-            console.log($scope.fullOrderDetails);
+            data = JSON.stringify($scope.fullOrderDetails);
+            console.log(data);
         }
     })
 
