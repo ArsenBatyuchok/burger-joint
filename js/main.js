@@ -17,7 +17,7 @@ angular
     })
 
     // Controller
-	.controller('MainController', function($scope, $document, $filter) {
+	.controller('MainController', function($scope, $document, $filter, $location) {
 
         // data
         
@@ -147,7 +147,6 @@ angular
         $scope.burgerIncrement = function(item) {
             item.qty = item.qty + 1;
             item.doneness.push("medium");
-            
         }
         $scope.burgerDecrement = function(item) {
             item.qty = item.qty - 1;
@@ -191,6 +190,16 @@ angular
             // return $scope.fullOrderDetails;
             data = JSON.stringify($scope.fullOrderDetails);
             console.log(data);
+        }
+
+        $scope.showFailureMessage = false;
+        $scope.showSuccessMessage = false;
+        $scope.currentPath = $location.path();
+        
+        if($scope.currentPath == 'failure') {
+            $scope.showFailureMessage = true;
+        } else if ($scope.currentPath == 'success') {
+            $scope.showSuccessMessage = true;
         }
     })
 
