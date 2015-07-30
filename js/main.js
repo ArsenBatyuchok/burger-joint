@@ -167,7 +167,9 @@ angular
             ordered: [],
             phoneNumber: "",
             textMessage: "",
-            paymentMethod: "cashPayment"
+            paymentMethod: "cashPayment",
+            totalPrice: 0,
+            rememberOrder: false
         };
 
         // for (var array in $scope.menu) {
@@ -179,7 +181,6 @@ angular
         // }
 
         $scope.getFullOrderDetails = function() {
-            var data;
             for (var array in $scope.menu) {
                 for (var i=0; i < $scope.menu[array].length; i++) {
                     if ($scope.menu[array][i].qty > 0) {
@@ -187,15 +188,15 @@ angular
                     }
                 }
             }
-            // return $scope.fullOrderDetails;
-            data = JSON.stringify($scope.fullOrderDetails);
-            console.log(data);
+            $scope.fullOrderDetails.totalPrice = $scope.calcTotal();
+            $scope.data = JSON.stringify($scope.fullOrderDetails);
+            return $scope.data;
         }
 
         $scope.showFailureMessage = false;
         $scope.showSuccessMessage = false;
         $scope.currentPath = $location.path();
-        
+
         if($scope.currentPath == 'failure') {
             $scope.showFailureMessage = true;
         } else if ($scope.currentPath == 'success') {

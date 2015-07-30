@@ -389,7 +389,7 @@
                                               filteredBeer.length ||
                                               filteredWater.length">
                                     <div class="remember-wrapper">
-                                        <input type="checkbox" id="rememberOrderInput" class="bj-checkbox" />
+                                        <input type="checkbox" id="rememberOrderInput" class="bj-checkbox" ng-model="fullOrderDetails.rememberOrder" />
                                         <label for="rememberOrderInput">
                                             Запам’ятати
                                         </label>
@@ -445,14 +445,17 @@
                         <a href="tel:+380671345834">+38 (067) 134 58 34</a>
                         <div>Староеврейська, 26</div>
                     </div>
+                    <div>
+                        {{fullOrderDetails}}
+                    </div>
                 </footer>
             </section>
-            <div class="popup-wrapper" ng-show="currentPath === '/success'">
+            <div class="popup-wrapper" ng-show="currentPath == '/success'">
                 <div class="popup">
                     Ваше замовлення прийнято.
                 </div>
             </div>
-            <div class="popup-wrapper" ng-show="currentPath === '/failure'">
+            <div class="popup-wrapper" ng-show="currentPath == '/failure'">
                 <div class="popup">
                     Сталася помилка.
                 </div>
