@@ -20,7 +20,7 @@ angular
 	.controller('MainController', function($scope, $document, $filter, $location) {
 
         // data
-        
+
         $scope.menu = {
             burgers: [
                 {
@@ -29,7 +29,8 @@ angular
                     img: "img/burger1.png",
                     price: 86,
                     qty: 0,
-                    doneness: []
+                    doneness: [],
+                    type: "burgers"
                 },
                 {
                     name: "Класичний з сиром",
@@ -37,7 +38,8 @@ angular
                     img: "img/burger2.png",
                     price: 86,
                     qty: 0,
-                    doneness: []
+                    doneness: [],
+                    type: "burgers"
                 },
                 {
                     name: "З грибами та сиром",
@@ -45,7 +47,8 @@ angular
                     img: "img/burger3.png",
                     price: 86,
                     qty: 0,
-                    doneness: []
+                    doneness: [],
+                    type: "burgers"
                 },
                 {
                     name: "Мексиканський",
@@ -53,7 +56,8 @@ angular
                     img: "img/burger4.png",
                     price: 86,
                     qty: 0,
-                    doneness: []
+                    doneness: [],
+                    type: "burgers"
                 },
                 {
                     name: "Барбекью-бейкон",
@@ -61,7 +65,8 @@ angular
                     img: "img/burger5.png",
                     price: 86,
                     qty: 0,
-                    doneness: []
+                    doneness: [],
+                    type: "burgers"
                 },
                 {
                     name: "Сулугунi",
@@ -69,7 +74,8 @@ angular
                     img: "img/burger6.png",
                     price: 86,
                     qty: 0,
-                    doneness: []
+                    doneness: [],
+                    type: "burgers"
                 },
                 {
                     name: "З куркою",
@@ -77,7 +83,8 @@ angular
                     img: "img/burger7.png",
                     price: 86,
                     qty: 0,
-                    doneness: []
+                    doneness: [],
+                    type: "burgers"
                 },
                 {
                     name: "З куркою",
@@ -86,7 +93,8 @@ angular
                     img: "img/burger8.png",
                     price: 86,
                     qty: 0,
-                    doneness: []
+                    doneness: [],
+                    type: "burgers"
                 },
                 {
                     name: "Вегабургер",
@@ -94,7 +102,8 @@ angular
                     img: "img/burger9.png",
                     price: 86,
                     qty: 0,
-                    doneness: []
+                    doneness: [],
+                    type: "burgers"
                 },
                 {
                     name: "Дитячий",
@@ -102,41 +111,62 @@ angular
                     img: "img/burger10.png",
                     price: 86,
                     qty: 0,
-                    doneness: []
+                    doneness: [],
+                    type: "burgers"
                 }
             ],
             salads: [
-                { name: "З куркою-гриль", price: 33, qty: 0, checked: false},
-                { name: "З яловичиною", price: 20, qty: 0, checked: false},
-                { name: "Вегетарiанський", price: 25, qty: 0, checked: false}
+                { name: "З куркою-гриль", price: 33, qty: 0, checked: false, type: "salads"},
+                { name: "З яловичиною", price: 20, qty: 0, checked: false, type: "salads"},
+                { name: "Вегетарiанський", price: 25, qty: 0, checked: false, type: "salads"}
             ],
             fries: [
-                { name: "Натуральна", price: 33, qty: 0, checked: false},
-                { name: "Сирна", price: 20, qty: 0, checked: false},
-                { name: "Часникова", price: 25, qty: 0, checked: false},
-                { name: "Гостра", price: 25, qty: 0, checked: false}
+                { name: "Натуральна", price: 33, qty: 0, checked: false, type: "fries"},
+                { name: "Сирна", price: 20, qty: 0, checked: false, type: "fries"},
+                { name: "Часникова", price: 25, qty: 0, checked: false, type: "fries"},
+                { name: "Гостра", price: 25, qty: 0, checked: false, type: "fries"}
             ],
             drinks: [
-                { name: "Pepsi", details: "0.5", price: 20, qty: 0, checked: false},
-                { name: "Pepsi Light", details: "0.5", price: 20, qty: 0, checked: false},
-                { name: "Schweppes", details: "0.5", price: 20, qty: 0, checked: false},
-                { name: "7UP", details: "0.5", price: 20, qty: 0, checked: false},
-                { name: "Mirinda", details: "0.5", price: 20, qty: 0, checked: false},
-                { name: "Redbull", details: "0.5", price: 20, qty: 0, checked: false}
+                { name: "Pepsi", details: "0.5", price: 20, qty: 0, checked: false, type: "drinks"},
+                { name: "Pepsi Light", details: "0.5", price: 20, qty: 0, checked: false, type: "drinks"},
+                { name: "Schweppes", details: "0.5", price: 20, qty: 0, checked: false, type: "drinks"},
+                { name: "7UP", details: "0.5", price: 20, qty: 0, checked: false, type: "drinks"},
+                { name: "Mirinda", details: "0.5", price: 20, qty: 0, checked: false, type: "drinks"},
+                { name: "Redbull", details: "0.5", price: 20, qty: 0, checked: false, type: "drinks"}
             ],
             beer: [
-                {name: "Corona", details: "0.33", price: 33, qty: 0, checked: false},
-                {name: "Bavaria", details: "0.5", price: 20, qty: 0, checked: false},
-                {name: "STELLA ARTOIS N/A", details: "0.5", price: 25, qty: 0, checked: false}
+                {name: "Corona", details: "0.33", price: 33, qty: 0, checked: false, type: "beer"},
+                {name: "Bavaria", details: "0.5", price: 20, qty: 0, checked: false, type: "beer"},
+                {name: "STELLA ARTOIS N/A", details: "0.5", price: 25, qty: 0, checked: false, type: "beer"}
             ],
             water: [
-                {name: "AQ. MINERALE AERATED", details: "0.6", price: 20, qty: 0, checked: false},
-                {name: "AQ. MINERALE STILL", details: "0.6", price: 20, qty: 0, checked: false},
-                {name: "BORJOMI AERATED", details: "0.33", price: 20, qty: 0, checked: false}
+                {name: "AQ. MINERALE AERATED", details: "0.6", price: 20, qty: 0, checked: false, type: "water"},
+                {name: "AQ. MINERALE STILL", details: "0.6", price: 20, qty: 0, checked: false, type: "water"},
+                {name: "BORJOMI AERATED", details: "0.33", price: 20, qty: 0, checked: false, type: "water"}
             ]
         }
         // end data
 
+        if(localStorage['menu']) {
+            $.extend(true, $scope.menu, JSON.parse(localStorage['menu']));
+            $scope.fullOrderDetails = {
+                ordered: [],
+                phoneNumber: localStorage['phoneNumber'],
+                textMessage: localStorage['textMessage'],
+                paymentMethod: localStorage['paymentMethod'],
+                totalPrice: 0,
+                rememberOrder: true
+            };
+        } else {
+            $scope.fullOrderDetails = {
+                ordered: [],
+                phoneNumber: "",
+                textMessage: "",
+                paymentMethod: "cashPayment",
+                totalPrice: 0,
+                rememberOrder: false
+            };
+        }
         $scope.addItemWithCheckbox = function(item) {
             if (item.checked) {
                 item.qty = 1;
@@ -156,21 +186,13 @@ angular
         $scope.calcTotal = function() {
             var sum  = 0;
             for (var array in $scope.menu) {
+                //console.log($scope.menu[array]);
                 sum += $scope.menu[array].reduce(function(acc, el) { 
                     return acc + el.price * el.qty 
                 }, 0);
             }
             return sum;
         }
-
-        $scope.fullOrderDetails = {
-            ordered: [],
-            phoneNumber: "",
-            textMessage: "",
-            paymentMethod: "cashPayment",
-            totalPrice: 0,
-            rememberOrder: false
-        };
 
         // for (var array in $scope.menu) {
         //     for (var i=0; i < $scope.menu[array].length; i++) {
@@ -190,7 +212,16 @@ angular
             }
             $scope.fullOrderDetails.totalPrice = $scope.calcTotal();
             $scope.data = JSON.stringify($scope.fullOrderDetails);
-            return $scope.data;
+            if ($scope.fullOrderDetails.rememberOrder) {
+                localStorage['menu'] = JSON.stringify($scope.menu);
+                localStorage['phoneNumber'] = $scope.fullOrderDetails.phoneNumber;
+                localStorage['textMessage'] = $scope.fullOrderDetails.textMessage;
+                localStorage['paymentMethod'] = $scope.fullOrderDetails.paymentMethod;
+            } else {
+                localStorage['menu'] = '';
+            }
+            location.href = '../scripts/pay.php?data='+$scope.data;
+            //return $scope.data;
         }
 
         $scope.showFailureMessage = false;
