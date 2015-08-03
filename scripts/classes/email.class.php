@@ -15,7 +15,6 @@ class Email
     {
         $data = require 'params.php';
         $mgClient = new Mailgun($data['mailGun']['apiKey']);
-
         return $mgClient->sendMessage($data['mailGun']['domain'],
             [
                 'from'    => "Mailgun Sandbox <postmaster@sandbox826ba91f3f2e476dbd8feefea0b862c6.mailgun.org>",
@@ -70,6 +69,7 @@ class Email
             } elseif ($order->type == self::TYPE_BURGER) { // burger start
                 $doneness = $this->donenessToString($order->doneness);
                 $currentKey = key($doneness);
+
                 if (!$stateBurger) {
                     $result .= "<tr>
                                     <td rowspan='" . ($this->countBurgers($data->ordered)) . "'>Бургери</td>
@@ -90,12 +90,12 @@ class Email
                     $countBurger = count($doneness);
                 }
                 $stateBurger = true;
-                if ($countBurger > 1) {
+                if ($countBurger >= 1) {
                         if (count($doneness) > 1) {
                             unset($doneness[$currentKey]);
                             foreach($doneness as $key => $value) {
                                 $result .= "<tr>
-                                                <td>{$key}</td>
+                                                <td>{$key}</td>s
                                                 <td>{$order->price}</td>
                                                 <td>{$value}</td>
                                                 <td>" .($value * $order->price) . "</td>
