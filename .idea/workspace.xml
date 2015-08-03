@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="563e4fcb-54d4-49a3-b377-7d2c40d946bb" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/fail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/success.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/LiqPay.php" afterPath="$PROJECT_DIR$/scripts/classes/LiqPay.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/classes/database.class.php" afterPath="$PROJECT_DIR$/scripts/classes/database.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/params.php" afterPath="$PROJECT_DIR$/scripts/params.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/pay.php" afterPath="$PROJECT_DIR$/scripts/pay.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/server.php" afterPath="$PROJECT_DIR$/scripts/server.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/classes/table.sql" afterPath="$PROJECT_DIR$/scripts/classes/table.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="burger.iws" />
@@ -55,8 +57,8 @@
       <file leaf-file-name="params.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/params.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="468">
-              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            <state vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="486">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -65,7 +67,7 @@
       <file leaf-file-name="email.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/classes/email.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.0" vertical-offset="108" max-vertical-offset="4662">
+            <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="4662">
               <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
               <folding>
                 <marker date="1438352501873" expanded="true" signature="912:1171" placeholder="..." />
@@ -102,21 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fail.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/fail.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="180">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pay.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pay.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/pay.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="990">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.18815331" vertical-offset="0" max-vertical-offset="1062">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -125,24 +117,34 @@
       <file leaf-file-name="database.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/classes/database.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.925926" vertical-offset="461" max-vertical-offset="1620">
-              <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+            <state vertical-scroll-proportion="-34.666668" vertical-offset="0" max-vertical-offset="2106">
+              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
               <folding>
-                <marker date="1438589687298" expanded="true" signature="1062:1130" placeholder="SELECT * FRO..Client..." />
-                <marker date="1438589687298" expanded="true" signature="1487:1615" placeholder="INSERT INTO ..." />
-                <marker date="1438589687298" expanded="true" signature="2083:2127" placeholder="SELECT max(c..Client..." />
-                <marker date="1438589687298" expanded="true" signature="2382:2443" placeholder="UPDATE Clien..." />
-                <marker date="1438589687298" expanded="true" signature="2706:2773" placeholder="INSERT INTO ..." />
+                <marker date="1438591249446" expanded="true" signature="1704:1772" placeholder="SELECT * FRO..Client..." />
+                <marker date="1438591249446" expanded="true" signature="2129:2257" placeholder="INSERT INTO ..." />
+                <marker date="1438591249446" expanded="true" signature="2725:2769" placeholder="SELECT max(c..Client..." />
+                <marker date="1438591249446" expanded="true" signature="3024:3085" placeholder="UPDATE Clien..." />
+                <marker date="1438591249446" expanded="true" signature="3348:3415" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PDO.php" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/PDO.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.4074073" vertical-offset="178" max-vertical-offset="24516">
+              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/server.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16885553" vertical-offset="0" max-vertical-offset="540">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.9636364" vertical-offset="0" max-vertical-offset="522">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -169,11 +171,11 @@
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/scripts/classes/email.class.php" />
         <option value="$PROJECT_DIR$/scripts/fail.php" />
-        <option value="$PROJECT_DIR$/scripts/params.php" />
         <option value="$PROJECT_DIR$/scripts/classes/table.sql" />
         <option value="$PROJECT_DIR$/scripts/classes/database.class.php" />
-        <option value="$PROJECT_DIR$/scripts/pay.php" />
+        <option value="$PROJECT_DIR$/scripts/params.php" />
         <option value="$PROJECT_DIR$/scripts/server.php" />
+        <option value="$PROJECT_DIR$/scripts/pay.php" />
       </list>
     </option>
   </component>
@@ -243,24 +245,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="burger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="burger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -372,6 +356,7 @@
     <frame x="0" y="0" width="1606" height="882" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20101781" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -387,7 +372,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994911" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -479,14 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/fail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="180">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/pay.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="1080">
@@ -524,20 +500,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1438589687298" expanded="true" signature="1062:1130" placeholder="SELECT * FRO..Client..." />
-            <marker date="1438589687298" expanded="true" signature="1487:1615" placeholder="INSERT INTO ..." />
-            <marker date="1438589687298" expanded="true" signature="2083:2127" placeholder="SELECT max(c..Client..." />
-            <marker date="1438589687298" expanded="true" signature="2382:2443" placeholder="UPDATE Clien..." />
-            <marker date="1438589687298" expanded="true" signature="2706:2773" placeholder="INSERT INTO ..." />
+            <marker date="1438591249446" expanded="true" signature="1704:1772" placeholder="SELECT * FRO..Client..." />
+            <marker date="1438591249446" expanded="true" signature="2129:2257" placeholder="INSERT INTO ..." />
+            <marker date="1438591249446" expanded="true" signature="2725:2769" placeholder="SELECT max(c..Client..." />
+            <marker date="1438591249446" expanded="true" signature="3024:3085" placeholder="UPDATE Clien..." />
+            <marker date="1438591249446" expanded="true" signature="3348:3415" placeholder="INSERT INTO ..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/fail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="216">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -549,10 +517,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/LiqPay.php">
+    <entry file="file://$PROJECT_DIR$/scripts/classes/LiqPay.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2124" max-vertical-offset="3294">
           <caret line="138" column="5" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#530#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -609,7 +580,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/LiqPay.php">
+    <entry file="file://$PROJECT_DIR$/scripts/classes/LiqPay.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1930" max-vertical-offset="3654">
           <caret line="120" column="54" selection-start-line="120" selection-start-column="48" selection-end-line="120" selection-end-column="54" />
@@ -673,18 +644,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/LiqPay.php">
+    <entry file="file://$PROJECT_DIR$/scripts/classes/LiqPay.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2556818" vertical-offset="1026" max-vertical-offset="3654">
           <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/success.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4076655" vertical-offset="0" max-vertical-offset="574">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-          <folding />
+          <folding>
+            <element signature="e#6#530#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -712,17 +678,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/fail.php">
+    <entry file="file://$PROJECT_DIR$/scripts/classes/table.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="180">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="553">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/PDO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.4074073" vertical-offset="178" max-vertical-offset="24516">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/classes/database.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-34.666668" vertical-offset="0" max-vertical-offset="2106">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <marker date="1438591249446" expanded="true" signature="1704:1772" placeholder="SELECT * FRO..Client..." />
+            <marker date="1438591249446" expanded="true" signature="2129:2257" placeholder="INSERT INTO ..." />
+            <marker date="1438591249446" expanded="true" signature="2725:2769" placeholder="SELECT max(c..Client..." />
+            <marker date="1438591249446" expanded="true" signature="3024:3085" placeholder="UPDATE Clien..." />
+            <marker date="1438591249446" expanded="true" signature="3348:3415" placeholder="INSERT INTO ..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/classes/email.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0" vertical-offset="108" max-vertical-offset="4662">
+        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="4662">
           <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
           <folding>
             <marker date="1438352501873" expanded="true" signature="912:1171" placeholder="..." />
@@ -758,48 +746,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/classes/table.sql">
+    <entry file="file://$PROJECT_DIR$/scripts/server.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="553">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/pay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="990">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="-1.9636364" vertical-offset="0" max-vertical-offset="522">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/params.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="468">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        <state vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="486">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/classes/database.class.php">
+    <entry file="file://$PROJECT_DIR$/scripts/pay.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.925926" vertical-offset="461" max-vertical-offset="1620">
-          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
-          <folding>
-            <marker date="1438589687298" expanded="true" signature="1062:1130" placeholder="SELECT * FRO..Client..." />
-            <marker date="1438589687298" expanded="true" signature="1487:1615" placeholder="INSERT INTO ..." />
-            <marker date="1438589687298" expanded="true" signature="2083:2127" placeholder="SELECT max(c..Client..." />
-            <marker date="1438589687298" expanded="true" signature="2382:2443" placeholder="UPDATE Clien..." />
-            <marker date="1438589687298" expanded="true" signature="2706:2773" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/server.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16885553" vertical-offset="0" max-vertical-offset="540">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.18815331" vertical-offset="0" max-vertical-offset="1062">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>

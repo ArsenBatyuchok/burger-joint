@@ -1,6 +1,6 @@
 <?php
 
-class Database
+class Database extends PDO
 {
     private $username;
     private $password;
@@ -13,6 +13,8 @@ class Database
     const STATUS_PAID = 1;
     const STATUS_UNPAID = 0;
 
+    protected $transactionCounter = 0;
+
     public function __construct()
     {
         $data = require $_SERVER['CONTEXT_DOCUMENT_ROOT'].'/scripts/params.php';
@@ -23,6 +25,31 @@ class Database
         $this->port = $data['database']['port'];
         $this->dns = "mysql:dbname={$this->dbname};host={$this->host};port={$this->port}";
         $this->connect();
+    }
+
+    public function beginTransaction()
+    {
+        if(!$this->transactionCounter++)
+            return parent::beginTransaction();
+        return $this->transactionCounter >= 0;
+    }
+
+    function commit()
+    {
+        if(!--$this->transactionCounter)
+            return parent::commit();
+        return $this->transactionCounter >= 0;
+    }
+
+    function rollback()
+    {
+        if($this->transactionCounter >= 0)
+        {
+            $this->transactionCounter = 0;
+            return parent::rollback();
+        }
+        $this->transactionCounter = 0;
+        return false;
     }
 
     public function connect()
