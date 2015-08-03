@@ -95,7 +95,7 @@ class Email
                             unset($doneness[$currentKey]);
                             foreach($doneness as $key => $value) {
                                 $result .= "<tr>
-                                                <td>{$key}</td>s
+                                                <td>{$key}</td>
                                                 <td>{$order->price}</td>
                                                 <td>{$value}</td>
                                                 <td>" .($value * $order->price) . "</td>
