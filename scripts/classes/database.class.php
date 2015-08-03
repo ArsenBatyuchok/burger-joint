@@ -36,20 +36,22 @@ class Database
 
     public function findClientById($id)
     {
-        $st = $this->pdo->prepare("SELECT * FROM Client WHERE clientId = :clientId");
+        $st = $this->pdo->prepare("SELECT * FROM Client WHERE clientId = :clientId and status = :status");
         $st->bindValue(':clientId', $id, PDO::PARAM_INT);
+        $st->bindValue(':status', self::STATUS_UNPAID, PDO::PARAM_BOOL);
         $st->execute();
-        return $st->fetch();
+        return $st->fetch(PDO::FETCH_ASSOC);
     }
 
-    public function insertClient($address, $phoneNumber)
+    public function insertClient($address, $phoneNumber, $amount)
     {
         $id = $this->getMaxClientId();
-        $st = $this->pdo->prepare("INSERT INTO Client (clientId, address, phoneNumber, status) values (:clientId, :address, :phoneNumber, :status)");
+        $st = $this->pdo->prepare("INSERT INTO Client (clientId, address, phoneNumber, status, amount) values (:clientId, :address, :phoneNumber, :status, :amount)");
         $st->bindValue(':address', $address, PDO::PARAM_STR);
         $st->bindValue(':phoneNumber', $phoneNumber, PDO::PARAM_STR);
         $st->bindValue(':clientId', $id, PDO::PARAM_INT);
         $st->bindValue(':status', self::STATUS_UNPAID, PDO::PARAM_INT);
+        $st->bindValue(':amount', $amount, PDO::PARAM_STR);
         return ['state' => $st->execute(), 'id' => $id];
     }
 

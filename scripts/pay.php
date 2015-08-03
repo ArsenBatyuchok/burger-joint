@@ -6,18 +6,13 @@ $params = require 'params.php';
 
 if (isset($_GET['data'])) {
     $data = json_decode($_GET['data']);
-    if ($data->rememberOrder) {
-        setcookie('Data', $_GET['data'], time()+31556926);
-    } else {
-        setcookie('Data', '', time()-3600);
-    }
+    //    $amount = $data->totalPrice;
+    $amount = 0.01;
     $db = new Database();
-    $response = $db->insertClient($data->textMessage, $data->phoneNumber);
+    $response = $db->insertClient($data->textMessage, $data->phoneNumber, $amount);
     if (!$response['state']) {
         throw new Exception('Client not saved');
     }
-//    $amount = $data->totalPrice;
-    $amount = 0.01;
 
     if ($data->paymentMethod == 'onlinePayment') { // online paid
         session_start();
@@ -30,8 +25,8 @@ if (isset($_GET['data'])) {
             'amount' => $amount,
             'currency' => 'UAH',
             'description' => 'Оплата заказа',
-            'server_url' => 'burger.loc/scripts/server.php',
-            'result_url' => 'burger.loc/scripts/server.php',
+            'server_url' => 'http://image2015.hol.es/image.php',
+            'result_url' => 'http://image2015.hol.es/image.php',
             'order_id' => $response['id'],
             'sandbox' => true,
         ));

@@ -1,10 +1,10 @@
 <?php
 return [
     'liqpay' => [
-        'publicKey' => 'i34110847150',
-        'privateKey' => 'WikAcj8WW0pOSeMOHSF8NjLxxIUm1zAbXg44toSP',
-//        'publicKey' => 'i36978302591',
-//        'privateKey' => 'TiosRWRSKKpwr86vMEDDa4Bsqnca9EVnFvYn4qhu',
+//        'publicKey' => 'i34110847150',
+//        'privateKey' => 'WikAcj8WW0pOSeMOHSF8NjLxxIUm1zAbXg44toSP',
+        'publicKey' => 'i36978302591',
+        'privateKey' => 'TiosRWRSKKpwr86vMEDDa4Bsqnca9EVnFvYn4qhu',
     ],
     'database' => [
         'username' => 'root',
