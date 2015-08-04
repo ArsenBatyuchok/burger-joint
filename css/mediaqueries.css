@@ -53,6 +53,9 @@
 	.payment-label-group {
 	    margin-top: 40px;
 	}
+	.order-list {
+		max-height: none;
+	}
 }
 @media (max-width: 1080px) {
 	.burger-block .img-holder {

@@ -430,6 +430,8 @@ h2:after {
     list-style-type: none;
     padding: 0;
     margin: 0 0 8px;
+    max-height: 216px;
+    overflow: auto;
 }
 .order-section-wrapper {
 	width: 50%;

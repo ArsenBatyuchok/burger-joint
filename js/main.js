@@ -232,6 +232,8 @@ angular
             $scope.showFailureMessage = true;
         } else if ($scope.currentPath == 'success') {
             $scope.showSuccessMessage = true;
+        } else if ($scope.currentPath == 'pending') {
+            $scope.showPendingMessage = true;
         }
     })
 
