@@ -182,6 +182,23 @@ angular
             item.qty = item.qty - 1;
             item.doneness.splice(-1,1);
         }
+        $scope.qtyIncrement = function(item) {
+            if(item.hasOwnProperty('checked')) {
+                item.qty += 1;
+            } else {
+                item.qty += 1;
+            }
+        }
+        $scope.qtyDecrement = function(item) {
+            if(item.hasOwnProperty('checked')) {
+                item.qty -= 1;
+                if (item.qty == 0) {
+                    item.checked = false;
+                }
+            } else {
+                item.qty -= 1;
+            }
+        }
 
         $scope.calcTotal = function() {
             var sum  = 0;
