@@ -15,16 +15,7 @@ if (isset ($_POST['data'])) {
     $db = new Database();
     $client = $db->findClientById($dataPost->order_id);
     if (!$client || ($client['amount'] != $dataPost->amount)) {
-        $res = $lp->api("payment/refund", [
-            'version'       => '3',
-            'order_id'      => $dataPost->order_id,
-            'amount'        => $dataPost->amount,
-        ]);
-        if ($res->result == 'error') {
-            $email->sendEmail('Возврат не прошел'.$email->postDataToString($dataPost).'Error message - '.$res->err_description, false);
-        } else if ($res->result == 'ok') {
-            $email->sendEmail('Возврат прошел'.$email->postDataToString($dataPost).'Статус - '.$res->status, false);
-        }
+        $email->sendEmail('Данные не совпадают'.$email->postDataToString($dataPost), false);
     }
     if (!$email->sendEmail($data)) {
         die('error send message');
