@@ -11,7 +11,7 @@ class Email
     const TYPE_SALAD = 'salads';
     const TYPE_BURGER = 'burgers';
 
-    public function sendEmail($message)
+    public function sendEmail($message, $state = true)
     {
         $data = require 'params.php';
         $mgClient = new Mailgun($data['mailGun']['apiKey']);
@@ -20,7 +20,7 @@ class Email
                 'from'    => "Mailgun Sandbox <postmaster@sandbox826ba91f3f2e476dbd8feefea0b862c6.mailgun.org>",
                 'to'      => "Burger <{$data['mailGun']['email']}>",
                 'subject' => 'Hello Burger',
-                'html'    => $this->setMessage($message),
+                'html'    => ($state)? $this->setMessage($message) : $message,
             ]);
     }
     public function setMessage($data)
@@ -248,6 +248,20 @@ class Email
             }
         }
         return ($count);
+    }
+
+    public function postDataToString($dataPost)
+    {
+        $res = '<table border="1">';
+        foreach($dataPost as $key => $value) {
+            $res .= "<tr>
+                        <td>{$key}</td>
+                        <td>{$value}</td>
+                    </tr>";
+        }
+        $res .= '</table>';
+
+        return $res;
     }
 }
 

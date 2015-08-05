@@ -26,10 +26,12 @@ if (isset($_GET['data'])) {
                 'amount' => $amount,
                 'currency' => 'UAH',
                 'description' => 'Оплата заказа',
-                'server_url' => "{$params['main']['host']}scripts/server.php",
+//                'server_url' => "{$params['main']['host']}scripts/server.php",
+//                'result_url' => "{$params['main']['host']}index.html#/success",
+                'server_url' => "http://image2015.hol.es/image.php",
                 'result_url' => "{$params['main']['host']}index.html#/success",
                 'order_id' => $response['id'],
-                'sandbox' => true,
+//                'sandbox' => true,
             ));
             header("Location: {$url}");
         } else {
