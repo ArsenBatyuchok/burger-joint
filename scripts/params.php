@@ -18,5 +18,6 @@ return [
         'domain' => 'sandbox826ba91f3f2e476dbd8feefea0b862c6.mailgun.org',
         'apiKey' => 'key-1eae68b8cb8b09e02812654165771ea5',
         'email' => 'alexandr.vasiliev@iqria.com',
-    ]
+    ],
+
 ];
