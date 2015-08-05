@@ -16,6 +16,7 @@
     </head>
     <body ng-controller="MainController" ng-class="{'o-hid': currentPath === '/failure' || 
                                                              currentPath === '/success' ||
+                                                             currentPath === '/error' ||
                                                              currentPath === '/pending' }">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -468,6 +469,13 @@
                 <div class="popup additional-block additional-block-sm">
                     <a href="#" ng-click="currentPath = '/'" class="popup-dismiss"></a>
                     Ваше замовлення в стані обробки.
+                </div>
+            </div>
+            <div class="popup-wrapper" ng-show="currentPath == '/error'">
+                <div class="backdrop"></div>
+                <div class="popup additional-block additional-block-sm">
+                    <a href="#" ng-click="currentPath = '/'" class="popup-dismiss"></a>
+                    Error Message
                 </div>
             </div>
         </div>
