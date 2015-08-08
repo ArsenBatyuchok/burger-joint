@@ -259,7 +259,7 @@
                     <div class="additional-block additional-block-lg">
                         <div class="order-section-wrapper">
                             <div class="order-section">
-                                <div ng-hide="filteredBurgers.length ||
+                                <div class="order-header" ng-hide="filteredBurgers.length ||
                                               filteredSalads.length ||
                                               filteredFries.length ||
                                               filteredDrinks.length ||
@@ -267,6 +267,15 @@
                                               filteredWater.length
                                               ">
                                     Ви ще нiчого не замовили
+                                </div>
+                                <div class="order-header" ng-show="filteredBurgers.length ||
+                                              filteredSalads.length ||
+                                              filteredFries.length ||
+                                              filteredDrinks.length ||
+                                              filteredBeer.length ||
+                                              filteredWater.length
+                                              ">
+                                    Ваше замовлення
                                 </div>
                                 <ul class="order-list">
                                     
@@ -385,7 +394,7 @@
                                         </div>
                                     </li>
                                 </ul>
-                                <div ng-show="filteredBurgers.length ||
+                                <div class="order-summary" ng-show="filteredBurgers.length ||
                                               filteredSalads.length ||
                                               filteredFries.length ||
                                               filteredDrinks.length ||

@@ -429,8 +429,8 @@ h2:after {
 .order-list {
     list-style-type: none;
     padding: 0;
-    margin: 0 0 8px;
-    max-height: 216px;
+    margin: 0;
+    max-height: 185px;
     overflow: auto;
 }
 .order-section-wrapper {
@@ -444,6 +444,11 @@ h2:after {
     position: relative;
     letter-spacing: 0.87px;
 }
+.order-header {
+	margin-top: 5px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+}
 .order-section .bj-checkbox + label:before {
 	margin-right: 5px;
 }
@@ -453,9 +458,12 @@ h2:after {
     height: 40px;
     line-height: 40px;
 }
+.order-item:first-child {
+	margin-top: 7px;
+}
 .order-item:last-child {
-	border-bottom: 2px solid #565656;
-	padding-bottom: 10px;
+	padding-bottom: 0px;
+	border-bottom: none;
 }
 .order-item-quantity {
 	font-family: 'bebas_neue_book';
@@ -471,6 +479,11 @@ h2:after {
 }
 .order-details > div {
     float: left;
+}
+.order-summary {
+	overflow: hidden;
+    border-top: 2px solid #565656;
+    padding-top: 10px;
 }
 .order-item-price {
     min-width: 70px;
@@ -514,14 +527,6 @@ h2:after {
 	font-family: 'bebas_neue_book';
 	font-size: 18px;
 }
-.additional-block.additional-block-lg:before,
-.additional-block.additional-block-lg:after {
-	content: " ";
-	position: absolute;
-	border-bottom: 1px dashed #DBDBDB;
-	left: 95px;
-	right: 95px;
-}
 .additional-block.additional-block-lg:before {
 	top: 110px;
 }
@@ -538,6 +543,8 @@ h2:after {
 }
 .form-wrapper label {
 	display: block;
+	border-bottom: 1px dashed #DBDBDB;
+	padding-bottom: 6px;
 }
 .form-wrapper .label-msg {
 	font-family: 'bebas_neue_bold';
@@ -557,7 +564,7 @@ h2:after {
 .form-wrapper textarea {
 	width: 300px;
 	margin-top: 4px;
-	height: 108px;
+	height: 103px;
 }
 .form-wrapper input {
 	margin-top: 6px;
@@ -707,8 +714,10 @@ footer .footer-info a {
 .payment-label-group {
 	margin-top: 12px;
 }
+
 .payment-label-group label {
 	margin-bottom: 2px;
+	border-bottom: none;
 }
 
 .popup {
