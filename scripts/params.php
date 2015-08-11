@@ -19,5 +19,9 @@ return [
         'apiKey' => 'key-1eae68b8cb8b09e02812654165771ea5',
         'email' => 'alexandr.vasiliev@iqria.com',
     ],
+    'SmsUkraine' => [
+        'login' => '380630669651',
+        'password' => '12345678',
+    ],
 
 ];

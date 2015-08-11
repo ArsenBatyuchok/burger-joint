@@ -5,8 +5,8 @@ require 'classes/LiqPay.php';
 $params = require 'params.php';
 if (isset($_GET['data'])) {
     $data = json_decode($_GET['data']);
-    //    $amount = $data->totalPrice;
-    $amount = 0.01;
+    $amount = $data->totalPrice;
+//    $amount = 0.01;
     try {
         $db = new Database();
         $db->beginTransaction();
@@ -26,10 +26,10 @@ if (isset($_GET['data'])) {
                 'amount' => $amount,
                 'currency' => 'UAH',
                 'description' => 'Оплата заказа',
-//                'server_url' => "{$params['main']['host']}scripts/server.php",
-//                'result_url' => "{$params['main']['host']}index.html#/success",
-                'server_url' => "http://image2015.hol.es/image.php",
+                'server_url' => "{$params['main']['host']}scripts/server.php",
                 'result_url' => "{$params['main']['host']}index.html#/success",
+//                'server_url' => "http://image2015.hol.es/image.php",
+//                'result_url' => "{$params['main']['host']}index.html#/success",
                 'order_id' => $response['id'],
 //                'sandbox' => true,
             ));
@@ -50,6 +50,3 @@ if (isset($_GET['data'])) {
 } else {
     throw new InvalidArgumentException('Data not isset');
 }
-
-?>
-
