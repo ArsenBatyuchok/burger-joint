@@ -109,23 +109,11 @@ class LiqPay
         }
 
         $params = $this->cnb_params($params);
-        $data = base64_encode( json_encode($params) );
+        $data = base64_encode(json_encode($params));
         $signature = $this->cnb_signature($params);
 
         $url = "https://www.liqpay.com/api/checkout?data={$data}&signature={$signature}";
         return $url;
-//        return sprintf('
-// <form method="POST" action="%s" accept-charset="utf-8">
-// %s
-// %s
-// <input type="image" src="//static.liqpay.com/buttons/p1%s.radius.png" name="btn_text" />
-// </form>
-// ',
-//            $this->_checkout_url,
-//            sprintf('<input type="hidden" name="%s" value="%s" />', 'data', $data),
-//            sprintf('<input type="hidden" name="%s" value="%s" />', 'signature', $signature),
-//            $language
-//        );
     }
 
     /**

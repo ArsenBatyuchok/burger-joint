@@ -21,7 +21,7 @@ if (isset($_GET['data'])) {
                 'version' => '3',
                 'amount' => $amount,
                 'currency' => 'UAH',
-                'description' => 'Оплата заказа',
+                'description' => 'Buy food',
                 'server_url' => "{$params['main']['host']}scripts/server.php",
                 'result_url' => "{$params['main']['host']}index.html#/success",
                 'order_id' => $response['id'],
