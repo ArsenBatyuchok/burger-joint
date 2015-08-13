@@ -11,10 +11,9 @@ if (isset($_GET['data'])) {
         $db->beginTransaction();
         $response = $db->insertClient($data->textMessage, $data->phoneNumber, $amount, $_GET['data']);
         if (!$response['state']) {
-            throw new Exception('Error');
+            die('Server error. Please contact to administrator.');
         }
         if ($data->paymentMethod == 'onlinePayment') { // online paid
-            $email->sendEmail($_SESSION['data'].'session', false);
             $publicKey = $params['liqpay']['publicKey'];
             $privateKey = $params['liqpay']['privateKey'];
             $lp = new LiqPay($publicKey, $privateKey);

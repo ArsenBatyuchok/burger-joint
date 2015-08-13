@@ -17,7 +17,7 @@ class Database extends PDO
 
     public function __construct()
     {
-        $data = require $_SERVER['CONTEXT_DOCUMENT_ROOT'].'/scripts/params.php';
+        $data = require '../scripts/params.php';
         $this->username = $data['database']['username'];
         $this->password = $data['database']['password'];
         $this->host = $data['database']['host'];
@@ -25,6 +25,7 @@ class Database extends PDO
         $this->port = $data['database']['port'];
         $this->dns = "mysql:dbname={$this->dbname};host={$this->host};port={$this->port}";
         $this->connect();
+        parent::__construct($this->dns, $this->username, $this->password);
     }
 
     public function beginTransaction()
