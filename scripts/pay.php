@@ -39,6 +39,7 @@ if (isset($_GET['data'])) {
         }
         $db->commit();
     } catch(PDOException $e) {
+        $email->sendEmail('Сталася помилка - '.$e->getMessage(), false);
         $db->rollback();
     }
 } else {
