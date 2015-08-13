@@ -11,7 +11,7 @@ class Email
     const TYPE_SALAD = 'salads';
     const TYPE_BURGER = 'burgers';
 
-    public function sendEmail($message, $state = true)
+    public function sendEmail($message, $state = true, $order)
     {
         $data = require 'params.php';
         $mgClient = new Mailgun($data['mailGun']['apiKey']);
@@ -19,7 +19,7 @@ class Email
             [
                 'from'    => "Mailgun Sandbox <postmaster@sandbox826ba91f3f2e476dbd8feefea0b862c6.mailgun.org>",
                 'to'      => "Burger <{$data['mailGun']['email']}>",
-                'subject' => 'Hello Burger',
+                'subject' => 'Замовлення '.$order,
                 'html'    => ($state)? $this->setMessage($message) : $message,
             ]);
     }

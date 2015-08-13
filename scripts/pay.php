@@ -21,16 +21,15 @@ if (isset($_GET['data'])) {
                 'version' => '3',
                 'amount' => $amount,
                 'currency' => 'UAH',
-                'description' => 'Buy food',
+                'description' => 'payment for order '.$response['id'].' for burgerjoint.com.ua',
                 'server_url' => "{$params['main']['host']}scripts/server.php",
                 'result_url' => "{$params['main']['host']}index.html#/success",
                 'order_id' => $response['id'],
-                'sandbox' => true,
             ));
             header("Location: {$url}");
         } else {
             $email = new Email();
-            if ($email->sendEmail($data)) {
+            if ($email->sendEmail($data, true, $response['id'])) {
                 $db->setAsPaid($response['id']);
                 header("Location: ../index.html#/success");
             } else {
