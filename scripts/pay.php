@@ -6,18 +6,15 @@ $params = require 'params.php';
 if (isset($_GET['data'])) {
     $data = json_decode($_GET['data']);
     $amount = $data->totalPrice;
-//    $amount = 0.01;
     try {
         $db = new Database();
         $db->beginTransaction();
-        $response = $db->insertClient($data->textMessage, $data->phoneNumber, $amount);
+        $response = $db->insertClient($data->textMessage, $data->phoneNumber, $amount, $_GET['data']);
         if (!$response['state']) {
-            throw new Exception('Client not saved');
+            throw new Exception('Error');
         }
-
         if ($data->paymentMethod == 'onlinePayment') { // online paid
-            session_start();
-            $_SESSION['data'] = $_GET['data'];
+            $email->sendEmail($_SESSION['data'].'session', false);
             $publicKey = $params['liqpay']['publicKey'];
             $privateKey = $params['liqpay']['privateKey'];
             $lp = new LiqPay($publicKey, $privateKey);
@@ -28,10 +25,8 @@ if (isset($_GET['data'])) {
                 'description' => 'Оплата заказа',
                 'server_url' => "{$params['main']['host']}scripts/server.php",
                 'result_url' => "{$params['main']['host']}index.html#/success",
-//                'server_url' => "http://image2015.hol.es/image.php",
-//                'result_url' => "{$params['main']['host']}index.html#/success",
                 'order_id' => $response['id'],
-//                'sandbox' => true,
+                'sandbox' => true,
             ));
             header("Location: {$url}");
         } else {

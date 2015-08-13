@@ -70,15 +70,16 @@ class Database extends PDO
         return $st->fetch(PDO::FETCH_ASSOC);
     }
 
-    public function insertClient($address, $phoneNumber, $amount)
+    public function insertClient($address, $phoneNumber, $amount, $jsonData)
     {
         $id = $this->getMaxClientId();
-        $st = $this->pdo->prepare("INSERT INTO Client (clientId, address, phoneNumber, status, amount) values (:clientId, :address, :phoneNumber, :status, :amount)");
+        $st = $this->pdo->prepare("INSERT INTO Client (clientId, address, phoneNumber, status, amount, jsonData) values (:clientId, :address, :phoneNumber, :status, :amount, :jsonData)");
         $st->bindValue(':address', $address, PDO::PARAM_STR);
         $st->bindValue(':phoneNumber', $phoneNumber, PDO::PARAM_STR);
         $st->bindValue(':clientId', $id, PDO::PARAM_INT);
         $st->bindValue(':status', self::STATUS_UNPAID, PDO::PARAM_INT);
         $st->bindValue(':amount', $amount, PDO::PARAM_STR);
+        $st->bindValue(':jsonData', $jsonData, PDO::PARAM_STR);
         return ['state' => $st->execute(), 'id' => $id];
     }
 
@@ -100,13 +101,4 @@ class Database extends PDO
         $st->bindValue(':clientId', $id, PDO::PARAM_INT);
         return $st->execute();
     }
-
-    public function insertServer($data, $signature)
-    {
-        $st = $this->pdo->prepare("INSERT INTO server (`data`, `signature`) values (:data, :signature)");
-        $st->bindValue(':data', $data, PDO::PARAM_STR);
-        $st->bindValue(':signature', $signature, PDO::PARAM_STR);
-        return $st->execute();
-    }
-
 }
