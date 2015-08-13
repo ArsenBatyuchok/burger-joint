@@ -21,15 +21,16 @@ if (isset ($_POST['data'])) {
         $sms->sendSMS('BurgerJoint', $data->phoneNumber, 'Ваше замовлення скасовано. Для детальної iнформацiї звертайтесь за телефоном +38 (067) 134 58 34');
         $email->sendEmail('Данi не спiвпадають'.$email->postDataToString($dataPost), false);
     } else {
-        send($email, $data);
+        if (!$email->sendEmail($data)) {
+            sleep(10);
+            if (!$email->sendEmail($data)) {
+                sleep(10);
+                if (!$email->sendEmail($data)) {
+                    $sms->sendSMS('BurgerJoint', '380671345834', 'Помилка вiдправки листа. Звернiться до администраторiв');
+                }
+            }
+        }
         $sms->sendSMS('BurgerJoint', $data->phoneNumber, 'Дякуємо. Ваше замовлення прийнято. З будьякими питаннями звертайтесь за телефоном +38 (067) 134 58 34');
         $db->setAsPaid($dataPost->order_id);
-    }
-}
-function send($email, $data)
-{
-    $state = $email->sendEmail($data);
-    if (!$state) {
-        send($email, $data);
     }
 }

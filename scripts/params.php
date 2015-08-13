@@ -20,8 +20,8 @@ return [
         'email' => 'alexandr.vasiliev@iqria.com',
     ],
     'SmsUkraine' => [
-        'login' => '380630669651',
-        'password' => '12345678',
+        'login' => '380673702022',
+        'password' => '123456',
     ],
 
 ];
