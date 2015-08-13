@@ -23,7 +23,7 @@ if (isset($_GET['data'])) {
                 'currency' => 'UAH',
                 'description' => 'payment for order '.$response['id'].' for burgerjoint.com.ua',
                 'server_url' => "{$params['main']['host']}scripts/server.php",
-                'result_url' => "{$params['main']['host']}index.html#/success",
+                'result_url' => "{$params['main']['host']}index.html#/pending",
                 'order_id' => $response['id'],
             ));
             header("Location: {$url}");
