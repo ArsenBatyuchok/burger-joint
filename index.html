@@ -42,7 +42,7 @@
                     <h2>Бургери</h2>
                     <div class="burger-wrapper">
                         <div class="burger-row">
-                            <div class="burger-block" ng-repeat="burger in menu.burgers">
+                            <div class="burger-block" ng-class-odd="'odd'" ng-repeat="burger in menu.burgers">
                                 <div class="img-holder">
                                     <img ng-src="{{ burger.img }}" alt="{{ burger.name }}" />
                                 </div>
@@ -275,7 +275,7 @@
                                               filteredBeer.length ||
                                               filteredWater.length
                                               ">
-                                    Ваше замовлення
+                                    Ваше замовлення:
                                 </div>
                                 <ul class="order-list">
                                     
@@ -428,9 +428,6 @@
                                               ng-model="fullOrderDetails.textMessage" 
                                               placeholder="Вулиця, номер будинку, номер квартири" required></textarea>
                                 </label>
-                                <button type="button" class="order-btn" ng-click="getFullOrderDetails()" ng-disabled="orderForm.$invalid">
-                                    Замовити
-                                </button>
                                 <div class="payment-label-group">
                                     <input type="radio" id="cashPaymentInput" class="bj-radio" name="paymentMethod" ng-model="fullOrderDetails.paymentMethod" value="cashPayment" />
                                     <label for="cashPaymentInput">
@@ -445,6 +442,9 @@
                                         Карткою онлайн
                                     </label>
                                 </div>
+                                <button type="button" class="order-btn" ng-click="getFullOrderDetails()" ng-disabled="orderForm.$invalid">
+                                    Замовити
+                                </button>
                             </form>
                         </div>
                     </div>
@@ -463,14 +463,20 @@
                 <div class="backdrop"></div>
                 <div class="popup additional-block additional-block-sm">
                     <a href="#" ng-click="currentPath = '/'" class="popup-dismiss"></a>
-                    Ваше замовлення прийнято.
+                    <h3>
+                      Ваше замовлення прийнято
+                    </h3>
+                    <p>Ми Вам зателефонуємо.</p>
                 </div>
             </div>
             <div class="popup-wrapper" ng-show="currentPath == '/failure'">
                 <div class="backdrop"></div>
                 <div class="popup additional-block additional-block-sm">
                     <a href="#" ng-click="currentPath = '/'" class="popup-dismiss"></a>
-                    Сталася помилка.
+                    <h3>
+                      Сталася помилка!
+                    </h3>
+                    <p>Ми Вам зателефонуємо.</p>
                 </div>
             </div>
             <div class="popup-wrapper" ng-show="currentPath == '/pending'">
@@ -488,28 +494,11 @@
                 </div>
             </div>
         </div>
-        
         <script src="js/vendor/angular.min.js"></script>
         <script src="js/vendor/jquery-2.1.4.min.js"></script>
         <script src="js/vendor/ui-bootstrap-0.13.0.min.js"></script>
         <script src="js/vendor/jquery.maskedinput.min.js"></script>
         <script src="js/main.js"></script>
-        <script>
-            // $(document).ready(function() {
-            //     // phone input validation
-            //     $("#phoneNumberInput").mask("(999) 999 99 99");
-            //     $("#phoneNumberInput").on("blur", function() {
-            //         var last = $(this).val().substr( $(this).val().indexOf("-") + 1 );
-            //         if( last.length == 3 ) {
-            //             var move = $(this).val().substr( $(this).val().indexOf("-") - 1, 1 );
-            //             var lastfour = move + last;
-            //             var first = $(this).val().substr( 0, 9 );
-            //             $(this).val( first + '-' + lastfour );
-            //         }
-            //     });
-            //     // END phone input validation
-            // });
-        </script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <!--<script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

@@ -447,7 +447,7 @@ h2:after {
 .order-header {
 	margin-top: 5px;
     border-bottom: 2px solid #000;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 .order-section .bj-checkbox + label:before {
 	margin-right: 5px;
@@ -459,7 +459,7 @@ h2:after {
     line-height: 40px;
 }
 .order-item:first-child {
-	margin-top: 7px;
+	margin-top: 2px;
 }
 .order-item:last-child {
 	padding-bottom: 0px;
@@ -617,8 +617,8 @@ footer .footer-info a {
 }
 .doneness-trigger {
 	position: absolute;
-  	right: -47px;
-  	top: -6px;
+  	right: 11px;
+    top: -50px;
   	text-decoration: none;
 }
 .doneness-icon {
@@ -636,13 +636,13 @@ footer .footer-info a {
 }
 .doneness-popover {
 	position: absolute;
-	top: 40px;
+	right: -8px;
+    top: 0;
 	width: 345px;
 	height: 186px;
 	background: url('../img/doneness-popup-bg.png') no-repeat 0 0;
 	background-size: 100%;
 	z-index: 10;
-	right: -80px;
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	padding: 34px 24px;
@@ -713,6 +713,7 @@ footer .footer-info a {
 
 .payment-label-group {
 	margin-top: 12px;
+	float: left;
 }
 
 .payment-label-group label {
@@ -745,7 +746,13 @@ footer .footer-info a {
 	position: absolute;
 	top: 0;
 }
-
+.popup h3 {
+	font-size: 24px;
+	margin-top: 20px;
+}
+.popup h3:after {
+	content: none;
+}
 
 
 
