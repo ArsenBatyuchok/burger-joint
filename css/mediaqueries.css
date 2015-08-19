@@ -228,4 +228,8 @@
 		bottom: -10px;
 		top: inherit;
 	}
+	.popup-dismiss {
+		top: 20px;
+    	right: 15px;
+	}
 }

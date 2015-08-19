@@ -461,36 +461,55 @@
             </section>
             <div class="popup-wrapper" ng-show="currentPath == '/success'">
                 <div class="backdrop"></div>
-                <div class="popup additional-block additional-block-sm">
+                <div class="popup">
+                  <div class="additional-block additional-block-sm">
                     <a href="#" ng-click="currentPath = '/'" class="popup-dismiss"></a>
                     <h3>
                       Ваше замовлення прийнято
                     </h3>
                     <p>Ми Вам зателефонуємо.</p>
+                  </div>
                 </div>
             </div>
             <div class="popup-wrapper" ng-show="currentPath == '/failure'">
                 <div class="backdrop"></div>
-                <div class="popup additional-block additional-block-sm">
+                <div class="popup">
+                  <div class="additional-block additional-block-sm">
                     <a href="#" ng-click="currentPath = '/'" class="popup-dismiss"></a>
                     <h3>
-                      Сталася помилка!
+                      Не вдалося виконати замовлення
                     </h3>
-                    <p>Ми Вам зателефонуємо.</p>
+                    <p>
+                      Повідомте нас про це за телефоном: 
+                      <a href="tel:+380671345834">+38 (067) 134 58 34</a>
+                    </p>
+                  </div>
                 </div>
             </div>
             <div class="popup-wrapper" ng-show="currentPath == '/pending'">
                 <div class="backdrop"></div>
-                <div class="popup additional-block additional-block-sm">
+                <div class="popup">
+                  <div class="additional-block additional-block-sm">
                     <a href="#" ng-click="currentPath = '/'" class="popup-dismiss"></a>
-                    Ваше замовлення в стані обробки.
+                    <h3>
+                      Ваше замовлення в стані обробки...
+                    </h3>
+                  </div>
                 </div>
             </div>
             <div class="popup-wrapper" ng-show="currentPath == '/error'">
                 <div class="backdrop"></div>
-                <div class="popup additional-block additional-block-sm">
+                <div class="popup">
+                  <div class="additional-block additional-block-sm">
                     <a href="#" ng-click="currentPath = '/'" class="popup-dismiss"></a>
-                    Error Message
+                    <h3>
+                      Сталася помилка!
+                    </h3>
+                    <p>
+                      Повідомте нас про це за телефоном: 
+                      <a href="tel:+380671345834">+38 (067) 134 58 34</a>
+                    </p>
+                  </div>
                 </div>
             </div>
         </div>

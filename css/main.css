@@ -729,6 +729,7 @@ footer .footer-info a {
     right: 0;
     left: 0;
     margin: auto !important;
+    text-align: center;
 }
 .popup-dismiss {
 	background: url('../img/sprite.svg') no-repeat -100px 0;
@@ -747,11 +748,18 @@ footer .footer-info a {
 	top: 0;
 }
 .popup h3 {
-	font-size: 24px;
-	margin-top: 20px;
+	font-size: 21px;
+	margin-top: 40px;
 }
 .popup h3:after {
 	content: none;
+}
+.popup .additional-block {
+	position: relative;
+
+}
+.popup a {
+	color: #C59351;
 }
 
 
