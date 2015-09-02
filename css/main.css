@@ -235,6 +235,7 @@ h2:after {
 }
 .burger-block .desc {
 	position: relative;
+	min-height: 140px;
 }
 .burger-block .desc p {
 	font-size: 15px;
@@ -245,7 +246,6 @@ h2:after {
 	border-right: 1px dashed #AE814A;
 	letter-spacing: 0.3px;
 	padding-right: 10px;
-	min-height: 140px;
 }
 .burger-block .price {
 	float: left;
