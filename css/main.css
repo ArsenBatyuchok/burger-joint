@@ -180,24 +180,47 @@ h2:after {
 	position: relative;
 	top: -5px;
 }
-.burger-block .burger-add {
+.burger-block .burger-add,
+.additional-block .additional-add {
 	background: url('../img/sprite.svg') no-repeat 0 0;
 	width: 32px;
 	height: 32px;
+}
+.burger-block .burger-add {
 	display: block;
 	float: right;
 	margin-right: 18px;
   	margin-top: -1px;
 }
-.burger-block .desc {
-	position: relative;
-}
-.burger-quantity-wrapper .order-controls,
-.burger-quantity-wrapper .order-item-quantity {
+.additional-block .additional-add {
 	float: left;
 }
-.burger-quantity-wrapper .order-item-quantity {
+/*.burger-quantity-wrapper .order-controls,
+.burger-quantity-wrapper .order-item-quantity,
+.additional-quantity-wrapper .order-controls,
+.additional-quantity-wrapper .order-item-quantity {
+	float: left;
+}*/
+.burger-quantity-wrapper .order-item-quantity,
+.additional-quantity-wrapper .order-item-quantity {
 	line-height: 36px;
+	display: inline-block;
+}
+.additional-quantity-wrapper .order-item-quantity {
+	line-height: 24px;
+}
+.additional-quantity-wrapper {
+	display: inline-block;
+}
+.additional-quantity-wrapper .order-controls {
+	margin-left: 0;
+}
+.additional-quantity-wrapper .order-controls a {
+	top: 1px;
+}
+.burger-block .burger-quantity-wrapper .order-item-quantity {
+	position: relative;
+	top: 4px;
 }
 .order-item-quantity {
 	font-size: 21px;
@@ -210,13 +233,19 @@ h2:after {
   	position: absolute;
   	right: 0;
 }
+.burger-block .desc {
+	position: relative;
+}
 .burger-block .desc p {
 	font-size: 15px;
-	line-height: 1.13;
+	line-height: 1.23;
 	margin: 0;
 	margin-right: 70px;
 	padding-top: 8px;
 	border-right: 1px dashed #AE814A;
+	letter-spacing: 0.3px;
+	padding-right: 10px;
+	min-height: 140px;
 }
 .burger-block .price {
 	float: left;
@@ -317,6 +346,7 @@ h2:after {
 	font-family: 'bebas_neue_bold';
 	margin-bottom: 1px;
 	letter-spacing: 0.87px;
+	overflow: hidden;
 }
 .additional-list-item .price {
 	color: #CDA87B;
@@ -326,7 +356,7 @@ h2:after {
 	margin-left: 10px;
 }
 .item-details {
-	font-size: 14px;
+	font-size: 13px;
 	font-family: 'bebas_neue_book';
 }
 /*END Additional Section styles*/
@@ -354,6 +384,9 @@ h2:after {
 }
 .bj-checkbox + label:before {
 	background-position: 0px -50px;
+}
+.bj-checkbox.ng-hide + label:before {
+	display: none;
 }
 
 .bj-checkbox:checked + label:before {
@@ -458,6 +491,9 @@ h2:after {
     height: 40px;
     line-height: 40px;
 }
+.order-list .order-controls a {
+	top: 2px;
+}
 .order-item:first-child {
 	margin-top: 2px;
 }
@@ -467,6 +503,7 @@ h2:after {
 }
 .order-item-quantity {
 	font-family: 'bebas_neue_book';
+	display: inline-block;
 }
 .order-item-name a {
 	text-decoration: none;
@@ -496,8 +533,15 @@ h2:after {
 .order-controls a {
     height: 20px;
     width: 20px;
-    display: block;
+    display: inline-block;
     position: relative;
+    top: 6px;
+}
+.order-controls .subtract {
+	left: 2px;
+}
+.order-controls .add {
+	right: 2px;
 }
 .order-controls a:before {
     content: " ";
@@ -507,17 +551,18 @@ h2:after {
     position: absolute;
     left: 0;
     right: 0;
+    top: 2px;
     margin: auto;
 }
-.order-controls .add:before {
-    border-width: 0 7px 7px 7px;
-    border-color: transparent transparent #CDA87B transparent;
-    bottom: 4px;
-}
 .order-controls .subtract:before {
-    border-width: 7px 7px 0 7px;
-    border-color: #CDA87B transparent transparent transparent;
-    top: 4px;
+    border-width: 9px 9px 9px 0;
+    border-style: solid;
+    border-color: transparent #CDA87B transparent  transparent;
+}
+.order-controls .add:before {
+    border-width: 9px 0 9px 9px;
+    border-style: solid;
+    border-color: transparent transparent transparent #CDA87B;
 }
 .order-total {
   	float: right;

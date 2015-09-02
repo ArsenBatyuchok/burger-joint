@@ -184,6 +184,7 @@
 	.additional-block-md .additional-list-item,
 	.additional-block-md .additional-list-item:nth-child(2n+0) {
 		width: 100%;
+		max-width: none;
 	}
 	.order-section {
 		width: 100%;

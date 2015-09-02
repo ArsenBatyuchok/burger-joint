@@ -25,63 +25,63 @@ angular
             burgers: [
                 {
                     name: "Класичний",
-                    desc: "Булка з сезамом та котлета з яловичини з листям салату, соленим огiрком, цибулею, помiдором i соусом",
+                    desc: "Булка з сезамом, соковита котлета з яловичини приготована на вугіллі з листям салату, соленим огірком, цибулею, помідором і соусом",
                     img: "img/burger1.png",
-                    price: 86,
+                    price: 65,
                     qty: 0,
                     doneness: [],
                     type: "burgers"
                 },
                 {
                     name: "Класичний з сиром",
-                    desc: "Булка з сезамом та котлета з яловичини з листям салату, соленим огiрком, цибулею, помiдором i соусом",
+                    desc: "Класичний бургер з американським сиром чедар",
                     img: "img/burger2.png",
-                    price: 86,
+                    price: 69,
                     qty: 0,
                     doneness: [],
                     type: "burgers"
                 },
                 {
                     name: "З грибами та сиром",
-                    desc: "Булка з сезамом та котлета з яловичини з листям салату, соленим огiрком, цибулею, помiдором i соусом",
+                    desc: "Булка з сезамом, соковита котлета з яловичини приготована на вугіллі рясно полита грибним соусом з листям салату, печерицями на грилі та плавленим швейцарським сиром",
                     img: "img/burger3.png",
-                    price: 86,
+                    price: 69,
                     qty: 0,
                     doneness: [],
                     type: "burgers"
                 },
                 {
                     name: "Мексиканський",
-                    desc: "Булка з сезамом та котлета з яловичини з листям салату, соленим огiрком, цибулею, помiдором i соусом",
+                    desc: "Булка з сезамом, соковита котлета з яловичини приготована на вугіллі з цибулею на грилі, гострим перцем, листям салату, подвійним американським сиром чедар і соусом",
                     img: "img/burger4.png",
-                    price: 86,
+                    price: 69,
                     qty: 0,
                     doneness: [],
                     type: "burgers"
                 },
                 {
-                    name: "Барбекью-бейкон",
-                    desc: "Булка з сезамом та котлета з яловичини з листям салату, соленим огiрком, цибулею, помiдором i соусом",
+                    name: "Барбек’ю-бейкон",
+                    desc: "Булка з сезамом, соковита котлета з яловичини приготована на вугіллі з класичним барбек’ю соусом, цибулею на грилі, листям салату, хрумким бейконом, сиром чедар і домашнім майонезом",
                     img: "img/burger5.png",
-                    price: 86,
+                    price: 75,
                     qty: 0,
                     doneness: [],
                     type: "burgers"
                 },
                 {
                     name: "Сулугунi",
-                    desc: "Булка з сезамом та котлета з яловичини з листям салату, соленим огiрком, цибулею, помiдором i соусом",
+                    desc: "Булка з сезамом, соковита котлета з яловичини приготована на вугіллі з сиром сулугуні в середині, листям салату, помідором, соленими огірками, цибулею та соусом",
                     img: "img/burger6.png",
-                    price: 86,
+                    price: 69,
                     qty: 0,
                     doneness: [],
                     type: "burgers"
                 },
                 {
                     name: "З куркою",
-                    desc: "Булка з сезамом та котлета з яловичини з листям салату, соленим огiрком, цибулею, помiдором i соусом",
+                    desc: "Булка з сезамом, соковите куряче філе приготоване на вугіллі з соусом айолі, листям салату, помідором та соленими огірками",
                     img: "img/burger7.png",
-                    price: 86,
+                    price: 60,
                     qty: 0,
                     doneness: [],
                     type: "burgers"
@@ -89,27 +89,27 @@ angular
                 {
                     name: "З куркою",
                     details: "в медово-гiрчичному соусi",
-                    desc: "Булка з сезамом та котлета з яловичини з листям салату, соленим огiрком, цибулею, помiдором i соусом",
+                    desc: "Булка з сезамом, соковите куряче філе приготоване на вугіллі з швейцарським сиром, медово-гірчичним соусом, соленими огірками та домашнім майонезом",
                     img: "img/burger8.png",
-                    price: 86,
+                    price: 60,
                     qty: 0,
                     doneness: [],
                     type: "burgers"
                 },
                 {
                     name: "Вегабургер",
-                    desc: "Булка з сезамом та котлета з яловичини з листям салату, соленим огiрком, цибулею, помiдором i соусом",
+                    desc: "Булка з сезамом, котлета з нуту приготована на вугіллі з листям салату, помідором, соленими огірками, цибулею та домашнім майонезом",
                     img: "img/burger9.png",
-                    price: 86,
+                    price: 55,
                     qty: 0,
                     doneness: [],
                     type: "burgers"
                 },
                 {
                     name: "Дитячий",
-                    desc: "Булка з сезамом та котлета з яловичини з листям салату, соленим огiрком, цибулею, помiдором i соусом",
+                    desc: "Булочка, міні котлета з яловичини приготована на вугіллі з листям салату, помідором, соленими огірками, цибулею та соусом",
                     img: "img/burger10.png",
-                    price: 86,
+                    price: 50,
                     qty: 0,
                     doneness: [],
                     type: "burgers"
@@ -140,9 +140,15 @@ angular
                 {name: "STELLA ARTOIS N/A", details: "0.5", price: 25, qty: 0, checked: false, type: "beer"}
             ],
             water: [
-                {name: "AQ. MINERALE AERATED", details: "0.6", price: 20, qty: 0, checked: false, type: "water"},
+                {name: "AQ. MINERALE AER.", details: "0.6", price: 20, qty: 0, checked: false, type: "water"},
                 {name: "AQ. MINERALE STILL", details: "0.6", price: 20, qty: 0, checked: false, type: "water"},
                 {name: "BORJOMI AERATED", details: "0.33", price: 20, qty: 0, checked: false, type: "water"}
+            ],
+            sauces: [
+                {name: "Барбекю", price: 15, qty: 0, checked: false, type: "sauces"},
+                {name: "Чiлi", price: 15, qty: 0, checked: false, type: "sauces"},
+                {name: "Часниковий", price: 15, qty: 0, checked: false, type: "sauces"},
+                {name: "Грибний", price: 15, qty: 0, checked: false, type: "sauces"}
             ]
         }
         // end data
@@ -174,20 +180,25 @@ angular
                 item.qty = 0;
             }
         }
-        $scope.burgerIncrement = function(item) {
-            item.qty = item.qty + 1;
-            item.doneness.push("medium");
+        // for burgers
+        $scope.itemIncrement = function(item) {
+            item.qty += 1;
+            if (item.hasOwnProperty('doneness')) {
+                item.doneness.push("medium");
+            }
         }
-        $scope.burgerDecrement = function(item) {
-            item.qty = item.qty - 1;
-            item.doneness.splice(-1,1);
+        $scope.itemDecrement = function(item) {
+            item.qty -= 1;
+            if (item.hasOwnProperty('doneness')) {
+                item.doneness.splice(-1,1);
+            } else if(item.hasOwnProperty('checked')) {
+                if (item.qty == 0) {
+                    item.checked = false;
+                }
+            }
         }
         $scope.qtyIncrement = function(item) {
-            if(item.hasOwnProperty('checked')) {
-                item.qty += 1;
-            } else {
-                item.qty += 1;
-            }
+            item.qty += 1;
         }
         $scope.qtyDecrement = function(item) {
             if(item.hasOwnProperty('checked')) {

@@ -56,14 +56,14 @@
                                         </h3>
                                         <a href="javascript:void(0)" 
                                            class="burger-add" 
-                                           ng-click="burgerIncrement(burger)" 
+                                           ng-click="itemIncrement(burger)" 
                                            ng-show="burger.qty == 0">
                                         </a>
                                         <div class="f-right burger-quantity-wrapper" ng-show="burger.qty > 0">
-                                            <div class="order-item-quantity">{{ burger.qty }}</div>
                                             <div class="order-controls">
-                                                <a href="javascript:void(0)" class="add" ng-click="burgerIncrement(burger)"></a>
-                                                <a href="javascript:void(0)" class="subtract" ng-click="burgerDecrement(burger)"></a>
+                                                <a href="javascript:void(0)" class="subtract" ng-click="itemDecrement(burger)"></a>
+                                                <div class="order-item-quantity">{{ burger.qty }}</div>
+                                                <a href="javascript:void(0)" class="add" ng-click="itemIncrement(burger)"></a>
                                             </div>
                                         </div>
                                         <div class="doneness-wrapper" ng-show="burger.qty > 0">
@@ -141,16 +141,25 @@
                                        ng-change="addItemWithCheckbox(salad)"
                                        id="saladInput{{$index}}" />
                                 <label for="saladInput{{$index}}">
-                                    <span class="item-name">
-                                        {{ salad.name }}
-                                    </span>
-                                    <span class="price">
-                                        {{ salad.price }}
-                                    </span>
-                                </label>
+                                <span class="item-name">
+                                    {{ salad.name }}
+                                </span>
+                                <div class="additional-quantity-wrapper" ng-show="salad.qty > 0">
+                                    <div class="order-controls">
+                                        <a href="javascript:void(0)" class="subtract" ng-click="itemDecrement(salad)"></a>
+                                        <div class="order-item-quantity">{{ salad.qty }}</div>
+                                        <a href="javascript:void(0)" class="add" ng-click="itemIncrement(salad)"></a>
+                                    </div>
+                                </div>
+                                <span class="price">
+                                    {{ salad.price }}
+                                </span>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="additional-row">
+                    
                     <div class="additional-block additional-block-sm">
                         <h3>
                             КАРТОПЛЯ ФРІ
@@ -164,13 +173,48 @@
                                        ng-change="addItemWithCheckbox(fries)"
                                        id="friesInput{{$index}}" />
                                 <label for="friesInput{{$index}}">
-                                    <span class="item-name">
-                                        {{ fries.name }}
-                                    </span>
-                                    <span class="price">
-                                        {{ fries.price }}
-                                    </span>
-                                </label>
+                                <span class="item-name">
+                                    {{ fries.name }}
+                                </span>
+                                <div class="additional-quantity-wrapper" ng-show="fries.qty > 0">
+                                    <div class="order-controls">
+                                        <a href="javascript:void(0)" class="subtract" ng-click="itemDecrement(fries)"></a>
+                                        <div class="order-item-quantity">{{ fries.qty }}</div>
+                                        <a href="javascript:void(0)" class="add" ng-click="itemIncrement(fries)"></a>
+                                    </div>
+                                </div>
+                                <span class="price">
+                                    {{ fries.price }}
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="additional-block additional-block-sm">
+                        <h3>
+                            Соуси
+                        </h3>
+                        <div class="additional-list">
+                            <div class="additional-list-item" ng-repeat="sauce in menu.sauces">
+                                <input type="checkbox" 
+                                       class="bj-checkbox"
+                                       name="sauceInput"
+                                       ng-model="sauce.checked"
+                                       ng-change="addItemWithCheckbox(sauce)"
+                                       id="sauceInput{{$index}}" />
+                                <label for="sauceInput{{$index}}">
+                                <span class="item-name">
+                                    {{ sauce.name }}
+                                </span>
+                                <div class="additional-quantity-wrapper" ng-show="sauce.qty > 0">
+                                    <div class="order-controls">
+                                        <a href="javascript:void(0)" class="subtract" ng-click="itemDecrement(sauce)"></a>
+                                        <div class="order-item-quantity">{{ sauce.qty }}</div>
+                                        <a href="javascript:void(0)" class="add" ng-click="itemIncrement(sauce)"></a>
+                                    </div>
+                                </div>
+                                <span class="price">
+                                    {{ sauce.price }}
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -189,16 +233,19 @@
                                        ng-change="addItemWithCheckbox(drink)"
                                        id="drinkInput{{$index}}" />
                                 <label for="drinkInput{{$index}}">
-                                    <span class="item-name">
-                                        {{ drink.name }}
-                                        <span class="item-details">
-                                            {{ drink.details }}
-                                        </span>
-                                    </span>
-                                    <span class="price">
-                                        {{ drink.price }}
-                                    </span>
-                                </label>
+                                <span class="item-name">
+                                    {{ drink.name }}
+                                </span>
+                                <div class="additional-quantity-wrapper" ng-show="drink.qty > 0">
+                                    <div class="order-controls">
+                                        <a href="javascript:void(0)" class="subtract" ng-click="itemDecrement(drink)"></a>
+                                        <div class="order-item-quantity">{{ drink.qty }}</div>
+                                        <a href="javascript:void(0)" class="add" ng-click="itemIncrement(drink)"></a>
+                                    </div>
+                                </div>
+                                <span class="price">
+                                    {{ drink.price }}
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -217,16 +264,19 @@
                                        ng-change="addItemWithCheckbox(beer)"
                                        id="beerInput{{$index}}" />
                                 <label for="beerInput{{$index}}">
-                                    <span class="item-name">
-                                        {{ beer.name }}
-                                        <span class="item-details">
-                                            {{ beer.details }}
-                                        </span>
-                                    </span>
-                                    <span class="price">
-                                        {{ beer.price }}
-                                    </span>
-                                </label>
+                                <span class="item-name">
+                                    {{ beer.name }}
+                                </span>
+                                <div class="additional-quantity-wrapper" ng-show="beer.qty > 0">
+                                    <div class="order-controls">
+                                        <a href="javascript:void(0)" class="subtract" ng-click="itemDecrement(beer)"></a>
+                                        <div class="order-item-quantity">{{ beer.qty }}</div>
+                                        <a href="javascript:void(0)" class="add" ng-click="itemIncrement(beer)"></a>
+                                    </div>
+                                </div>
+                                <span class="price">
+                                    {{ beer.price }}
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -243,16 +293,19 @@
                                        ng-change="addItemWithCheckbox(water)"
                                        id="waterInput{{$index}}" />
                                 <label for="waterInput{{$index}}">
-                                    <span class="item-name">
-                                        {{ water.name }}
-                                        <span class="item-details">
-                                            {{ water.details }}
-                                        </span>
-                                    </span>
-                                    <span class="price">
-                                        {{ water.price }}
-                                    </span>
-                                </label>
+                                <span class="item-name">
+                                    {{ water.name }}
+                                </span>
+                                <div class="additional-quantity-wrapper" ng-show="water.qty > 0">
+                                    <div class="order-controls">
+                                        <a href="javascript:void(0)" class="subtract" ng-click="itemDecrement(water)"></a>
+                                        <div class="order-item-quantity">{{ water.qty }}</div>
+                                        <a href="javascript:void(0)" class="add" ng-click="itemIncrement(water)"></a>
+                                    </div>
+                                </div>
+                                <span class="price">
+                                    {{ water.price }}
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -264,7 +317,8 @@
                                               filteredFries.length ||
                                               filteredDrinks.length ||
                                               filteredBeer.length ||
-                                              filteredWater.length
+                                              filteredWater.length ||
+                                              filteredSauces.length
                                               ">
                                     Ви ще нiчого не замовили
                                 </div>
@@ -273,7 +327,8 @@
                                               filteredFries.length ||
                                               filteredDrinks.length ||
                                               filteredBeer.length ||
-                                              filteredWater.length
+                                              filteredWater.length ||
+                                              filteredSauces.length
                                               ">
                                     Ваше замовлення:
                                 </div>
@@ -284,14 +339,14 @@
                                             Бургер {{ item.name }}
                                         </div>
                                         <div class="order-details">
-                                            <div class="order-item-quantity">{{ item.qty }}</div>
                                             <div class="order-controls">
                                                 <a href="javascript:void(0)" 
-                                                   class="add" 
-                                                   ng-click="burgerIncrement(item)"></a>
-                                                <a href="javascript:void(0)" 
                                                    class="subtract" 
-                                                   ng-click="burgerDecrement(item)"></a>
+                                                   ng-click="qtyDecrement(item)"></a>
+                                                <div class="order-item-quantity">{{ item.qty }}</div>
+                                                <a href="javascript:void(0)" 
+                                                   class="add" 
+                                                   ng-click="qtyIncrement(item)"></a>
                                             </div>
                                             <div class="order-item-price">
                                                 <span class="order-item-price-amount">{{ item.price }}</span> грн
@@ -303,14 +358,14 @@
                                             Салат {{ item.name }}
                                         </div>
                                         <div class="order-details">
-                                            <div class="order-item-quantity">{{ item.qty }}</div>
                                             <div class="order-controls">
-                                                <a href="javascript:void(0)" 
-                                                   class="add" 
-                                                   ng-click="qtyIncrement(item)"></a>
                                                 <a href="javascript:void(0)" 
                                                    class="subtract" 
                                                    ng-click="qtyDecrement(item)"></a>
+                                                <div class="order-item-quantity">{{ item.qty }}</div>
+                                                <a href="javascript:void(0)" 
+                                                   class="add" 
+                                                   ng-click="qtyIncrement(item)"></a>
                                             </div>
                                             <div class="order-item-price">
                                                 <span class="order-item-price-amount">{{ item.price }}</span> грн
@@ -319,17 +374,17 @@
                                     </li>
                                     <li class="order-item" ng-repeat="item in filteredFries = (menu.fries | ordered)">
                                         <div class="order-item-name">
-                                            Фрі {{ item.name }}
+                                            Фрi {{ item.name }}
                                         </div>
                                         <div class="order-details">
-                                            <div class="order-item-quantity">{{ item.qty }}</div>
                                             <div class="order-controls">
-                                                <a href="javascript:void(0)" 
-                                                   class="add" 
-                                                   ng-click="qtyIncrement(item)"></a>
                                                 <a href="javascript:void(0)" 
                                                    class="subtract" 
                                                    ng-click="qtyDecrement(item)"></a>
+                                                <div class="order-item-quantity">{{ item.qty }}</div>
+                                                <a href="javascript:void(0)" 
+                                                   class="add" 
+                                                   ng-click="qtyIncrement(item)"></a>
                                             </div>
                                             <div class="order-item-price">
                                                 <span class="order-item-price-amount">{{ item.price }}</span> грн
@@ -341,14 +396,14 @@
                                             {{ item.name }}
                                         </div>
                                         <div class="order-details">
-                                            <div class="order-item-quantity">{{ item.qty }}</div>
                                             <div class="order-controls">
-                                                <a href="javascript:void(0)" 
-                                                   class="add" 
-                                                   ng-click="qtyIncrement(item)"></a>
                                                 <a href="javascript:void(0)" 
                                                    class="subtract" 
                                                    ng-click="qtyDecrement(item)"></a>
+                                                <div class="order-item-quantity">{{ item.qty }}</div>
+                                                <a href="javascript:void(0)" 
+                                                   class="add" 
+                                                   ng-click="qtyIncrement(item)"></a>
                                             </div>
                                             <div class="order-item-price">
                                                 <span class="order-item-price-amount">{{ item.price }}</span> грн
@@ -360,14 +415,14 @@
                                             {{ item.name }}
                                         </div>
                                         <div class="order-details">
-                                            <div class="order-item-quantity">{{ item.qty }}</div>
                                             <div class="order-controls">
-                                                <a href="javascript:void(0)" 
-                                                   class="add" 
-                                                   ng-click="qtyIncrement(item)"></a>
                                                 <a href="javascript:void(0)" 
                                                    class="subtract" 
                                                    ng-click="qtyDecrement(item)"></a>
+                                                <div class="order-item-quantity">{{ item.qty }}</div>
+                                                <a href="javascript:void(0)" 
+                                                   class="add" 
+                                                   ng-click="qtyIncrement(item)"></a>
                                             </div>
                                             <div class="order-item-price">
                                                 <span class="order-item-price-amount">{{ item.price }}</span> грн
@@ -379,14 +434,33 @@
                                             {{ item.name }}
                                         </div>
                                         <div class="order-details">
-                                            <div class="order-item-quantity">{{ item.qty }}</div>
                                             <div class="order-controls">
-                                                <a href="javascript:void(0)" 
-                                                   class="add" 
-                                                   ng-click="qtyIncrement(item)"></a>
                                                 <a href="javascript:void(0)" 
                                                    class="subtract" 
                                                    ng-click="qtyDecrement(item)"></a>
+                                                <div class="order-item-quantity">{{ item.qty }}</div>
+                                                <a href="javascript:void(0)" 
+                                                   class="add" 
+                                                   ng-click="qtyIncrement(item)"></a>
+                                            </div>
+                                            <div class="order-item-price">
+                                                <span class="order-item-price-amount">{{ item.price }}</span> грн
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="order-item" ng-repeat="item in filteredSauces = (menu.sauces | ordered)">
+                                        <div class="order-item-name">
+                                            {{ item.name }} Соус
+                                        </div>
+                                        <div class="order-details">
+                                            <div class="order-controls">
+                                                <a href="javascript:void(0)" 
+                                                   class="subtract" 
+                                                   ng-click="qtyDecrement(item)"></a>
+                                                <div class="order-item-quantity">{{ item.qty }}</div>
+                                                <a href="javascript:void(0)" 
+                                                   class="add" 
+                                                   ng-click="qtyIncrement(item)"></a>
                                             </div>
                                             <div class="order-item-price">
                                                 <span class="order-item-price-amount">{{ item.price }}</span> грн
@@ -399,7 +473,8 @@
                                               filteredFries.length ||
                                               filteredDrinks.length ||
                                               filteredBeer.length ||
-                                              filteredWater.length">
+                                              filteredWater.length ||
+                                              filteredSauces.length">
                                     <div class="remember-wrapper">
                                         <input type="checkbox" id="rememberOrderInput" class="bj-checkbox" ng-model="fullOrderDetails.rememberOrder" />
                                         <label for="rememberOrderInput">
