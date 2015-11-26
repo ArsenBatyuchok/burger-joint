@@ -75,7 +75,7 @@ section.banner:after {
 	bottom: 0;
 	height: 27px;
 	width: 100%;
-	background: url('../img/background-img-border-btm.png') no-repeat 50% 100%;
+	background: url('../img/background-img-border-btm.png') no-repeat 50% 50%;
 	background-size: cover;
 }
 header.container {
