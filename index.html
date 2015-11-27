@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Burger Joint</title>
         <meta name="description" content="Burger delivery in Lviv, Ukraine">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/helper.css">
@@ -14,7 +14,10 @@
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body ng-controller="MainController" ng-class="{'o-hid': currentPath === '/failure' || currentPath === '/success' }">
+    <body ng-controller="MainController" ng-class="{'o-hid': currentPath === '/failure' || 
+                                                             currentPath === '/success' ||
+                                                             currentPath === '/error' ||
+                                                             currentPath === '/pending' }">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -29,8 +32,9 @@
                         </div>
                     </div>
                     <div class="header-info">
-                        <a href="tel:+380671345834">+38 (067) 134 58 34</a>
-                        <div>09:00-23:00 без вихiдних</div>
+                        <a href="tel:+380322355029">+38 (032) 235 50 29</a>
+                        <a href="tel:+380682355029">+38 (068) 235 50 29</a>
+                        <div>10:00-23:00 без вихiдних</div>
                     </div>
                 </header>
             </section>
@@ -53,14 +57,14 @@
                                         </h3>
                                         <a href="javascript:void(0)" 
                                            class="burger-add" 
-                                           ng-click="burgerIncrement(burger)" 
+                                           ng-click="itemIncrement(burger)" 
                                            ng-show="burger.qty == 0">
                                         </a>
                                         <div class="f-right burger-quantity-wrapper" ng-show="burger.qty > 0">
-                                            <div class="order-item-quantity">{{ burger.qty }}</div>
                                             <div class="order-controls">
-                                                <a href="javascript:void(0)" class="add" ng-click="burgerIncrement(burger)"></a>
-                                                <a href="javascript:void(0)" class="subtract" ng-click="burgerDecrement(burger)"></a>
+                                                <a href="javascript:void(0)" class="subtract" ng-click="itemDecrement(burger)"></a>
+                                                <div class="order-item-quantity">{{ burger.qty }}</div>
+                                                <a href="javascript:void(0)" class="add" ng-click="itemIncrement(burger)"></a>
                                             </div>
                                         </div>
                                         <div class="doneness-wrapper" ng-show="burger.qty > 0">
@@ -138,16 +142,25 @@
                                        ng-change="addItemWithCheckbox(salad)"
                                        id="saladInput{{$index}}" />
                                 <label for="saladInput{{$index}}">
-                                    <span class="item-name">
-                                        {{ salad.name }}
-                                    </span>
-                                    <span class="price">
-                                        {{ salad.price }}
-                                    </span>
-                                </label>
+                                <span class="item-name">
+                                    {{ salad.name }}
+                                </span>
+                                <div class="additional-quantity-wrapper" ng-show="salad.qty > 0">
+                                    <div class="order-controls">
+                                        <a href="javascript:void(0)" class="subtract" ng-click="itemDecrement(salad)"></a>
+                                        <div class="order-item-quantity">{{ salad.qty }}</div>
+                                        <a href="javascript:void(0)" class="add" ng-click="itemIncrement(salad)"></a>
+                                    </div>
+                                </div>
+                                <span class="price">
+                                    {{ salad.price }}
+                                </span>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="additional-row">
+                    
                     <div class="additional-block additional-block-sm">
                         <h3>
                             КАРТОПЛЯ ФРІ
@@ -161,13 +174,48 @@
                                        ng-change="addItemWithCheckbox(fries)"
                                        id="friesInput{{$index}}" />
                                 <label for="friesInput{{$index}}">
-                                    <span class="item-name">
-                                        {{ fries.name }}
-                                    </span>
-                                    <span class="price">
-                                        {{ fries.price }}
-                                    </span>
-                                </label>
+                                <span class="item-name">
+                                    {{ fries.name }}
+                                </span>
+                                <div class="additional-quantity-wrapper" ng-show="fries.qty > 0">
+                                    <div class="order-controls">
+                                        <a href="javascript:void(0)" class="subtract" ng-click="itemDecrement(fries)"></a>
+                                        <div class="order-item-quantity">{{ fries.qty }}</div>
+                                        <a href="javascript:void(0)" class="add" ng-click="itemIncrement(fries)"></a>
+                                    </div>
+                                </div>
+                                <span class="price">
+                                    {{ fries.price }}
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="additional-block additional-block-sm">
+                        <h3>
+                            Соуси
+                        </h3>
+                        <div class="additional-list">
+                            <div class="additional-list-item" ng-repeat="sauce in menu.sauces">
+                                <input type="checkbox" 
+                                       class="bj-checkbox"
+                                       name="sauceInput"
+                                       ng-model="sauce.checked"
+                                       ng-change="addItemWithCheckbox(sauce)"
+                                       id="sauceInput{{$index}}" />
+                                <label for="sauceInput{{$index}}">
+                                <span class="item-name">
+                                    {{ sauce.name }}
+                                </span>
+                                <div class="additional-quantity-wrapper" ng-show="sauce.qty > 0">
+                                    <div class="order-controls">
+                                        <a href="javascript:void(0)" class="subtract" ng-click="itemDecrement(sauce)"></a>
+                                        <div class="order-item-quantity">{{ sauce.qty }}</div>
+                                        <a href="javascript:void(0)" class="add" ng-click="itemIncrement(sauce)"></a>
+                                    </div>
+                                </div>
+                                <span class="price">
+                                    {{ sauce.price }}
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -186,16 +234,19 @@
                                        ng-change="addItemWithCheckbox(drink)"
                                        id="drinkInput{{$index}}" />
                                 <label for="drinkInput{{$index}}">
-                                    <span class="item-name">
-                                        {{ drink.name }}
-                                        <span class="item-details">
-                                            {{ drink.details }}
-                                        </span>
-                                    </span>
-                                    <span class="price">
-                                        {{ drink.price }}
-                                    </span>
-                                </label>
+                                <span class="item-name">
+                                    {{ drink.name }}
+                                </span>
+                                <div class="additional-quantity-wrapper" ng-show="drink.qty > 0">
+                                    <div class="order-controls">
+                                        <a href="javascript:void(0)" class="subtract" ng-click="itemDecrement(drink)"></a>
+                                        <div class="order-item-quantity">{{ drink.qty }}</div>
+                                        <a href="javascript:void(0)" class="add" ng-click="itemIncrement(drink)"></a>
+                                    </div>
+                                </div>
+                                <span class="price">
+                                    {{ drink.price }}
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -214,16 +265,19 @@
                                        ng-change="addItemWithCheckbox(beer)"
                                        id="beerInput{{$index}}" />
                                 <label for="beerInput{{$index}}">
-                                    <span class="item-name">
-                                        {{ beer.name }}
-                                        <span class="item-details">
-                                            {{ beer.details }}
-                                        </span>
-                                    </span>
-                                    <span class="price">
-                                        {{ beer.price }}
-                                    </span>
-                                </label>
+                                <span class="item-name">
+                                    {{ beer.name }}
+                                </span>
+                                <div class="additional-quantity-wrapper" ng-show="beer.qty > 0">
+                                    <div class="order-controls">
+                                        <a href="javascript:void(0)" class="subtract" ng-click="itemDecrement(beer)"></a>
+                                        <div class="order-item-quantity">{{ beer.qty }}</div>
+                                        <a href="javascript:void(0)" class="add" ng-click="itemIncrement(beer)"></a>
+                                    </div>
+                                </div>
+                                <span class="price">
+                                    {{ beer.price }}
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -240,30 +294,44 @@
                                        ng-change="addItemWithCheckbox(water)"
                                        id="waterInput{{$index}}" />
                                 <label for="waterInput{{$index}}">
-                                    <span class="item-name">
-                                        {{ water.name }}
-                                        <span class="item-details">
-                                            {{ water.details }}
-                                        </span>
-                                    </span>
-                                    <span class="price">
-                                        {{ water.price }}
-                                    </span>
-                                </label>
+                                <span class="item-name">
+                                    {{ water.name }}
+                                </span>
+                                <div class="additional-quantity-wrapper" ng-show="water.qty > 0">
+                                    <div class="order-controls">
+                                        <a href="javascript:void(0)" class="subtract" ng-click="itemDecrement(water)"></a>
+                                        <div class="order-item-quantity">{{ water.qty }}</div>
+                                        <a href="javascript:void(0)" class="add" ng-click="itemIncrement(water)"></a>
+                                    </div>
+                                </div>
+                                <span class="price">
+                                    {{ water.price }}
+                                </span>
                             </div>
                         </div>
                     </div>
                     <div class="additional-block additional-block-lg">
                         <div class="order-section-wrapper">
                             <div class="order-section">
-                                <div ng-hide="filteredBurgers.length ||
+                                <div class="order-header" ng-hide="filteredBurgers.length ||
                                               filteredSalads.length ||
                                               filteredFries.length ||
                                               filteredDrinks.length ||
                                               filteredBeer.length ||
-                                              filteredWater.length
+                                              filteredWater.length ||
+                                              filteredSauces.length
                                               ">
                                     Ви ще нiчого не замовили
+                                </div>
+                                <div class="order-header" ng-show="filteredBurgers.length ||
+                                              filteredSalads.length ||
+                                              filteredFries.length ||
+                                              filteredDrinks.length ||
+                                              filteredBeer.length ||
+                                              filteredWater.length ||
+                                              filteredSauces.length
+                                              ">
+                                    Ваше замовлення:
                                 </div>
                                 <ul class="order-list">
                                     
@@ -272,14 +340,14 @@
                                             Бургер {{ item.name }}
                                         </div>
                                         <div class="order-details">
-                                            <div class="order-item-quantity">{{ item.qty }}</div>
                                             <div class="order-controls">
                                                 <a href="javascript:void(0)" 
-                                                   class="add" 
-                                                   ng-click="burgerIncrement(item)"></a>
-                                                <a href="javascript:void(0)" 
                                                    class="subtract" 
-                                                   ng-click="burgerDecrement(item)"></a>
+                                                   ng-click="qtyDecrement(item)"></a>
+                                                <div class="order-item-quantity">{{ item.qty }}</div>
+                                                <a href="javascript:void(0)" 
+                                                   class="add" 
+                                                   ng-click="qtyIncrement(item)"></a>
                                             </div>
                                             <div class="order-item-price">
                                                 <span class="order-item-price-amount">{{ item.price }}</span> грн
@@ -291,14 +359,14 @@
                                             Салат {{ item.name }}
                                         </div>
                                         <div class="order-details">
-                                            <div class="order-item-quantity">{{ item.qty }}</div>
                                             <div class="order-controls">
                                                 <a href="javascript:void(0)" 
-                                                   class="add" 
-                                                   ng-click="item.qty = item.qty + 1"></a>
-                                                <a href="javascript:void(0)" 
                                                    class="subtract" 
-                                                   ng-click="item.qty = item.qty - 1"></a>
+                                                   ng-click="qtyDecrement(item)"></a>
+                                                <div class="order-item-quantity">{{ item.qty }}</div>
+                                                <a href="javascript:void(0)" 
+                                                   class="add" 
+                                                   ng-click="qtyIncrement(item)"></a>
                                             </div>
                                             <div class="order-item-price">
                                                 <span class="order-item-price-amount">{{ item.price }}</span> грн
@@ -307,17 +375,17 @@
                                     </li>
                                     <li class="order-item" ng-repeat="item in filteredFries = (menu.fries | ordered)">
                                         <div class="order-item-name">
-                                            Фрі {{ item.name }}
+                                            Фрi {{ item.name }}
                                         </div>
                                         <div class="order-details">
-                                            <div class="order-item-quantity">{{ item.qty }}</div>
                                             <div class="order-controls">
                                                 <a href="javascript:void(0)" 
-                                                   class="add" 
-                                                   ng-click="item.qty = item.qty + 1"></a>
-                                                <a href="javascript:void(0)" 
                                                    class="subtract" 
-                                                   ng-click="item.qty = item.qty - 1"></a>
+                                                   ng-click="qtyDecrement(item)"></a>
+                                                <div class="order-item-quantity">{{ item.qty }}</div>
+                                                <a href="javascript:void(0)" 
+                                                   class="add" 
+                                                   ng-click="qtyIncrement(item)"></a>
                                             </div>
                                             <div class="order-item-price">
                                                 <span class="order-item-price-amount">{{ item.price }}</span> грн
@@ -329,14 +397,14 @@
                                             {{ item.name }}
                                         </div>
                                         <div class="order-details">
-                                            <div class="order-item-quantity">{{ item.qty }}</div>
                                             <div class="order-controls">
                                                 <a href="javascript:void(0)" 
-                                                   class="add" 
-                                                   ng-click="item.qty = item.qty + 1"></a>
-                                                <a href="javascript:void(0)" 
                                                    class="subtract" 
-                                                   ng-click="item.qty = item.qty - 1"></a>
+                                                   ng-click="qtyDecrement(item)"></a>
+                                                <div class="order-item-quantity">{{ item.qty }}</div>
+                                                <a href="javascript:void(0)" 
+                                                   class="add" 
+                                                   ng-click="qtyIncrement(item)"></a>
                                             </div>
                                             <div class="order-item-price">
                                                 <span class="order-item-price-amount">{{ item.price }}</span> грн
@@ -348,14 +416,14 @@
                                             {{ item.name }}
                                         </div>
                                         <div class="order-details">
-                                            <div class="order-item-quantity">{{ item.qty }}</div>
                                             <div class="order-controls">
                                                 <a href="javascript:void(0)" 
-                                                   class="add" 
-                                                   ng-click="item.qty = item.qty + 1"></a>
-                                                <a href="javascript:void(0)" 
                                                    class="subtract" 
-                                                   ng-click="item.qty = item.qty - 1"></a>
+                                                   ng-click="qtyDecrement(item)"></a>
+                                                <div class="order-item-quantity">{{ item.qty }}</div>
+                                                <a href="javascript:void(0)" 
+                                                   class="add" 
+                                                   ng-click="qtyIncrement(item)"></a>
                                             </div>
                                             <div class="order-item-price">
                                                 <span class="order-item-price-amount">{{ item.price }}</span> грн
@@ -367,14 +435,33 @@
                                             {{ item.name }}
                                         </div>
                                         <div class="order-details">
-                                            <div class="order-item-quantity">{{ item.qty }}</div>
                                             <div class="order-controls">
                                                 <a href="javascript:void(0)" 
+                                                   class="subtract" 
+                                                   ng-click="qtyDecrement(item)"></a>
+                                                <div class="order-item-quantity">{{ item.qty }}</div>
+                                                <a href="javascript:void(0)" 
                                                    class="add" 
-                                                   ng-click="item.qty = item.qty + 1"></a>
+                                                   ng-click="qtyIncrement(item)"></a>
+                                            </div>
+                                            <div class="order-item-price">
+                                                <span class="order-item-price-amount">{{ item.price }}</span> грн
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="order-item" ng-repeat="item in filteredSauces = (menu.sauces | ordered)">
+                                        <div class="order-item-name">
+                                            {{ item.name }} Соус
+                                        </div>
+                                        <div class="order-details">
+                                            <div class="order-controls">
                                                 <a href="javascript:void(0)" 
                                                    class="subtract" 
-                                                   ng-click="item.qty = item.qty - 1"></a>
+                                                   ng-click="qtyDecrement(item)"></a>
+                                                <div class="order-item-quantity">{{ item.qty }}</div>
+                                                <a href="javascript:void(0)" 
+                                                   class="add" 
+                                                   ng-click="qtyIncrement(item)"></a>
                                             </div>
                                             <div class="order-item-price">
                                                 <span class="order-item-price-amount">{{ item.price }}</span> грн
@@ -382,12 +469,13 @@
                                         </div>
                                     </li>
                                 </ul>
-                                <div ng-show="filteredBurgers.length ||
+                                <div class="order-summary" ng-show="filteredBurgers.length ||
                                               filteredSalads.length ||
                                               filteredFries.length ||
                                               filteredDrinks.length ||
                                               filteredBeer.length ||
-                                              filteredWater.length">
+                                              filteredWater.length ||
+                                              filteredSauces.length">
                                     <div class="remember-wrapper">
                                         <input type="checkbox" id="rememberOrderInput" class="bj-checkbox" ng-model="fullOrderDetails.rememberOrder" />
                                         <label for="rememberOrderInput">
@@ -403,12 +491,13 @@
                             </div>
                         </div>
                         <div class="form-wrapper">
-                            <form name="orderForm">
+                            <form name="orderForm" novalidate>
                                 <label for="phoneNumberInput" class="o-hid">
                                     <div class="label-msg">Ваш телефон</div>
-                                    <input type="text" id="phoneNumberInput" 
-                                           placeholder="(067) 374 57 73"
-                                           ng-model="fullOrderDetails.phoneNumber" required />
+                                    <input type="text" id="phoneNumberInput" name="phoneNumber" ng-maxlength="10" ng-pattern="/[0-9]{10}/" required
+                                           placeholder="067 374 57 73"
+                                           ng-model="fullOrderDetails.phoneNumber"  />
+                                     <div class="error">Номер телефону має складатися із 10 цифр</div>
                                 </label>
                                 <label for="deliveryInput" class="textarea-holder o-hid">
                                     <div class="label-msg">Куди веземо?</div>
@@ -416,23 +505,19 @@
                                               ng-model="fullOrderDetails.textMessage" 
                                               placeholder="Вулиця, номер будинку, номер квартири" required></textarea>
                                 </label>
-                                <button type="button" class="order-btn" ng-click="getFullOrderDetails()" ng-disabled="orderForm.$invalid">
-                                    Замовити
-                                </button>
                                 <div class="payment-label-group">
                                     <input type="radio" id="cashPaymentInput" class="bj-radio" name="paymentMethod" ng-model="fullOrderDetails.paymentMethod" value="cashPayment" />
                                     <label for="cashPaymentInput">
                                         Готівкою кур’єру
-                                    </label>
-                                    <input type="radio" id="cardPaymentInput" class="bj-radio" name="paymentMethod" ng-model="fullOrderDetails.paymentMethod" value="cardPayment" />
-                                    <label for="cardPaymentInput">
-                                        Карткою на місці
                                     </label>
                                     <input type="radio" id="onlinePaymentInput" class="bj-radio" name="paymentMethod" ng-model="fullOrderDetails.paymentMethod" value="onlinePayment" />
                                     <label for="onlinePaymentInput">
                                         Карткою онлайн
                                     </label>
                                 </div>
+                                <button type="button" class="order-btn" ng-click="getFullOrderDetails()" ng-disabled="orderForm.$invalid">
+                                    Замовити
+                                </button>
                             </form>
                         </div>
                     </div>
@@ -442,47 +527,73 @@
                         <div class="logo"></div>
                     </div>
                     <div class="footer-info">
-                        <a href="tel:+380671345834">+38 (067) 134 58 34</a>
-                        <div>Староеврейська, 26</div>
-                    </div>
-                    <div>
-                        {{fullOrderDetails}}
+                        <a href="tel:+380322355029">+38 (032) 235 50 29</a>
+                        <a href="tel:+380682355029">+38 (068) 235 50 29</a>
+                        <div>Староєврейська, 26</div>
                     </div>
                 </footer>
             </section>
             <div class="popup-wrapper" ng-show="currentPath == '/success'">
+                <div class="backdrop"></div>
                 <div class="popup">
-                    Ваше замовлення прийнято.
+                  <div class="additional-block additional-block-sm">
+                    <a href="#" ng-click="currentPath = '/'" class="popup-dismiss"></a>
+                    <h3>
+                      Ваше замовлення прийнято
+                    </h3>
+                    <p>Ми Вам зателефонуємо.</p>
+                  </div>
                 </div>
             </div>
             <div class="popup-wrapper" ng-show="currentPath == '/failure'">
+                <div class="backdrop"></div>
                 <div class="popup">
-                    Сталася помилка.
+                  <div class="additional-block additional-block-sm">
+                    <a href="#" ng-click="currentPath = '/'" class="popup-dismiss"></a>
+                    <h3>
+                      Не вдалося виконати замовлення
+                    </h3>
+                    <p>
+                      Повідомте нас про це за телефоном: 
+                      <a href="tel:+380322355029">+38 (032) 235 50 29</a>
+                      <a href="tel:+380682355029">+38 (068) 235 50 29</a>
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="popup-wrapper" ng-show="currentPath == '/pending'">
+                <div class="backdrop"></div>
+                <div class="popup">
+                  <div class="additional-block additional-block-sm">
+                    <a href="#" ng-click="currentPath = '/'" class="popup-dismiss"></a>
+                    <h3>
+                      Ваше замовлення в стані обробки...
+                    </h3>
+                  </div>
+                </div>
+            </div>
+            <div class="popup-wrapper" ng-show="currentPath == '/error'">
+                <div class="backdrop"></div>
+                <div class="popup">
+                  <div class="additional-block additional-block-sm">
+                    <a href="#" ng-click="currentPath = '/'" class="popup-dismiss"></a>
+                    <h3>
+                      Сталася помилка!
+                    </h3>
+                    <p>
+                      Повідомте нас про це за телефоном: 
+                      <a href="tel:+380322355029">+38 (032) 235 50 29</a>
+                      <a href="tel:+380682355029">+38 (068) 235 50 29</a>
+                    </p>
+                  </div>
                 </div>
             </div>
         </div>
-        
         <script src="js/vendor/angular.min.js"></script>
         <script src="js/vendor/jquery-2.1.4.min.js"></script>
         <script src="js/vendor/ui-bootstrap-0.13.0.min.js"></script>
         <script src="js/vendor/jquery.maskedinput.min.js"></script>
         <script src="js/main.js"></script>
-        <script>
-            // $(document).ready(function() {
-            //     // phone input validation
-            //     $("#phoneNumberInput").mask("(999) 999 99 99");
-            //     $("#phoneNumberInput").on("blur", function() {
-            //         var last = $(this).val().substr( $(this).val().indexOf("-") + 1 );
-            //         if( last.length == 3 ) {
-            //             var move = $(this).val().substr( $(this).val().indexOf("-") - 1, 1 );
-            //             var lastfour = move + last;
-            //             var first = $(this).val().substr( 0, 9 );
-            //             $(this).val( first + '-' + lastfour );
-            //         }
-            //     });
-            //     // END phone input validation
-            // });
-        </script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <!--<script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

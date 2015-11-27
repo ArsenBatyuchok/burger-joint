@@ -1,3 +1,13 @@
+@media (min-width: 1200px) {
+	.doneness-popover {
+		top: 40px;
+		right: -63px;
+	}
+	.doneness-trigger {
+	  	right: -47px;
+	  	top: -6px;
+	}
+}
 @media (max-width: 1200px) {
 	.container {
 		padding-left: 20px;
@@ -15,8 +25,6 @@
 	}
 	.additional-block.additional-block-lg {
 		background: #fff;
-		border-top: 10px solid #000;
-		border-bottom: 10px solid #000;
 		padding: 70px 15px 40px;
 		width: 100%;
 	}
@@ -27,11 +35,25 @@
   		margin-right: auto;
 	}
 	.form-wrapper label {
-		border-top: 1px dashed #DBDBDB;
 		padding-top: 10px;
 	}
 	.additional-block.additional-block-lg:before, .additional-block.additional-block-lg:after {
-		content: none;
+		content: " ";
+		width: 100%;
+		height: 9px;
+		background: url('../img/additional-block-border-mobile.png') repeat-x 0 0;
+		background-size: 1px 10px;
+	    display: block;
+	    position: absolute;
+	    left: 0;
+	    right: 0;
+	}
+	.additional-block.additional-block-lg:before {
+		top: -10px;
+	}
+	.additional-block.additional-block-lg:after {
+		bottom: -10px;
+		top: inherit;
 	}
 	.order-section {
 		overflow: hidden;
@@ -52,6 +74,10 @@
 	}
 	.payment-label-group {
 	    margin-top: 40px;
+	    margin-bottom: 40px;
+	}
+	.order-list {
+		max-height: none;
 	}
 }
 @media (max-width: 1080px) {
@@ -105,6 +131,12 @@
 		text-align: center;
 		margin: 0 auto;
 	}
+	.header-info {
+		    position: absolute;
+		    bottom: 60px;
+		    left: 0;
+		    right: 0;
+	}
 	.logo-holder {
 		margin-bottom: 15px;
 	}
@@ -142,8 +174,6 @@
 	}
 	.additional-block.additional-block-sm,
 	.additional-block.additional-block-md {
-		border-top: 10px solid #000;
-		border-bottom: 10px solid #000;
 		background: #F7F7F7;
 		width: 100%;
 		margin: 0 0 70px;
@@ -154,6 +184,7 @@
 	.additional-block-md .additional-list-item,
 	.additional-block-md .additional-list-item:nth-child(2n+0) {
 		width: 100%;
+		max-width: none;
 	}
 	.order-section {
 		width: 100%;
@@ -171,5 +202,35 @@
 	.order-total {
 		float: none;
 		width: 100%;
+		margin-top: 20px;
+	}
+	.additional-block.additional-block-sm, .additional-block.additional-block-md {
+		position: relative;
+		max-width: none;
+	}
+	.additional-block.additional-block-sm:before, .additional-block.additional-block-sm:after,
+	.additional-block.additional-block-md:before, .additional-block.additional-block-md:after {
+		content: " ";
+		width: 100%;
+		height: 9px;
+		background: url('../img/additional-block-border-mobile.png') repeat-x 0 0;
+		background-size: 1px 10px;
+	    display: block;
+	    position: absolute;
+	    left: 0;
+	    right: 0;
+	}
+	.additional-block.additional-block-sm:before,
+	.additional-block.additional-block-md:before {
+		top: -10px;
+	}
+	.additional-block.additional-block-sm:after,
+	.additional-block.additional-block-md:after {
+		bottom: -10px;
+		top: inherit;
+	}
+	.popup-dismiss {
+		top: 20px;
+    	right: 15px;
 	}
 }
