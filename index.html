@@ -237,6 +237,9 @@
                                 <span class="item-name">
                                     {{ drink.name }}
                                 </span>
+                                <span class="item-details">
+                                    {{ drink.details }}
+                                </span>
                                 <div class="additional-quantity-wrapper" ng-show="drink.qty > 0">
                                     <div class="order-controls">
                                         <a href="javascript:void(0)" class="subtract" ng-click="itemDecrement(drink)"></a>
@@ -268,6 +271,9 @@
                                 <span class="item-name">
                                     {{ beer.name }}
                                 </span>
+                                <span class="item-details">
+                                    {{ beer.details }}
+                                </span>
                                 <div class="additional-quantity-wrapper" ng-show="beer.qty > 0">
                                     <div class="order-controls">
                                         <a href="javascript:void(0)" class="subtract" ng-click="itemDecrement(beer)"></a>
@@ -296,6 +302,9 @@
                                 <label for="waterInput{{$index}}">
                                 <span class="item-name">
                                     {{ water.name }}
+                                </span>
+                                <span class="item-details">
+                                    {{ water.details }}
                                 </span>
                                 <div class="additional-quantity-wrapper" ng-show="water.qty > 0">
                                     <div class="order-controls">
