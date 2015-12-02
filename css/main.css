@@ -348,6 +348,9 @@ h2:after {
     letter-spacing: 0.87px;
     overflow: hidden;
 }
+.additional-list-item-water {
+    letter-spacing: 0.5px;
+}
 .additional-list-item .price {
     color: #CDA87B;
     float: right;
