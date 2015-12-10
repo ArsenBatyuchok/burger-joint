@@ -469,6 +469,9 @@ h2:after {
     max-height: 185px;
     overflow: auto;
 }
+.order-list .item-details {
+    line-height: 1;
+}
 .order-section-wrapper {
     width: 50%;
     float: left;

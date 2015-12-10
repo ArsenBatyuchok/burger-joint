@@ -477,6 +477,19 @@
                                             </div>
                                         </div>
                                     </li>
+                                    <li class="order-item" ng-show="calcTotal().includeDelivery">
+                                        <div class="order-item-name">
+                                            Доставка 
+                                            <span class="item-details">
+                                                (замовлення до 100 грн)
+                                            </span>
+                                        </div>
+                                        <div class="order-details">
+                                            <div class="order-item-price">
+                                                <span class="order-item-price-amount">30</span> грн
+                                            </div>
+                                        </div>
+                                    </li>
                                 </ul>
                                 <div class="order-summary" ng-show="filteredBurgers.length ||
                                               filteredSalads.length ||
@@ -493,7 +506,7 @@
                                     </div>
                                     <div class="order-total">
                                         Загалом: 
-                                        <span class="order-total-amount">{{ calcTotal() }}</span>
+                                        <span class="order-total-amount">{{ calcTotal().sum }}</span>
                                         грн
                                     </div>
                                 </div>

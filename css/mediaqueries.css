@@ -83,6 +83,10 @@
 	}
 	.order-list {
 		max-height: none;
+		overflow: hidden;
+	}
+	.doneness-trigger {
+		right: 17px;
 	}
 }
 @media (max-width: 1080px) {

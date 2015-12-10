@@ -29,8 +29,7 @@ angular
                     img: "img/burger1.png",
                     price: 65,
                     qty: 0,
-                    doneness: [],
-                    type: "burgers"
+                    doneness: []
                 },
                 {
                     name: "Класичний з сиром",
@@ -212,23 +211,22 @@ angular
         }
 
         $scope.calcTotal = function() {
-            var sum  = 0;
+            var total  = {
+                sum: 0,
+                includeDelivery: null
+            };
             for (var array in $scope.menu) {
-                //console.log($scope.menu[array]);
-                sum += $scope.menu[array].reduce(function(acc, el) { 
+                total.sum += $scope.menu[array].reduce(function(acc, el) { 
                     return acc + el.price * el.qty 
                 }, 0);
             }
-            return sum;
+            // adding delivery price if sum is bigger than 100 UAH
+            if (total.sum < 100) {
+                total.sum += 30;
+                total.includeDelivery = true;
+            }
+            return total;
         }
-
-        // for (var array in $scope.menu) {
-        //     for (var i=0; i < $scope.menu[array].length; i++) {
-        //         if ($scope.menu[array][i].qty > 0) {
-        //             $scope.fullOrderDetails.ordered.push($scope.menu[array][i]);
-        //         }
-        //     }
-        // }
 
         $scope.getFullOrderDetails = function() {
             for (var array in $scope.menu) {
@@ -249,7 +247,6 @@ angular
                 localStorage['menu'] = '';
             }
             location.href = '../scripts/pay.php?data='+$scope.data;
-            //return $scope.data;
         }
 
         $scope.showFailureMessage = false;
@@ -298,4 +295,6 @@ angular
   }
 }
 );
+
+// comment
 
