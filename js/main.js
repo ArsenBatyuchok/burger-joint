@@ -29,7 +29,8 @@ angular
                     img: "img/burger1.png",
                     price: 65,
                     qty: 0,
-                    doneness: []
+                    doneness: [],
+                    type: "burgers"
                 },
                 {
                     name: "Класичний з сиром",
