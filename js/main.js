@@ -1,5 +1,30 @@
 angular
-    .module('burgerApp', ['ui.bootstrap'])
+    .module('burgerApp', ['ui.bootstrap', 'ui.router'])
+
+    // routes on website
+    .config(function($stateProvider, $urlRouterProvider) {
+        $urlRouterProvider.otherwise("/");
+        $stateProvider
+            .state('root', {
+                url: "/"
+            })
+            .state('error', {
+                url: "/error",
+                templateUrl: '../templates/error.tpl.html'
+            })
+            .state('success', {
+                url: "/success",
+                templateUrl: '../templates/success.tpl.html'
+            })
+            .state('pending', {
+                url: "/pending",
+                templateUrl: '../templates/pending.tpl.html'
+            })
+            .state('failure', {
+                url: "/failure",
+                templateUrl: '../templates/failure.tpl.html'
+            });
+        })
 
     // filter for orders
     .filter('ordered', function () {
@@ -248,20 +273,6 @@ angular
                 localStorage['menu'] = '';
             }
             location.href = '../scripts/pay.php?data='+$scope.data;
-        }
-
-        $scope.showFailureMessage = false;
-        $scope.showSuccessMessage = false;
-        $scope.currentPath = $location.path();
-
-        if($scope.currentPath == 'failure') {
-            $scope.showFailureMessage = true;
-        } else if ($scope.currentPath == 'success') {
-            $scope.showSuccessMessage = true;
-        } else if ($scope.currentPath == 'pending') {
-            $scope.showPendingMessage = true;
-        } else if ($scope.currentPath == 'error') {
-            $scope.showErrorMessage = true;
         }
     })
 
