@@ -7,17 +7,16 @@ require 'classes/smsclient.class.php';
 $params = require 'params.php';
 $request = json_decode(file_get_contents("php://input"));
 if (isset($request)) {
-    $data = json_decode($request->data);
 
-    $amount = $data->totalPrice->sum;
+    $amount = $request->totalPrice->sum;
     try {
         $db = new Database();
         $db->beginTransaction();
-        $response = $db->insertClient($data->textMessage, $data->phoneNumber, $amount, $request->data);
+        $response = $db->insertClient($request->textMessage, $request->phoneNumber, $amount, json_encode($request->ordered));
         if (!$response['state']) {
             die('Server error. Please contact to administrator.');
         }
-        if ($data->paymentMethod == 'onlinePayment') { // online paid
+        if ($request->paymentMethod == 'onlinePayment') { // online paid
             $publicKey = $params['liqpay']['publicKey'];
             $privateKey = $params['liqpay']['privateKey'];
             $lp = new LiqPay($publicKey, $privateKey);
@@ -34,9 +33,9 @@ if (isset($request)) {
         } else {
             $sms = new SmsClient($params['SmsUkraine']['login'], $params['SmsUkraine']['password']);
             $email = new Email();
-            if ($email->sendEmail($data, true, $response['id'])) {
+            if ($email->sendEmail($request, true, $response['id'])) {
                 $db->setAsPaid($response['id']);
-                $sms->sendSMS('BurgerJoint', $params['adminNumber'], 'Нове замовлення ' . $response['id']);
+//                $sms->sendSMS('BurgerJoint', $params['adminNumber'], 'Нове замовлення ' . $response['id']);
                 $url = 'http://' . $_SERVER['HTTP_HOST'] . '/index.html#/success';
             } else {
                 $url = 'http://' .$_SERVER['HTTP_HOST'] .'/index.html#/failure';

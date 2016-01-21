@@ -42,7 +42,7 @@ angular
     })
 
     // Controller
-	.controller('MainController', function($scope, $document, $filter, $location) {
+	.controller('MainController', function($scope, $document, $filter, $location, $http) {
 
         // data
 
@@ -255,6 +255,8 @@ angular
         }
 
         $scope.getFullOrderDetails = function() {
+            $scope.fullOrderDetails.ordered = [];
+
             for (var array in $scope.menu) {
                 for (var i=0; i < $scope.menu[array].length; i++) {
                     if ($scope.menu[array][i].qty > 0) {
@@ -263,7 +265,7 @@ angular
                 }
             }
             $scope.fullOrderDetails.totalPrice = $scope.calcTotal();
-            $scope.data = JSON.stringify($scope.fullOrderDetails);
+            $scope.data = $scope.fullOrderDetails;
             if ($scope.fullOrderDetails.rememberOrder) {
                 localStorage['menu'] = JSON.stringify($scope.menu);
                 localStorage['phoneNumber'] = $scope.fullOrderDetails.phoneNumber;
@@ -272,7 +274,22 @@ angular
             } else {
                 localStorage['menu'] = '';
             }
-            location.href = '../scripts/pay.php?data='+$scope.data;
+
+
+            //function getURLParameter(name) {
+            //    return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
+            //}
+            //
+            //var d = getURLParameter('XDEBUG_SESSION_START');
+
+
+            //$http.post('../scripts/pay.php' + '?XDEBUG_SESSION_START=' + d, $scope.data).success(function ($data) {
+
+
+            $http.post('../scripts/pay.php', $scope.data).success(function ($data) {
+                location.replace($data);
+                location.href = $data
+            });
         }
     })
 

@@ -16,27 +16,27 @@ class Email
     {
         $data = require dirname(__DIR__) . '/params.php';
         $mgClient = new Mailgun($data['mailGun']['apiKey']);
-        $mgClient->sendMessage($data['mailGun']['domain'],
-            [
-                'from'    => "Burger Joint <postmaster@sandbox826ba91f3f2e476dbd8feefea0b862c6.mailgun.org>",
-                'to'      => "alexandr.vasiliev@iqria.com",
-                'subject' => 'Замовлення '.$order,
-                'html'    => ($state)? $this->setMessage($message) : $message,
-            ]);
-        $mgClient->sendMessage($data['mailGun']['domain'],
-            [
-                'from'    => "Burger Joint <postmaster@sandbox826ba91f3f2e476dbd8feefea0b862c6.mailgun.org>",
-                'to'      => "alexandr.sharygin@iqria.com",
-                'subject' => 'Замовлення '.$order,
-                'html'    => ($state)? $this->setMessage($message) : $message,
-            ]);
-        $mgClient->sendMessage($data['mailGun']['domain'],
-            [
-                'from'    => "Burger Joint <postmaster@sandbox826ba91f3f2e476dbd8feefea0b862c6.mailgun.org>",
-                'to'      => "lidiya.chuhlib@iqria.com",
-                'subject' => 'Замовлення '.$order,
-                'html'    => ($state)? $this->setMessage($message) : $message,
-            ]);
+//        $mgClient->sendMessage($data['mailGun']['domain'],
+//            [
+//                'from'    => "Burger Joint <postmaster@sandbox826ba91f3f2e476dbd8feefea0b862c6.mailgun.org>",
+//                'to'      => "alexandr.vasiliev@iqria.com",
+//                'subject' => 'Замовлення '.$order,
+//                'html'    => ($state)? $this->setMessage($message) : $message,
+//            ]);
+//        $mgClient->sendMessage($data['mailGun']['domain'],
+//            [
+//                'from'    => "Burger Joint <postmaster@sandbox826ba91f3f2e476dbd8feefea0b862c6.mailgun.org>",
+//                'to'      => "alexandr.sharygin@iqria.com",
+//                'subject' => 'Замовлення '.$order,
+//                'html'    => ($state)? $this->setMessage($message) : $message,
+//            ]);
+//        $mgClient->sendMessage($data['mailGun']['domain'],
+//            [
+//                'from'    => "Burger Joint <postmaster@sandbox826ba91f3f2e476dbd8feefea0b862c6.mailgun.org>",
+//                'to'      => "lidiya.chuhlib@iqria.com",
+//                'subject' => 'Замовлення '.$order,
+//                'html'    => ($state)? $this->setMessage($message) : $message,
+//            ]);
 
         return $mgClient->sendMessage($data['mailGun']['domain'],
             [
@@ -67,7 +67,7 @@ class Email
         $stateBurger = false;
         for ($i=0; $i<count($data->ordered); $i++) {
             $order = $data->ordered[$i];
-            if ($order->type == self::TYPE_SAUCES) { // beer start
+            if ($order->type == self::TYPE_SAUCES) { // sauces start
                 $result .= "<tr>
                                 <td rowspan='".$countSauces."'>Соуси</td>
                                 <td colspan='2'>{$order->name}</td>
