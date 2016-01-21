@@ -1,6 +1,5 @@
 <?php
 require 'classes/LiqPay.php';
-var_dump($_SERVER);die;
 $params = require 'params.php';
 $publicKey = $params['liqpay']['publicKey'];
 $privateKey = $params['liqpay']['privateKey'];

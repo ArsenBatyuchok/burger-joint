@@ -26,8 +26,8 @@ if (isset($request)) {
                 'amount' => 1,
                 'currency' => 'UAH',
                 'description' => 'payment for order '.$response['id'].' for burgerjoint.com.ua',
-                'server_url' => "{$_SERVER['HTTP_HOST']}/scripts/server.php",
-                'result_url' => "{$_SERVER['HTTP_HOST']}/scripts/result.php?id={$response['id']}",
+                'server_url' => "http://{$_SERVER['HTTP_HOST']}/scripts/server.php",
+                'result_url' => "http://{$_SERVER['HTTP_HOST']}/scripts/result.php?id={$response['id']}",
                 'order_id' => $response['id'],
                 'sandbox' => '1',
             ));
