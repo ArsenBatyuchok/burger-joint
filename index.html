@@ -555,65 +555,16 @@
                     </div>
                 </footer>
             </section>
-            <div class="popup-wrapper" ng-show="currentPath == '/success'">
-                <div class="backdrop"></div>
-                <div class="popup">
-                  <div class="additional-block additional-block-sm">
-                    <a href="#" ng-click="currentPath = '/'" class="popup-dismiss"></a>
-                    <h3>
-                      Ваше замовлення прийнято
-                    </h3>
-                    <p>Ми Вам зателефонуємо.</p>
-                  </div>
-                </div>
-            </div>
-            <div class="popup-wrapper" ng-show="currentPath == '/failure'">
-                <div class="backdrop"></div>
-                <div class="popup">
-                  <div class="additional-block additional-block-sm">
-                    <a href="#" ng-click="currentPath = '/'" class="popup-dismiss"></a>
-                    <h3>
-                      Не вдалося виконати замовлення
-                    </h3>
-                    <p>
-                      Повідомте нас про це за телефоном: 
-                      <a href="tel:+380322355029">+38 (032) 235 50 29</a>
-                      <a href="tel:+380682355029">+38 (068) 235 50 29</a>
-                    </p>
-                  </div>
-                </div>
-            </div>
-            <div class="popup-wrapper" ng-show="currentPath == '/pending'">
-                <div class="backdrop"></div>
-                <div class="popup">
-                  <div class="additional-block additional-block-sm">
-                    <a href="#" ng-click="currentPath = '/'" class="popup-dismiss"></a>
-                    <h3>
-                      Ваше замовлення в стані обробки...
-                    </h3>
-                  </div>
-                </div>
-            </div>
-            <div class="popup-wrapper" ng-show="currentPath == '/error'">
-                <div class="backdrop"></div>
-                <div class="popup">
-                  <div class="additional-block additional-block-sm">
-                    <a href="#" ng-click="currentPath = '/'" class="popup-dismiss"></a>
-                    <h3>
-                      Сталася помилка!
-                    </h3>
-                    <p>
-                      Повідомте нас про це за телефоном: 
-                      <a href="tel:+380322355029">+38 (032) 235 50 29</a>
-                      <a href="tel:+380682355029">+38 (068) 235 50 29</a>
-                    </p>
-                  </div>
-                </div>
-            </div>
+            
+            <!-- popups with error/success will be injected here -->
+            <ui-view></ui-view>
+            
+            
         </div>
         <script src="js/vendor/angular.min.js"></script>
         <script src="js/vendor/jquery-2.1.4.min.js"></script>
         <script src="js/vendor/ui-bootstrap-0.13.0.min.js"></script>
+        <script src="js/vendor/angular-ui-router.min.js"></script>
         <script src="js/vendor/jquery.maskedinput.min.js"></script>
         <script src="js/main.js"></script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

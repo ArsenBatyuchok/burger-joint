@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7fe18c1d-1034-4289-88c4-c14dbb9bf262" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/burger.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/burger.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendor/angular-ui-router.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/cron.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/error.tpl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/failure.tpl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/pending.tpl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/success.tpl.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.htpasswd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/classes/sms.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/composer.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/composer/ClassLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/composer/autoload_classmap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/composer/autoload_namespaces.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/composer/autoload_psr4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/composer/autoload_real.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/composer/installed.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/.scrutinizer.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/PHPMailerAutoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/VERSION" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/changelog.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/class.phpmailer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/class.pop3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/class.smtp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/docs/Callback_function_notes.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/docs/DomainKeys_notes.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/docs/Note_for_SMTP_debugging.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/docs/extending.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/docs/faq.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/docs/generatedocs.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/docs/pop3_article.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/code_generator.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/contents.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/contentsutf8.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/exceptions.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/gmail.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/images/phpmailer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/images/phpmailer_mini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/mail.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/mailing_list.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/pop_before_smtp.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/scripts/XRegExp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/scripts/shAutoloader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/scripts/shBrushPhp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/scripts/shCore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/scripts/shLegacy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/send_file_upload.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/sendmail.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/smtp.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/smtp_check.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/smtp_no_auth.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/ssl_options.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/styles/shCore.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/styles/shCoreDefault.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/styles/shCoreDjango.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/styles/shCoreEclipse.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/styles/shCoreEmacs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/styles/shCoreFadeToGrey.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/styles/shCoreMDUltra.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/styles/shCoreMidnight.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/styles/shCoreRDark.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/styles/shThemeAppleScript.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/styles/shThemeDefault.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/styles/shThemeDjango.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/styles/shThemeEclipse.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/styles/shThemeEmacs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/styles/shThemeFadeToGrey.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/styles/shThemeMDUltra.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/styles/shThemeMidnight.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/styles/shThemeRDark.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/styles/shThemeVisualStudio.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/examples/styles/wrapping.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/extras/EasyPeasyICS.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/extras/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/extras/htmlfilter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/extras/ntlm_sasl_client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-am.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-ar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-az.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-be.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-bg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-br.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-ca.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-ch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-cz.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-de.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-dk.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-el.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-eo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-es.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-et.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-fa.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-fi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-fo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-fr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-gl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-he.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-hr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-hu.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-id.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-it.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-ja.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-ka.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-ko.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-lt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-lv.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-ms.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-nl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-no.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-pl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-pt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-ro.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-ru.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-se.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-sk.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-sl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-sr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-tr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-uk.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-vi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh_cn.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/test/bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/test/fakepopserver.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/test/fakesendmail.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/test/phpmailerLangTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/test/phpmailerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/test/runfakepopserver.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/test/test_callback.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/test/testbootstrap-dist.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendor/phpmailer/phpmailer/travis.phpunit.xml.dist" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/bebasneue_bold-webfont.eot" afterPath="$PROJECT_DIR$/fonts/bebasneue_bold-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/bebasneue_bold-webfont.ttf" afterPath="$PROJECT_DIR$/fonts/bebasneue_bold-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/bebasneue_bold-webfont.woff" afterPath="$PROJECT_DIR$/fonts/bebasneue_bold-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/bebasneue_bold-webfont.woff2" afterPath="$PROJECT_DIR$/fonts/bebasneue_bold-webfont.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/bebasneue_book-webfont.eot" afterPath="$PROJECT_DIR$/fonts/bebasneue_book-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/bebasneue_book-webfont.ttf" afterPath="$PROJECT_DIR$/fonts/bebasneue_book-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/bebasneue_book-webfont.woff" afterPath="$PROJECT_DIR$/fonts/bebasneue_book-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/bebasneue_book-webfont.woff2" afterPath="$PROJECT_DIR$/fonts/bebasneue_book-webfont.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/additional-block-border-mobile.png" afterPath="$PROJECT_DIR$/img/additional-block-border-mobile.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/background-block-lg.png" afterPath="$PROJECT_DIR$/img/background-block-lg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/background-block-md-mobile.png" afterPath="$PROJECT_DIR$/img/background-block-md-mobile.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/background-block-md.png" afterPath="$PROJECT_DIR$/img/background-block-md.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/background-block-sm.png" afterPath="$PROJECT_DIR$/img/background-block-sm.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/background-img-border-btm.png" afterPath="$PROJECT_DIR$/img/background-img-border-btm.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/background-img.jpg" afterPath="$PROJECT_DIR$/img/background-img.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/background-text.png" afterPath="$PROJECT_DIR$/img/background-text.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/burger-border-img.png" afterPath="$PROJECT_DIR$/img/burger-border-img.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/burger1.png" afterPath="$PROJECT_DIR$/img/burger1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/burger10.png" afterPath="$PROJECT_DIR$/img/burger10.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/burger2.png" afterPath="$PROJECT_DIR$/img/burger2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/burger3.png" afterPath="$PROJECT_DIR$/img/burger3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/burger4.png" afterPath="$PROJECT_DIR$/img/burger4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/burger5.png" afterPath="$PROJECT_DIR$/img/burger5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/burger6.png" afterPath="$PROJECT_DIR$/img/burger6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/burger7.png" afterPath="$PROJECT_DIR$/img/burger7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/burger8.png" afterPath="$PROJECT_DIR$/img/burger8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/burger9.png" afterPath="$PROJECT_DIR$/img/burger9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/doneness-popup-bg.png" afterPath="$PROJECT_DIR$/img/doneness-popup-bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/logo.png" afterPath="$PROJECT_DIR$/img/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/_static/guzzle-icon.png" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/_static/guzzle-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/_static/logo.png" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/_static/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/TestAssets/mailgun_icon1.png" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/TestAssets/mailgun_icon1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/TestAssets/mailgun_icon2.png" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/TestAssets/mailgun_icon2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mediaqueries.css" afterPath="$PROJECT_DIR$/css/mediaqueries.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/bebasneue_bold-webfont.svg" afterPath="$PROJECT_DIR$/fonts/bebasneue_bold-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/bebasneue_book-webfont.svg" afterPath="$PROJECT_DIR$/fonts/bebasneue_book-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/sprite.svg" afterPath="$PROJECT_DIR$/img/sprite.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendor/angular.min.js" afterPath="$PROJECT_DIR$/js/vendor/angular.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendor/jquery-2.1.4.min.js" afterPath="$PROJECT_DIR$/js/vendor/jquery-2.1.4.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendor/ui-bootstrap-0.13.0.min.js" afterPath="$PROJECT_DIR$/js/vendor/ui-bootstrap-0.13.0.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/classes/LiqPay.php" afterPath="$PROJECT_DIR$/scripts/classes/LiqPay.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/classes/database.class.php" afterPath="$PROJECT_DIR$/scripts/classes/database.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/classes/email.class.php" afterPath="$PROJECT_DIR$/scripts/classes/email.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/classes/smsclient.class.php" afterPath="$PROJECT_DIR$/scripts/classes/smsclient.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/classes/table.sql" afterPath="$PROJECT_DIR$/scripts/classes/table.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/params.php" afterPath="$PROJECT_DIR$/scripts/params.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/pay.php" afterPath="$PROJECT_DIR$/scripts/pay.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/server.php" afterPath="$PROJECT_DIR$/scripts/server.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/.gitignore" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/.travis.yml" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/LICENSE" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/README.md" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/UPGRADING.md" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/UPGRADING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/build.xml" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/composer.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/Makefile" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/_downloads/guzzle-schema-1.0.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/_downloads/guzzle-schema-1.0.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/_static/homepage.css" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/_static/homepage.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/_static/prettify.css" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/_static/prettify.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/_static/prettify.js" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/_static/prettify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/_templates/index.html" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/_templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/_templates/leftbar.html" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/_templates/leftbar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/_templates/nav_links.html" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/_templates/nav_links.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/batching/batching.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/batching/batching.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/conf.py" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/conf.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/docs.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/docs.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/getting-started/faq.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/getting-started/faq.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/getting-started/installation.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/getting-started/installation.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/getting-started/overview.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/getting-started/overview.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/http-client/client.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/http-client/client.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/http-client/entity-bodies.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/http-client/entity-bodies.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/http-client/http-redirects.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/http-client/http-redirects.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/http-client/request.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/http-client/request.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/http-client/response.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/http-client/response.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/http-client/uri-templates.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/http-client/uri-templates.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/index.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/index.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/iterators/guzzle-iterators.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/iterators/guzzle-iterators.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/iterators/resource-iterators.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/iterators/resource-iterators.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/async-plugin.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/async-plugin.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/backoff-plugin.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/backoff-plugin.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/cache-plugin.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/cache-plugin.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/cookie-plugin.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/cookie-plugin.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/creating-plugins.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/creating-plugins.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/curl-auth-plugin.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/curl-auth-plugin.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/history-plugin.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/history-plugin.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/log-plugin.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/log-plugin.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/md5-validator-plugin.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/md5-validator-plugin.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/mock-plugin.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/mock-plugin.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/oauth-plugin.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/oauth-plugin.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/plugins-list.rst.inc" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/plugins-list.rst.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/plugins-overview.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/plugins-overview.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/requirements.txt" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/testing/unit-testing.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/testing/unit-testing.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/webservice-client/guzzle-service-descriptions.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/webservice-client/guzzle-service-descriptions.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/webservice-client/using-the-service-builder.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/webservice-client/using-the-service-builder.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/webservice-client/webservice-client.rst" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/webservice-client/webservice-client.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/phar-stub.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/phar-stub.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/phing/build.properties.dist" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/phing/build.properties.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/phing/imports/dependencies.xml" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/phing/imports/dependencies.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/phing/imports/deploy.xml" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/phing/imports/deploy.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/phing/tasks/ComposerLintTask.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/phing/tasks/ComposerLintTask.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/phing/tasks/GuzzlePearPharPackageTask.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/phing/tasks/GuzzlePearPharPackageTask.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/phing/tasks/GuzzleSubSplitTask.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/phing/tasks/GuzzleSubSplitTask.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/phpunit.xml.dist" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/phpunit.xml.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/AbstractBatchDecorator.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/AbstractBatchDecorator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/Batch.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/Batch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/BatchBuilder.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/BatchBuilder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/BatchClosureDivisor.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/BatchClosureDivisor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/BatchClosureTransfer.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/BatchClosureTransfer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/BatchCommandTransfer.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/BatchCommandTransfer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/BatchDivisorInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/BatchDivisorInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/BatchInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/BatchInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/BatchRequestTransfer.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/BatchRequestTransfer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/BatchSizeDivisor.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/BatchSizeDivisor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/BatchTransferInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/BatchTransferInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/Exception/BatchTransferException.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/Exception/BatchTransferException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/ExceptionBufferingBatch.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/ExceptionBufferingBatch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/FlushingBatch.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/FlushingBatch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/HistoryBatch.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/HistoryBatch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/NotifyingBatch.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/NotifyingBatch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/composer.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Cache/AbstractCacheAdapter.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Cache/AbstractCacheAdapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Cache/CacheAdapterFactory.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Cache/CacheAdapterFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Cache/CacheAdapterInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Cache/CacheAdapterInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Cache/ClosureCacheAdapter.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Cache/ClosureCacheAdapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Cache/DoctrineCacheAdapter.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Cache/DoctrineCacheAdapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Cache/NullCacheAdapter.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Cache/NullCacheAdapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Cache/Zf1CacheAdapter.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Cache/Zf1CacheAdapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Cache/Zf2CacheAdapter.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Cache/Zf2CacheAdapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Cache/composer.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Cache/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/AbstractHasDispatcher.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/AbstractHasDispatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/Collection.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/Collection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/Event.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/Event.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/Exception/BadMethodCallException.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/Exception/BadMethodCallException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/Exception/ExceptionCollection.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/Exception/ExceptionCollection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/Exception/GuzzleException.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/Exception/GuzzleException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/Exception/InvalidArgumentException.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/Exception/InvalidArgumentException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/Exception/RuntimeException.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/Exception/RuntimeException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/Exception/UnexpectedValueException.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/Exception/UnexpectedValueException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/FromConfigInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/FromConfigInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/HasDispatcherInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/HasDispatcherInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/ToArrayInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/ToArrayInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/Version.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/Version.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/composer.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/AbstractEntityBodyDecorator.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/AbstractEntityBodyDecorator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/CachingEntityBody.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/CachingEntityBody.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Client.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Client.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/ClientInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/ClientInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Curl/CurlHandle.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Curl/CurlHandle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Curl/CurlMulti.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Curl/CurlMulti.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Curl/CurlMultiInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Curl/CurlMultiInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Curl/CurlMultiProxy.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Curl/CurlMultiProxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Curl/CurlVersion.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Curl/CurlVersion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Curl/RequestMediator.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Curl/RequestMediator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/EntityBody.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/EntityBody.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/EntityBodyInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/EntityBodyInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/BadResponseException.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/BadResponseException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/ClientErrorResponseException.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/ClientErrorResponseException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/CouldNotRewindStreamException.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/CouldNotRewindStreamException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/CurlException.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/CurlException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/HttpException.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/HttpException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/MultiTransferException.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/MultiTransferException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/RequestException.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/RequestException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/ServerErrorResponseException.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/ServerErrorResponseException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/TooManyRedirectsException.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/TooManyRedirectsException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/IoEmittingEntityBody.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/IoEmittingEntityBody.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/AbstractMessage.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/AbstractMessage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/EntityEnclosingRequest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/EntityEnclosingRequest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/EntityEnclosingRequestInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/EntityEnclosingRequestInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/Header.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/Header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/Header/CacheControl.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/Header/CacheControl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/Header/HeaderCollection.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/Header/HeaderCollection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/Header/HeaderFactory.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/Header/HeaderFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/Header/HeaderFactoryInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/Header/HeaderFactoryInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/Header/HeaderInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/Header/HeaderInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/Header/Link.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/Header/Link.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/MessageInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/MessageInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFileInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFileInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/Request.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/Request.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/RequestFactory.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/RequestFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/RequestFactoryInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/RequestFactoryInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/RequestInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/RequestInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/Response.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/Response.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Mimetypes.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Mimetypes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/QueryAggregator/CommaAggregator.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/QueryAggregator/CommaAggregator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/QueryAggregator/DuplicateAggregator.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/QueryAggregator/DuplicateAggregator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/QueryAggregator/PhpAggregator.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/QueryAggregator/PhpAggregator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/QueryAggregator/QueryAggregatorInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/QueryAggregator/QueryAggregatorInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/QueryString.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/QueryString.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/ReadLimitEntityBody.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/ReadLimitEntityBody.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/RedirectPlugin.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/RedirectPlugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Resources/cacert.pem" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Resources/cacert.pem" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/StaticClient.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/StaticClient.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Url.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Url.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/composer.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Inflection/Inflector.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Inflection/Inflector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Inflection/InflectorInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Inflection/InflectorInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Inflection/MemoizingInflector.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Inflection/MemoizingInflector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Inflection/PreComputedInflector.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Inflection/PreComputedInflector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Inflection/composer.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Inflection/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Iterator/AppendIterator.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Iterator/AppendIterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Iterator/ChunkedIterator.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Iterator/ChunkedIterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Iterator/FilterIterator.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Iterator/FilterIterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Iterator/MapIterator.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Iterator/MapIterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Iterator/MethodProxyIterator.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Iterator/MethodProxyIterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Iterator/README.md" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Iterator/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Iterator/composer.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Iterator/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/AbstractLogAdapter.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/AbstractLogAdapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/ArrayLogAdapter.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/ArrayLogAdapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/ClosureLogAdapter.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/ClosureLogAdapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/LogAdapterInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/LogAdapterInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/MessageFormatter.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/MessageFormatter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/MonologLogAdapter.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/MonologLogAdapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/PsrLogAdapter.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/PsrLogAdapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/Zf1LogAdapter.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/Zf1LogAdapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/Zf2LogAdapter.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/Zf2LogAdapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/composer.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/Cookie/CookieParser.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/Cookie/CookieParser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/Cookie/CookieParserInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/Cookie/CookieParserInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/Message/AbstractMessageParser.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/Message/AbstractMessageParser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/Message/MessageParser.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/Message/MessageParser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/Message/MessageParserInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/Message/MessageParserInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/Message/PeclHttpMessageParser.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/Message/PeclHttpMessageParser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/ParserRegistry.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/ParserRegistry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/UriTemplate/PeclUriTemplate.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/UriTemplate/PeclUriTemplate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/UriTemplate/UriTemplate.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/UriTemplate/UriTemplate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/UriTemplate/UriTemplateInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/UriTemplate/UriTemplateInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/Url/UrlParser.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/Url/UrlParser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/Url/UrlParserInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/Url/UrlParserInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/composer.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Async/AsyncPlugin.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Async/AsyncPlugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Async/composer.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Async/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/AbstractBackoffStrategy.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/AbstractBackoffStrategy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/AbstractErrorCodeBackoffStrategy.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/AbstractErrorCodeBackoffStrategy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/BackoffLogger.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/BackoffLogger.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/BackoffPlugin.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/BackoffPlugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/BackoffStrategyInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/BackoffStrategyInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/CallbackBackoffStrategy.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/CallbackBackoffStrategy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/ConstantBackoffStrategy.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/ConstantBackoffStrategy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/CurlBackoffStrategy.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/CurlBackoffStrategy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/ExponentialBackoffStrategy.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/ExponentialBackoffStrategy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/HttpBackoffStrategy.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/HttpBackoffStrategy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/LinearBackoffStrategy.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/LinearBackoffStrategy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/ReasonPhraseBackoffStrategy.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/ReasonPhraseBackoffStrategy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/TruncatedBackoffStrategy.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/TruncatedBackoffStrategy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/composer.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/CacheKeyProviderInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/CacheKeyProviderInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/CachePlugin.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/CachePlugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/CacheStorageInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/CacheStorageInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/CallbackCanCacheStrategy.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/CallbackCanCacheStrategy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/CanCacheStrategyInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/CanCacheStrategyInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/DefaultCacheKeyProvider.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/DefaultCacheKeyProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/DefaultCacheStorage.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/DefaultCacheStorage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/DefaultCanCacheStrategy.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/DefaultCanCacheStrategy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/DefaultRevalidation.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/DefaultRevalidation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/DenyRevalidation.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/DenyRevalidation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/RevalidationInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/RevalidationInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/SkipRevalidation.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/SkipRevalidation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/composer.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/Cookie.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/Cookie.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/CookieJar/ArrayCookieJar.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/CookieJar/ArrayCookieJar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/CookieJar/CookieJarInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/CookieJar/CookieJarInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/CookieJar/FileCookieJar.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/CookieJar/FileCookieJar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/CookiePlugin.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/CookiePlugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/Exception/InvalidCookieException.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/Exception/InvalidCookieException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/composer.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/CurlAuth/CurlAuthPlugin.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/CurlAuth/CurlAuthPlugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/CurlAuth/composer.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/CurlAuth/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/ErrorResponse/ErrorResponseExceptionInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/ErrorResponse/ErrorResponseExceptionInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/ErrorResponse/ErrorResponsePlugin.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/ErrorResponse/ErrorResponsePlugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/ErrorResponse/Exception/ErrorResponseException.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/ErrorResponse/Exception/ErrorResponseException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/ErrorResponse/composer.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/ErrorResponse/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/History/HistoryPlugin.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/History/HistoryPlugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/History/composer.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/History/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Log/LogPlugin.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Log/LogPlugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Log/composer.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Log/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Md5/CommandContentMd5Plugin.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Md5/CommandContentMd5Plugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Md5/Md5ValidatorPlugin.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Md5/Md5ValidatorPlugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Md5/composer.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Md5/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Mock/MockPlugin.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Mock/MockPlugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Mock/composer.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Mock/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Oauth/OauthPlugin.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Oauth/OauthPlugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Oauth/composer.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Oauth/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/composer.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/AbstractConfigLoader.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/AbstractConfigLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Builder/ServiceBuilder.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Builder/ServiceBuilder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Builder/ServiceBuilderInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Builder/ServiceBuilderInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Builder/ServiceBuilderLoader.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Builder/ServiceBuilderLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/CachingConfigLoader.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/CachingConfigLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Client.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Client.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/ClientInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/ClientInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/AbstractCommand.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/AbstractCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/ClosureCommand.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/ClosureCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/CommandInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/CommandInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/CreateResponseClassEvent.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/CreateResponseClassEvent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/DefaultRequestSerializer.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/DefaultRequestSerializer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/DefaultResponseParser.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/DefaultResponseParser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/AliasFactory.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/AliasFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/CompositeFactory.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/CompositeFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/ConcreteClassFactory.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/ConcreteClassFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/FactoryInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/FactoryInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/MapFactory.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/MapFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/ServiceDescriptionFactory.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/ServiceDescriptionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/AbstractRequestVisitor.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/AbstractRequestVisitor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/BodyVisitor.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/BodyVisitor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/HeaderVisitor.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/HeaderVisitor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/JsonVisitor.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/JsonVisitor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/PostFieldVisitor.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/PostFieldVisitor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/PostFileVisitor.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/PostFileVisitor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/QueryVisitor.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/QueryVisitor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/RequestVisitorInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/RequestVisitorInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/ResponseBodyVisitor.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/ResponseBodyVisitor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/XmlVisitor.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/XmlVisitor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/AbstractResponseVisitor.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/AbstractResponseVisitor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/BodyVisitor.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/BodyVisitor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/HeaderVisitor.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/HeaderVisitor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/JsonVisitor.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/JsonVisitor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/ReasonPhraseVisitor.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/ReasonPhraseVisitor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/ResponseVisitorInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/ResponseVisitorInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/StatusCodeVisitor.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/StatusCodeVisitor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/XmlVisitor.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/XmlVisitor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/VisitorFlyweight.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/VisitorFlyweight.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/OperationCommand.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/OperationCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/OperationResponseParser.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/OperationResponseParser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/RequestSerializerInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/RequestSerializerInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/ResponseClassInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/ResponseClassInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/ResponseParserInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/ResponseParserInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/ConfigLoaderInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/ConfigLoaderInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Description/Operation.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Description/Operation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Description/OperationInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Description/OperationInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Description/Parameter.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Description/Parameter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Description/SchemaFormatter.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Description/SchemaFormatter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Description/SchemaValidator.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Description/SchemaValidator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Description/ServiceDescription.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Description/ServiceDescription.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Description/ServiceDescriptionInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Description/ServiceDescriptionInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Description/ServiceDescriptionLoader.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Description/ServiceDescriptionLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Description/ValidatorInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Description/ValidatorInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/CommandException.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/CommandException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/CommandTransferException.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/CommandTransferException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/DescriptionBuilderException.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/DescriptionBuilderException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/InconsistentClientTransferException.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/InconsistentClientTransferException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/ResponseClassException.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/ResponseClassException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/ServiceBuilderException.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/ServiceBuilderException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/ServiceNotFoundException.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/ServiceNotFoundException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/ValidationException.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/ValidationException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/AbstractResourceIteratorFactory.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/AbstractResourceIteratorFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/CompositeResourceIteratorFactory.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/CompositeResourceIteratorFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/MapResourceIteratorFactory.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/MapResourceIteratorFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/Model.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/Model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/ResourceIterator.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/ResourceIterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/ResourceIteratorApplyBatched.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/ResourceIteratorApplyBatched.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/ResourceIteratorClassFactory.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/ResourceIteratorClassFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/ResourceIteratorFactoryInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/ResourceIteratorFactoryInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/ResourceIteratorInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/ResourceIteratorInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/composer.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Stream/PhpStreamRequestFactory.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Stream/PhpStreamRequestFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Stream/Stream.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Stream/Stream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Stream/StreamInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Stream/StreamInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Stream/StreamRequestFactoryInterface.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Stream/StreamRequestFactoryInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Stream/composer.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Stream/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/AbstractBatchDecoratorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/AbstractBatchDecoratorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/BatchBuilderTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/BatchBuilderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/BatchClosureDivisorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/BatchClosureDivisorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/BatchClosureTransferTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/BatchClosureTransferTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/BatchCommandTransferTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/BatchCommandTransferTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/BatchRequestTransferTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/BatchRequestTransferTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/BatchSizeDivisorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/BatchSizeDivisorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/BatchTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/BatchTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/ExceptionBufferingBatchTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/ExceptionBufferingBatchTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/FlushingBatchTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/FlushingBatchTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/HistoryBatchTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/HistoryBatchTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/NotifyingBatchTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/NotifyingBatchTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Cache/CacheAdapterFactoryTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Cache/CacheAdapterFactoryTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Cache/CacheAdapterTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Cache/CacheAdapterTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Cache/ClosureCacheAdapterTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Cache/ClosureCacheAdapterTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Cache/NullCacheAdapterTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Cache/NullCacheAdapterTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Cache/Zf2CacheAdapterTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Cache/Zf2CacheAdapterTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Common/AbstractHasDispatcherTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Common/AbstractHasDispatcherTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Common/CollectionTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Common/CollectionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Common/EventTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Common/EventTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Common/Exception/BatchTransferExceptionTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Common/Exception/BatchTransferExceptionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Common/Exception/ExceptionCollectionTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Common/Exception/ExceptionCollectionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Common/VersionTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Common/VersionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/GuzzleTestCase.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/GuzzleTestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/AbstractEntityBodyDecoratorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/AbstractEntityBodyDecoratorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/CachingEntityBodyTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/CachingEntityBodyTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/ClientTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/ClientTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Curl/CurlHandleTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Curl/CurlHandleTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Curl/CurlMultiProxyTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Curl/CurlMultiProxyTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Curl/CurlMultiTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Curl/CurlMultiTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Curl/CurlVersionTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Curl/CurlVersionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Curl/RequestMediatorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Curl/RequestMediatorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/EntityBodyTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/EntityBodyTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Exception/CurlExceptionTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Exception/CurlExceptionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Exception/ExceptionTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Exception/ExceptionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Exception/MultiTransferExceptionTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Exception/MultiTransferExceptionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/IoEmittingEntityBodyTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/IoEmittingEntityBodyTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/AbstractMessageTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/AbstractMessageTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/EntityEnclosingRequestTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/EntityEnclosingRequestTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/Header/HeaderFactoryTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/Header/HeaderFactoryTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/Header/LinkTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/Header/LinkTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/HeaderComparison.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/HeaderComparison.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/HeaderComparisonTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/HeaderComparisonTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/HeaderTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/HeaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/PostFileTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/PostFileTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/RequestFactoryTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/RequestFactoryTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/RequestTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/RequestTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/ResponseTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/ResponseTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/MimetypesTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/MimetypesTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/QueryAggregator/CommaAggregatorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/QueryAggregator/CommaAggregatorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/QueryAggregator/DuplicateAggregatorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/QueryAggregator/DuplicateAggregatorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/QueryAggregator/PhpAggregatorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/QueryAggregator/PhpAggregatorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/QueryStringTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/QueryStringTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/ReadLimitEntityBodyTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/ReadLimitEntityBodyTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Server.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Server.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/StaticClientTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/StaticClientTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/UrlTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/UrlTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/server.js" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Inflection/InflectorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Inflection/InflectorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Inflection/MemoizingInflectorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Inflection/MemoizingInflectorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Inflection/PreComputedInflectorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Inflection/PreComputedInflectorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Iterator/AppendIteratorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Iterator/AppendIteratorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Iterator/ChunkedIteratorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Iterator/ChunkedIteratorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Iterator/FilterIteratorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Iterator/FilterIteratorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Iterator/MapIteratorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Iterator/MapIteratorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Iterator/MethodProxyIteratorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Iterator/MethodProxyIteratorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Log/ArrayLogAdapterTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Log/ArrayLogAdapterTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Log/ClosureLogAdapterTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Log/ClosureLogAdapterTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Log/MessageFormatterTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Log/MessageFormatterTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Log/PsrLogAdapterTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Log/PsrLogAdapterTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Log/Zf2LogAdapterTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Log/Zf2LogAdapterTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Mock/CustomResponseModel.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Mock/CustomResponseModel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Mock/ErrorResponseMock.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Mock/ErrorResponseMock.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Mock/ExceptionMock.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Mock/ExceptionMock.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Mock/MockMulti.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Mock/MockMulti.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Mock/MockObserver.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Mock/MockObserver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Mock/MockSubject.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Mock/MockSubject.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Parser/Cookie/CookieParserProvider.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Parser/Cookie/CookieParserProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Parser/Cookie/CookieParserTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Parser/Cookie/CookieParserTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Parser/Message/MessageParserProvider.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Parser/Message/MessageParserProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Parser/Message/MessageParserTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Parser/Message/MessageParserTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Parser/Message/PeclHttpMessageParserTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Parser/Message/PeclHttpMessageParserTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Parser/ParserRegistryTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Parser/ParserRegistryTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Parser/UriTemplate/AbstractUriTemplateTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Parser/UriTemplate/AbstractUriTemplateTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Parser/UriTemplate/PeclUriTemplateTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Parser/UriTemplate/PeclUriTemplateTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Parser/UriTemplate/UriTemplateTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Parser/UriTemplate/UriTemplateTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Async/AsyncPluginTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Async/AsyncPluginTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/AbstractBackoffStrategyTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/AbstractBackoffStrategyTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/BackoffLoggerTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/BackoffLoggerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/BackoffPluginTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/BackoffPluginTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/CallbackBackoffStrategyTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/CallbackBackoffStrategyTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/ConstantBackoffStrategyTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/ConstantBackoffStrategyTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/CurlBackoffStrategyTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/CurlBackoffStrategyTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/ExponentialBackoffStrategyTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/ExponentialBackoffStrategyTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/HttpBackoffStrategyTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/HttpBackoffStrategyTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/LinearBackoffStrategyTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/LinearBackoffStrategyTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/ReasonPhraseBackoffStrategyTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/ReasonPhraseBackoffStrategyTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/TruncatedBackoffStrategyTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/TruncatedBackoffStrategyTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cache/CachePluginTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cache/CachePluginTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cache/CallbackCanCacheStrategyTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cache/CallbackCanCacheStrategyTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cache/DefaultCacheStorageTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cache/DefaultCacheStorageTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cache/DefaultCanCacheStrategyTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cache/DefaultCanCacheStrategyTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cache/DefaultRevalidationTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cache/DefaultRevalidationTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cache/DenyRevalidationTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cache/DenyRevalidationTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cache/SkipRevalidationTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cache/SkipRevalidationTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cookie/CookieJar/ArrayCookieJarTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cookie/CookieJar/ArrayCookieJarTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cookie/CookieJar/FileCookieJarTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cookie/CookieJar/FileCookieJarTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cookie/CookiePluginTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cookie/CookiePluginTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cookie/CookieTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cookie/CookieTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/CurlAuth/CurlAuthPluginTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/CurlAuth/CurlAuthPluginTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/ErrorResponse/ErrorResponsePluginTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/ErrorResponse/ErrorResponsePluginTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/History/HistoryPluginTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/History/HistoryPluginTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Log/LogPluginTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Log/LogPluginTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Md5/CommandContentMd5PluginTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Md5/CommandContentMd5PluginTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Md5/Md5ValidatorPluginTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Md5/Md5ValidatorPluginTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Mock/MockPluginTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Mock/MockPluginTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Oauth/OauthPluginTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Oauth/OauthPluginTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/AbstractConfigLoaderTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/AbstractConfigLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Builder/ServiceBuilderLoaderTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Builder/ServiceBuilderLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Builder/ServiceBuilderTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Builder/ServiceBuilderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/CachingConfigLoaderTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/CachingConfigLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/ClientTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/ClientTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/AbstractCommandTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/AbstractCommandTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/ClosureCommandTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/ClosureCommandTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/CommandTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/CommandTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/DefaultRequestSerializerTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/DefaultRequestSerializerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/DefaultResponseParserTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/DefaultResponseParserTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/Factory/AliasFactoryTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/Factory/AliasFactoryTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/Factory/CompositeFactoryTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/Factory/CompositeFactoryTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/Factory/ConcreteClassFactoryTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/Factory/ConcreteClassFactoryTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/Factory/MapFactoryTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/Factory/MapFactoryTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/Factory/ServiceDescriptionFactoryTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/Factory/ServiceDescriptionFactoryTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Request/AbstractVisitorTestCase.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Request/AbstractVisitorTestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Request/BodyVisitorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Request/BodyVisitorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Request/HeaderVisitorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Request/HeaderVisitorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Request/JsonVisitorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Request/JsonVisitorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Request/PostFieldVisitorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Request/PostFieldVisitorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Request/PostFileVisitorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Request/PostFileVisitorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Request/QueryVisitorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Request/QueryVisitorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Request/ResponseBodyVisitorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Request/ResponseBodyVisitorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Request/XmlVisitorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Request/XmlVisitorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Response/AbstractResponseVisitorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Response/AbstractResponseVisitorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Response/BodyVisitorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Response/BodyVisitorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Response/HeaderVisitorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Response/HeaderVisitorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Response/JsonVisitorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Response/JsonVisitorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Response/ReasonPhraseVisitorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Response/ReasonPhraseVisitorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Response/StatusCodeVisitorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Response/StatusCodeVisitorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Response/XmlVisitorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Response/XmlVisitorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/VisitorFlyweightTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/VisitorFlyweightTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/OperationCommandTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/OperationCommandTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/OperationResponseParserTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/OperationResponseParserTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Description/OperationTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Description/OperationTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Description/ParameterTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Description/ParameterTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Description/SchemaFormatterTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Description/SchemaFormatterTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Description/SchemaValidatorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Description/SchemaValidatorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Description/ServiceDescriptionLoaderTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Description/ServiceDescriptionLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Description/ServiceDescriptionTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Description/ServiceDescriptionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Exception/CommandTransferExceptionTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Exception/CommandTransferExceptionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Exception/InconsistentClientTransferExceptionTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Exception/InconsistentClientTransferExceptionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Exception/ValidationExceptionTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Exception/ValidationExceptionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Mock/Command/IterableCommand.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Mock/Command/IterableCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Mock/Command/MockCommand.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Mock/Command/MockCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Mock/Command/OtherCommand.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Mock/Command/OtherCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Mock/Command/Sub/Sub.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Mock/Command/Sub/Sub.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Mock/MockClient.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Mock/MockClient.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Mock/Model/MockCommandIterator.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Mock/Model/MockCommandIterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Resource/CompositeResourceIteratorFactoryTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Resource/CompositeResourceIteratorFactoryTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Resource/MapResourceIteratorFactoryTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Resource/MapResourceIteratorFactoryTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Resource/ModelTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Resource/ModelTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Resource/ResourceIteratorClassFactoryTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Resource/ResourceIteratorClassFactoryTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Resource/ResourceIteratorTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Resource/ResourceIteratorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Stream/PhpStreamRequestFactoryTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Stream/PhpStreamRequestFactoryTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Stream/StreamTest.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Stream/StreamTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/FileBody.txt" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/FileBody.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/description/bar.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/description/bar.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/description/baz.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/description/baz.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/description/foo.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/description/foo.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/description/recursive.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/description/recursive.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/mock_response" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/mock_response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/services/json1.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/services/json1.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/services/json2.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/services/json2.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/services/services.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/services/services.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/test_service.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/test_service.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/test_service2.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/test_service2.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/test_service_3.json" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/test_service_3.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/bootstrap.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/.gitignore" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/.travis.yml" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/README.md" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/SharedHostInstall.md" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/SharedHostInstall.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/composer.json" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/phpunit.xml.dist" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/phpunit.xml.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Connection/Exceptions/GenericHTTPError.php" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Connection/Exceptions/GenericHTTPError.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Connection/Exceptions/InvalidCredentials.php" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Connection/Exceptions/InvalidCredentials.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Connection/Exceptions/MissingEndpoint.php" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Connection/Exceptions/MissingEndpoint.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Connection/Exceptions/MissingRequiredParameters.php" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Connection/Exceptions/MissingRequiredParameters.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Connection/Exceptions/NoDomainsConfigured.php" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Connection/Exceptions/NoDomainsConfigured.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Constants/Constants.php" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Constants/Constants.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Lists/OptInHandler.php" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Lists/OptInHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Lists/README.md" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Lists/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Messages/BatchMessage.php" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Messages/BatchMessage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Messages/Exceptions/InvalidParameter.php" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Messages/Exceptions/InvalidParameter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Messages/Exceptions/InvalidParameterType.php" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Messages/Exceptions/InvalidParameterType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Messages/Exceptions/MissingRequiredMIMEParameters.php" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Messages/Exceptions/MissingRequiredMIMEParameters.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Messages/Exceptions/TooManyParameters.php" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Messages/Exceptions/TooManyParameters.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Messages/MessageBuilder.php" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Messages/MessageBuilder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Messages/README.md" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Messages/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Bootstrap.php" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/Connection/ConnectionTest.php" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/Connection/ConnectionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/Lists/OptInHandlerTest.php" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/Lists/OptInHandlerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/MailgunTest.php" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/MailgunTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/MailgunTestCase.php" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/MailgunTestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/Messages/BatchMessageTest.php" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/Messages/BatchMessageTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/Messages/MessageBuilderTest.php" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/Messages/MessageBuilderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/Messages/StandardMessageTest.php" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/Messages/StandardMessageTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/Mock/Connection/TestBroker.php" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/Mock/Connection/TestBroker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/Mock/Mailgun.php" afterPath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/Mock/Mailgun.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/.gitignore" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/ContainerAwareEventDispatcher.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/ContainerAwareEventDispatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcher.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcherInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcherInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Debug/WrappedListener.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Debug/WrappedListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/DependencyInjection/RegisterListenersPass.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/DependencyInjection/RegisterListenersPass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Event.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Event.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventDispatcher.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventDispatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventDispatcherInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventDispatcherInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventSubscriberInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventSubscriberInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/GenericEvent.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/GenericEvent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/ImmutableEventDispatcher.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/ImmutableEventDispatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/README.md" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/AbstractEventDispatcherTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/AbstractEventDispatcherTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/ContainerAwareEventDispatcherTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/ContainerAwareEventDispatcherTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/Debug/TraceableEventDispatcherTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/Debug/TraceableEventDispatcherTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/DependencyInjection/RegisterListenersPassTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/DependencyInjection/RegisterListenersPassTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/EventDispatcherTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/EventDispatcherTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/EventTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/EventTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/GenericEventTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/GenericEventTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/ImmutableEventDispatcherTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/ImmutableEventDispatcherTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/composer.json" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/phpunit.xml.dist" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/phpunit.xml.dist" />
+    </list>
+    <ignored path="burger-joint.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="burger-joint" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1429" />
+    <option name="y" value="24" />
+    <option name="width" value="1857" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="burger-joint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="burger-joint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="burger-joint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7fe18c1d-1034-4289-88c4-c14dbb9bf262" name="Default" comment="" />
+      <created>1450258527584</created>
+      <option name="number" value="Default" />
+      <updated>1450258527584</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1429" y="24" width="1857" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18221977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3274244" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>

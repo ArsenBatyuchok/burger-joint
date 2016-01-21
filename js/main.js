@@ -1,5 +1,30 @@
 angular
-    .module('burgerApp', ['ui.bootstrap'])
+    .module('burgerApp', ['ui.bootstrap', 'ui.router'])
+
+    // routes on website
+    .config(function($stateProvider, $urlRouterProvider) {
+        $urlRouterProvider.otherwise("/");
+        $stateProvider
+            .state('root', {
+                url: "/"
+            })
+            .state('error', {
+                url: "/error",
+                templateUrl: '../templates/error.tpl.html'
+            })
+            .state('success', {
+                url: "/success",
+                templateUrl: '../templates/success.tpl.html'
+            })
+            .state('pending', {
+                url: "/pending",
+                templateUrl: '../templates/pending.tpl.html'
+            })
+            .state('failure', {
+                url: "/failure",
+                templateUrl: '../templates/failure.tpl.html'
+            });
+        })
 
     // filter for orders
     .filter('ordered', function () {
@@ -17,7 +42,7 @@ angular
     })
 
     // Controller
-	.controller('MainController', function($scope, $document, $filter, $location) {
+	.controller('MainController', function($scope, $document, $filter, $location, $http) {
 
         // data
 
@@ -216,7 +241,7 @@ angular
                 includeDelivery: null
             };
             for (var array in $scope.menu) {
-                total.sum += $scope.menu[array].reduce(function(acc, el) { 
+                total.sum += $scope.menu[array].reduce(function(acc, el) {
                     return acc + el.price * el.qty 
                 }, 0);
             }
@@ -228,7 +253,17 @@ angular
             return total;
         }
 
+        // for (var array in $scope.menu) {
+        //     for (var i=0; i < $scope.menu[array].length; i++) {
+        //         if ($scope.menu[array][i].qty > 0) {
+        //             $scope.fullOrderDetails.ordered.push($scope.menu[array][i]);
+        //         }
+        //     }
+        // }
+
         $scope.getFullOrderDetails = function() {
+            $scope.fullOrderDetails.ordered = [];
+
             for (var array in $scope.menu) {
                 for (var i=0; i < $scope.menu[array].length; i++) {
                     if ($scope.menu[array][i].qty > 0) {
@@ -237,7 +272,7 @@ angular
                 }
             }
             $scope.fullOrderDetails.totalPrice = $scope.calcTotal();
-            $scope.data = JSON.stringify($scope.fullOrderDetails);
+            $scope.data = $scope.fullOrderDetails;
             if ($scope.fullOrderDetails.rememberOrder) {
                 localStorage['menu'] = JSON.stringify($scope.menu);
                 localStorage['phoneNumber'] = $scope.fullOrderDetails.phoneNumber;
@@ -247,20 +282,13 @@ angular
                 localStorage['menu'] = '';
             }
             location.href = '../scripts/pay.php?data='+$scope.data;
+            //return $scope.data;
         }
 
-        $scope.showFailureMessage = false;
-        $scope.showSuccessMessage = false;
-        $scope.currentPath = $location.path();
-
-        if($scope.currentPath == 'failure') {
-            $scope.showFailureMessage = true;
-        } else if ($scope.currentPath == 'success') {
-            $scope.showSuccessMessage = true;
-        } else if ($scope.currentPath == 'pending') {
-            $scope.showPendingMessage = true;
-        } else if ($scope.currentPath == 'error') {
-            $scope.showErrorMessage = true;
+            $http.post('../scripts/pay.php', $scope.data).success(function ($data) {
+                location.replace($data);
+                location.href = $data
+            });
         }
     })
 
@@ -295,6 +323,4 @@ angular
   }
 }
 );
-
-// comment
 
