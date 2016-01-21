@@ -12,7 +12,7 @@ if (isset($request)) {
     try {
         $db = new Database();
         $db->beginTransaction();
-        $response = $db->insertClient($request->textMessage, $request->phoneNumber, $amount, json_encode($request->ordered));
+        $response = $db->insertClient($request->textMessage, $request->phoneNumber, $amount, json_encode($request));
         if (!$response['state']) {
             die('Server error. Please contact to administrator.');
         }
@@ -22,7 +22,8 @@ if (isset($request)) {
             $lp = new LiqPay($publicKey, $privateKey);
             $url = $lp->cnb_form(array(
                 'version' => '3',
-                'amount' => $amount,
+//                'amount' => $amount,
+                'amount' => 1,
                 'currency' => 'UAH',
                 'description' => 'payment for order '.$response['id'].' for burgerjoint.com.ua',
                 'server_url' => "{$_SERVER['HTTP_HOST']}/scripts/server.php",
@@ -35,7 +36,7 @@ if (isset($request)) {
             $email = new Email();
             if ($email->sendEmail($request, true, $response['id'])) {
                 $db->setAsPaid($response['id']);
-//                $sms->sendSMS('BurgerJoint', $params['adminNumber'], 'Нове замовлення ' . $response['id']);
+                $sms->sendSMS('BurgerJoint', $params['adminNumber'], 'Нове замовлення ' . $response['id']);
                 $url = 'http://' . $_SERVER['HTTP_HOST'] . '/index.html#/success';
             } else {
                 $url = 'http://' .$_SERVER['HTTP_HOST'] .'/index.html#/failure';

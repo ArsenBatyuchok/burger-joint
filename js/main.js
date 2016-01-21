@@ -275,17 +275,6 @@ angular
                 localStorage['menu'] = '';
             }
 
-
-            //function getURLParameter(name) {
-            //    return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
-            //}
-            //
-            //var d = getURLParameter('XDEBUG_SESSION_START');
-
-
-            //$http.post('../scripts/pay.php' + '?XDEBUG_SESSION_START=' + d, $scope.data).success(function ($data) {
-
-
             $http.post('../scripts/pay.php', $scope.data).success(function ($data) {
                 location.replace($data);
                 location.href = $data

@@ -16,7 +16,6 @@ foreach ($allInActiveOrder as $order) {
         'version'       => '3',
         'order_id'      => $order['clientId'],
     ));
-
     if ($res->result == 'error') {
         if ($db->sendErrorSms($order['clientId'])) {
             if ($db->setAsError($order['clientId'])) {
