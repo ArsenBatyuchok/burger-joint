@@ -1,3 +1,8 @@
+@media (min-width: 1600px) {
+	section.banner:after {
+		height: 40px;
+	}
+}
 @media (min-width: 1200px) {
 	.doneness-popover {
 		top: 40px;
@@ -78,6 +83,10 @@
 	}
 	.order-list {
 		max-height: none;
+		overflow: hidden;
+	}
+	.doneness-trigger {
+		right: 17px;
 	}
 }
 @media (max-width: 1080px) {

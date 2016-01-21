@@ -32,8 +32,9 @@
                         </div>
                     </div>
                     <div class="header-info">
-                        <a href="tel:+380671345834">+38 (067) 134 58 34</a>
-                        <div>09:00-23:00 без вихiдних</div>
+                        <a href="tel:+380322355029">+38 (032) 235 50 29</a>
+                        <a href="tel:+380682355029">+38 (068) 235 50 29</a>
+                        <div>10:00-23:00 без вихiдних</div>
                     </div>
                 </header>
             </section>
@@ -236,6 +237,9 @@
                                 <span class="item-name">
                                     {{ drink.name }}
                                 </span>
+                                <span class="item-details">
+                                    {{ drink.details }}
+                                </span>
                                 <div class="additional-quantity-wrapper" ng-show="drink.qty > 0">
                                     <div class="order-controls">
                                         <a href="javascript:void(0)" class="subtract" ng-click="itemDecrement(drink)"></a>
@@ -267,6 +271,9 @@
                                 <span class="item-name">
                                     {{ beer.name }}
                                 </span>
+                                <span class="item-details">
+                                    {{ beer.details }}
+                                </span>
                                 <div class="additional-quantity-wrapper" ng-show="beer.qty > 0">
                                     <div class="order-controls">
                                         <a href="javascript:void(0)" class="subtract" ng-click="itemDecrement(beer)"></a>
@@ -285,7 +292,7 @@
                             Вода
                         </h3>
                         <div class="additional-list">
-                            <div class="additional-list-item" ng-repeat="water in menu.water">
+                            <div class="additional-list-item additional-list-item-water" ng-repeat="water in menu.water">
                                 <input type="checkbox" 
                                        class="bj-checkbox"
                                        name="waterInput"
@@ -295,6 +302,9 @@
                                 <label for="waterInput{{$index}}">
                                 <span class="item-name">
                                     {{ water.name }}
+                                </span>
+                                <span class="item-details">
+                                    {{ water.details }}
                                 </span>
                                 <div class="additional-quantity-wrapper" ng-show="water.qty > 0">
                                     <div class="order-controls">
@@ -467,6 +477,19 @@
                                             </div>
                                         </div>
                                     </li>
+                                    <li class="order-item" ng-if="calcTotal().includeDelivery">
+                                        <div class="order-item-name">
+                                            Доставка 
+                                            <span class="item-details">
+                                                (замовлення до 100 грн)
+                                            </span>
+                                        </div>
+                                        <div class="order-details">
+                                            <div class="order-item-price">
+                                                <span class="order-item-price-amount">30</span> грн
+                                            </div>
+                                        </div>
+                                    </li>
                                 </ul>
                                 <div class="order-summary" ng-show="filteredBurgers.length ||
                                               filteredSalads.length ||
@@ -483,19 +506,20 @@
                                     </div>
                                     <div class="order-total">
                                         Загалом: 
-                                        <span class="order-total-amount">{{ calcTotal() }}</span>
+                                        <span class="order-total-amount">{{ calcTotal().sum }}</span>
                                         грн
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="form-wrapper">
-                            <form name="orderForm">
+                            <form name="orderForm" novalidate>
                                 <label for="phoneNumberInput" class="o-hid">
                                     <div class="label-msg">Ваш телефон</div>
-                                    <input type="text" id="phoneNumberInput" 
-                                           placeholder="(067) 374 57 73"
-                                           ng-model="fullOrderDetails.phoneNumber" required />
+                                    <input type="text" id="phoneNumberInput" name="phoneNumber" ng-maxlength="10" ng-pattern="/[0-9]{10}/" required
+                                           placeholder="067 374 57 73"
+                                           ng-model="fullOrderDetails.phoneNumber"  />
+                                     <div class="error">Номер телефону має складатися із 10 цифр</div>
                                 </label>
                                 <label for="deliveryInput" class="textarea-holder o-hid">
                                     <div class="label-msg">Куди веземо?</div>
@@ -507,10 +531,6 @@
                                     <input type="radio" id="cashPaymentInput" class="bj-radio" name="paymentMethod" ng-model="fullOrderDetails.paymentMethod" value="cashPayment" />
                                     <label for="cashPaymentInput">
                                         Готівкою кур’єру
-                                    </label>
-                                    <input type="radio" id="cardPaymentInput" class="bj-radio" name="paymentMethod" ng-model="fullOrderDetails.paymentMethod" value="cardPayment" />
-                                    <label for="cardPaymentInput">
-                                        Карткою на місці
                                     </label>
                                     <input type="radio" id="onlinePaymentInput" class="bj-radio" name="paymentMethod" ng-model="fullOrderDetails.paymentMethod" value="onlinePayment" />
                                     <label for="onlinePaymentInput">
@@ -529,68 +549,22 @@
                         <div class="logo"></div>
                     </div>
                     <div class="footer-info">
-                        <a href="tel:+380671345834">+38 (067) 134 58 34</a>
-                        <div>Староеврейська, 26</div>
+                        <a href="tel:+380322355029">+38 (032) 235 50 29</a>
+                        <a href="tel:+380682355029">+38 (068) 235 50 29</a>
+                        <div>Староєврейська, 26</div>
                     </div>
                 </footer>
             </section>
-            <div class="popup-wrapper" ng-show="currentPath == '/success'">
-                <div class="backdrop"></div>
-                <div class="popup">
-                  <div class="additional-block additional-block-sm">
-                    <a href="#" ng-click="currentPath = '/'" class="popup-dismiss"></a>
-                    <h3>
-                      Ваше замовлення прийнято
-                    </h3>
-                    <p>Ми Вам зателефонуємо.</p>
-                  </div>
-                </div>
-            </div>
-            <div class="popup-wrapper" ng-show="currentPath == '/failure'">
-                <div class="backdrop"></div>
-                <div class="popup">
-                  <div class="additional-block additional-block-sm">
-                    <a href="#" ng-click="currentPath = '/'" class="popup-dismiss"></a>
-                    <h3>
-                      Не вдалося виконати замовлення
-                    </h3>
-                    <p>
-                      Повідомте нас про це за телефоном: 
-                      <a href="tel:+380671345834">+38 (067) 134 58 34</a>
-                    </p>
-                  </div>
-                </div>
-            </div>
-            <div class="popup-wrapper" ng-show="currentPath == '/pending'">
-                <div class="backdrop"></div>
-                <div class="popup">
-                  <div class="additional-block additional-block-sm">
-                    <a href="#" ng-click="currentPath = '/'" class="popup-dismiss"></a>
-                    <h3>
-                      Ваше замовлення в стані обробки...
-                    </h3>
-                  </div>
-                </div>
-            </div>
-            <div class="popup-wrapper" ng-show="currentPath == '/error'">
-                <div class="backdrop"></div>
-                <div class="popup">
-                  <div class="additional-block additional-block-sm">
-                    <a href="#" ng-click="currentPath = '/'" class="popup-dismiss"></a>
-                    <h3>
-                      Сталася помилка!
-                    </h3>
-                    <p>
-                      Повідомте нас про це за телефоном: 
-                      <a href="tel:+380671345834">+38 (067) 134 58 34</a>
-                    </p>
-                  </div>
-                </div>
-            </div>
+            
+            <!-- popups with error/success will be injected here -->
+            <ui-view></ui-view>
+            
+            
         </div>
         <script src="js/vendor/angular.min.js"></script>
         <script src="js/vendor/jquery-2.1.4.min.js"></script>
         <script src="js/vendor/ui-bootstrap-0.13.0.min.js"></script>
+        <script src="js/vendor/angular-ui-router.min.js"></script>
         <script src="js/vendor/jquery.maskedinput.min.js"></script>
         <script src="js/main.js"></script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

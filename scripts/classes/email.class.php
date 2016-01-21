@@ -1,5 +1,5 @@
 <?php
-require '../vendor/autoload.php';
+require_once dirname(__DIR__) . '/../vendor/autoload.php';
 use Mailgun\Mailgun;
 
 class Email
@@ -10,14 +10,37 @@ class Email
     const TYPE_FRIES = 'fries';
     const TYPE_SALAD = 'salads';
     const TYPE_BURGER = 'burgers';
+    const TYPE_SAUCES = 'sauces';
 
     public function sendEmail($message, $state = true, $order)
     {
-        $data = require 'params.php';
+        $data = require dirname(__DIR__) . '/params.php';
         $mgClient = new Mailgun($data['mailGun']['apiKey']);
+        $mgClient->sendMessage($data['mailGun']['domain'],
+            [
+                'from'    => "Burger Joint <postmaster@sandbox826ba91f3f2e476dbd8feefea0b862c6.mailgun.org>",
+                'to'      => "alexandr.vasiliev@iqria.com",
+                'subject' => 'Замовлення '.$order,
+                'html'    => ($state)? $this->setMessage($message) : $message,
+            ]);
+        $mgClient->sendMessage($data['mailGun']['domain'],
+            [
+                'from'    => "Burger Joint <postmaster@sandbox826ba91f3f2e476dbd8feefea0b862c6.mailgun.org>",
+                'to'      => "alexandr.sharygin@iqria.com",
+                'subject' => 'Замовлення '.$order,
+                'html'    => ($state)? $this->setMessage($message) : $message,
+            ]);
+        $mgClient->sendMessage($data['mailGun']['domain'],
+            [
+                'from'    => "Burger Joint <postmaster@sandbox826ba91f3f2e476dbd8feefea0b862c6.mailgun.org>",
+                'to'      => "lidiya.chuhlib@iqria.com",
+                'subject' => 'Замовлення '.$order,
+                'html'    => ($state)? $this->setMessage($message) : $message,
+            ]);
+
         return $mgClient->sendMessage($data['mailGun']['domain'],
             [
-                'from'    => "Mailgun Sandbox <postmaster@sandbox826ba91f3f2e476dbd8feefea0b862c6.mailgun.org>",
+                'from'    => "Burger Joint <postmaster@sandbox826ba91f3f2e476dbd8feefea0b862c6.mailgun.org>",
                 'to'      => "Burger <{$data['mailGun']['email']}>",
                 'subject' => 'Замовлення '.$order,
                 'html'    => ($state)? $this->setMessage($message) : $message,
@@ -40,10 +63,32 @@ class Email
         $countFries = $this->countType($data->ordered, self::TYPE_FRIES);
         $countDrink = $this->countType($data->ordered, self::TYPE_DRINK);
         $countWater = $this->countType($data->ordered, self::TYPE_WATER);
+        $countSauces = $this->countType($data->ordered, self::TYPE_SAUCES);
         $stateBurger = false;
         for ($i=0; $i<count($data->ordered); $i++) {
             $order = $data->ordered[$i];
-            if ($order->type == self::TYPE_BEER) { // beer start
+            if ($order->type == self::TYPE_SAUCES) { // beer start
+                $result .= "<tr>
+                                <td rowspan='".$countSauces."'>Соуси</td>
+                                <td colspan='2'>{$order->name}</td>
+                                <td>{$order->price}</td>
+                                <td>{$order->qty}</td>
+                                <td>" .($order->qty * $order->price) . "</td>
+                            </tr>";
+                if ($countSauces > 1) {
+                    $countSauces--;
+                    while ($countSauces != 0) {
+                        $order = $data->ordered[++$i];
+                        $result .= "<tr>
+                                        <td colspan='2'>{$order->name}</td>
+                                        <td>{$order->price}</td>
+                                        <td>{$order->qty}</td>
+                                        <td>" .($order->qty * $order->price) . "</td>
+                                    </tr>";
+                        $countSauces--;
+                    }
+                }
+            } elseif ($order->type == self::TYPE_BEER) { // beer start
                 $result .= "<tr>
                                 <td rowspan='".$countBeer."'>Пиво</td>
                                 <td>{$order->name}</td>
@@ -91,18 +136,18 @@ class Email
                 }
                 $stateBurger = true;
                 if ($countBurger >= 1) {
-                        if (count($doneness) > 1) {
-                            unset($doneness[$currentKey]);
-                            foreach($doneness as $key => $value) {
-                                $result .= "<tr>
+                    if (count($doneness) > 1) {
+                        unset($doneness[$currentKey]);
+                        foreach($doneness as $key => $value) {
+                            $result .= "<tr>
                                                 <td>{$key}</td>
                                                 <td>{$order->price}</td>
                                                 <td>{$value}</td>
                                                 <td>" .($value * $order->price) . "</td>
                                             </tr>";
-                            }
-
                         }
+
+                    }
                 }
             } elseif ($order->type == self::TYPE_SALAD) { // salad start
                 $result .= "<tr>
@@ -127,7 +172,7 @@ class Email
                     }
                 }
             } elseif ($order->type == self::TYPE_FRIES) { //fries start
-                    $result .= "<tr>
+                $result .= "<tr>
                                     <td rowspan='".$countFries."'>КАРТОПЛЯ ФРІ</td>
                                     <td colspan='2'>{$order->name}</td>
                                     <td>{$order->price}</td>
@@ -204,7 +249,7 @@ class Email
                         <td style='border: none;'></td>
                         <td style='border: none;'></td>
                         <td>Всього</td>
-                        <td>{$data->totalPrice}</td>
+                        <td>{$data->totalPrice->sum}</td>
                     </tr>";
         $result .= '</table>';
         $result .= "Номер телефона - {$data->phoneNumber}<br>";
@@ -264,4 +309,3 @@ class Email
         return $res;
     }
 }
-

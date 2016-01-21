@@ -1,8 +1,5 @@
 <?php
 return [
-    'main' => [
-        'host' => 'burger.loc/',
-    ],
     'liqpay' => [
         'publicKey' => 'i34110847150',
         'privateKey' => 'WikAcj8WW0pOSeMOHSF8NjLxxIUm1zAbXg44toSP',
@@ -23,5 +20,6 @@ return [
         'login' => '380673702022',
         'password' => '123456',
     ],
+    'adminNumber' => '380630669651',
 
 ];
