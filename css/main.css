@@ -1,0 +1,841 @@
+@font-face {
+    font-family: 'tenor_sansregular';
+    src: url('../fonts/TenorSans-Regulartenor.eot');
+    src: url('../fonts/TenorSans-Regulartenor.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TenorSans-Regulartenor.woff') format('woff'),
+    url('../fonts/TenorSans-Regulartenor.ttf') format('truetype'),
+    url('../fonts/TenorSans-Regulartenor.svg#tenor_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bebas_neue_bold';
+    src: url('../fonts/bebasneue_bold-webfont.eot');
+    src: url('../fonts/bebasneue_bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/bebasneue_bold-webfont.woff') format('woff'),
+    url('../fonts/bebasneue_bold-webfont.ttf') format('truetype'),
+    url('../fonts/bebasneue_bold-webfont.svg#bebas_neuebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bebas_neue_book';
+    src: url('../fonts/bebasneue_book-webfont.eot');
+    src: url('../fonts/bebasneue_book-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/bebasneue_book-webfont.woff') format('woff'),
+    url('../fonts/bebasneue_book-webfont.ttf') format('truetype'),
+    url('../fonts/bebasneue_book-webfont.svg#bebas_neuebook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.f-left {
+    float: left;
+}
+.f-right {
+    float: right;
+}
+.p-rel {
+    position: relative;
+}
+.o-hid {
+    overflow: hidden;
+}
+
+
+/*Page Styles*/
+html, body {
+    font-family: 'tenor_sansregular', sans-serif;
+    font-size: 14px;
+}
+html, body, .outer-wrapper {
+    height: 100%;
+}
+body {
+    background: #F7F7F7;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+section.banner {
+    height: 100%;
+    background: url('../img/background-img.jpg') no-repeat 50% 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-attachment: fixed;
+    position: relative;
+}
+section.banner:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    height: 27px;
+    width: 100%;
+    background: url('../img/background-img-border-btm.png') no-repeat 50% 100%;
+    background-size: cover;
+}
+header.container {
+    margin-top: 48px;
+}
+.logo-holder {
+    overflow: hidden;
+    float: left;
+}
+.logo {
+    background: url('../img/logo.png') no-repeat 0 0;
+    background-size: cover;
+    width: 100px;
+    height: 81px;
+    float: left;
+}
+.logo-msg {
+    font-size: 23px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.15;
+    float: left;
+    margin: 10px 0 0 10px;
+    letter-spacing: 0.9px;
+}
+.header-info {
+    text-transform: uppercase;
+    float: right;
+    font-size: 21px;
+    line-height: 1.2;
+    font-family: 'bebas_neue_book';
+    text-align: right;
+    letter-spacing: 0.87px;
+    margin-top: 10px;
+}
+.header-info a,
+.header-info div {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*Burger styles*/
+section.burgers {
+    position: relative;
+}
+section.burgers:after {
+    content: " ";
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 12px;
+    background: url('../img/burger-border-img.png') no-repeat 0 0;
+    background-size: 100% 12px;
+}
+h2 {
+    font-size: 48px;
+    line-height: 1.18;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+    margin: 50px 0;
+}
+h2:after {
+    content: " ";
+    width: 100px;
+    border-top: 1px dashed #AE814A;
+    display: block;
+    margin: 8px auto 0;
+}
+.burger-row .burger-block {
+    width: 50%;
+    display: inline-block;
+    margin-bottom: 90px;
+}
+.burger-block .img-holder {
+    max-width: 133px;
+    float: left;
+    min-height: 114px;
+}
+.burger-block .img-holder img {
+    width: 100%;
+}
+.burger-block .burger-info {
+    float: left;
+    max-width: 340px;
+    margin-left: 25px;
+}
+.burger-block .burger-header {
+    font-family: 'bebas_neue_bold';
+    border-bottom: 1px dashed #AE814A;
+    position: relative;
+}
+.burger-block h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0;
+    letter-spacing: 1px;
+}
+.burger-block .item-details {
+    position: relative;
+    top: -5px;
+}
+.burger-block .burger-add,
+.additional-block .additional-add {
+    background: url('../img/sprite.svg') no-repeat 0 0;
+    width: 32px;
+    height: 32px;
+}
+.burger-block .burger-add {
+    display: block;
+    float: right;
+    margin-right: 18px;
+    margin-top: -1px;
+}
+.additional-block .additional-add {
+    float: left;
+}
+/*.burger-quantity-wrapper .order-controls,
+.burger-quantity-wrapper .order-item-quantity,
+.additional-quantity-wrapper .order-controls,
+.additional-quantity-wrapper .order-item-quantity {
+	float: left;
+}*/
+.burger-quantity-wrapper .order-item-quantity,
+.additional-quantity-wrapper .order-item-quantity {
+    line-height: 36px;
+    display: inline-block;
+}
+.additional-quantity-wrapper .order-item-quantity {
+    line-height: 24px;
+}
+.additional-quantity-wrapper {
+    display: inline-block;
+}
+.additional-quantity-wrapper .order-controls {
+    margin-left: 0;
+}
+.additional-quantity-wrapper .order-controls a {
+    top: 1px;
+}
+.burger-block .burger-quantity-wrapper .order-item-quantity {
+    position: relative;
+    top: 4px;
+}
+.order-item-quantity {
+    font-size: 21px;
+}
+.burger-quantity-wrapper .order-controls {
+    top: -3px;
+}
+.burger-quantity-wrapper {
+    margin-right: 13px;
+    position: absolute;
+    right: 0;
+}
+.burger-block .desc {
+    position: relative;
+    min-height: 140px;
+}
+.burger-block .desc p {
+    font-size: 15px;
+    line-height: 1.23;
+    margin: 0;
+    margin-right: 70px;
+    padding-top: 8px;
+    border-right: 1px dashed #AE814A;
+    letter-spacing: 0.3px;
+    padding-right: 10px;
+}
+.burger-block .price {
+    float: left;
+    text-align: center;
+    line-height: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 70px;
+    margin-top: 9px;
+}
+.burger-block .amount {
+    font-size: 40px;
+    font-family: 'bebas_neue_bold';
+    display: block;
+}
+.burger-block .currency {
+    font-family: 'bebas_neue_book';
+    color: #AE814A;
+    font-size: 18px;
+    display: block;
+
+}
+/*END Burger styles*/
+
+/*Additional Section styles*/
+.additional {
+    background: url('../img/background-text.png') repeat-y 0 0;
+    background-color: #fff;
+    background-size: 100%;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.additional-block {
+    display: inline-block;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    vertical-align: middle;
+}
+.additional-block h3 {
+    font-size: 34px;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 300;
+}
+.additional-block h3:after {
+    content: " ";
+    border-top: 1px dashed #AE814A;
+    display: block;
+    margin: 5px auto 0;
+}
+.additional-block-md h3:after {
+    width: 250px;
+}
+.additional-block-md .additional-list-item {
+    max-width: 250px;
+    float: left;
+    width: 50%;
+}
+.additional-block-md .additional-list-item:nth-child(2n+0) {
+    margin-left: 70px;
+}
+
+.additional-block.additional-block-sm {
+    background: url(../img/background-block-sm.png) no-repeat 0 0;
+    background-size: 100%;
+    width: 402px;
+    min-height: 288px;
+    padding: 50px 55px 0;
+    vertical-align: middle;
+    margin: 0 50px 75px;
+}
+.additional-block.additional-block-md {
+    background: url(../img/background-block-md.png) no-repeat 0 0;
+    background-size: 100%;
+    width: 710px;
+    min-height: 288px;
+    padding: 50px 65px 0;
+    margin: 0 0 75px;
+}
+.additional-block.additional-block-lg {
+    background: url(../img/background-block-lg.png) no-repeat 0 0;
+    background-size: 100%;
+    width: 1130px;
+    min-height: 406px;
+    padding: 70px 95px 0;
+    margin: 0 0 75px;
+    text-align: left;
+    position: relative;
+}
+.additional-list {
+    margin-top: 20px;
+}
+.additional-list-item {
+    text-align: left;
+    font-size: 21px;
+    font-family: 'bebas_neue_bold';
+    margin-bottom: 1px;
+    letter-spacing: 0.87px;
+    overflow: hidden;
+}
+.additional-list-item-water {
+    letter-spacing: 0.5px;
+}
+.additional-list-item .price {
+    color: #CDA87B;
+    float: right;
+}
+.additional-list-item .item-name {
+    margin-left: 10px;
+}
+.item-details {
+    font-size: 13px;
+    font-family: 'bebas_neue_book';
+}
+/*END Additional Section styles*/
+
+/*END Page Styles*/
+
+/*Custom Checkbox Styles*/
+.bj-checkbox {
+    position: absolute;
+    left: -9999px;
+}
+
+.bj-checkbox + label:before {
+    content: "";
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-image: url('../img/sprite.svg');
+    background-repeat: no-repeat;
+}
+.bj-checkbox + label {
+    cursor: pointer;
+}
+.bj-checkbox + label:before {
+    background-position: 0px -50px;
+}
+.bj-checkbox.ng-hide + label:before {
+    display: none;
+}
+
+.bj-checkbox:checked + label:before {
+    background-position: -50px -50px;
+}
+/*END Custom Checkbox Styles*/
+
+/*Custom radio Styles*/
+.bj-radio {
+    position: absolute;
+    left: -9999px;
+}
+
+.bj-radio + label:before {
+    content: "";
+    position: relative;
+    top: 7px;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-image: url('../img/sprite.svg');
+    background-repeat: no-repeat;
+}
+.bj-radio + label {
+    cursor: pointer;
+}
+.bj-radio + label:before {
+    background-position: 0px -100px;
+}
+
+.bj-radio:checked + label:before {
+    background-position: -50px -100px;
+}
+/*END Custom radio Styles*/
+
+
+/*Custom Radio Styles*/
+.doneness-radio {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    width: 0;
+    position: absolute;
+}
+.doneness-radio + label:before {
+    content: "";
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    width: 18px;
+    height: 23px;
+    background-image: url('../img/sprite.svg');
+    background-repeat: no-repeat;
+    opacity: 0.2;
+}
+.doneness-radio + label {
+    cursor: pointer;
+    height: 40px;
+    display: block;
+}
+.doneness-radio + label:before {
+    background-position: -50px 0px;
+
+}
+
+.doneness-radio:checked + label:before {
+    opacity: 1;
+}
+/*END Custom Radio Styles*/
+
+
+/*Order list*/
+.order-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-height: 185px;
+    overflow: auto;
+}
+.order-list .item-details {
+    line-height: 1;
+}
+.order-section-wrapper {
+    width: 50%;
+    float: left;
+}
+.order-section {
+    font-family: 'bebas_neue_bold';
+    font-size: 21px;
+    width: 400px;
+    position: relative;
+    letter-spacing: 0.87px;
+}
+.order-header {
+    margin-top: 5px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+}
+.order-section .bj-checkbox + label:before {
+    margin-right: 5px;
+}
+.order-item {
+    position: relative;
+    border-bottom: 1px dashed #DBDBDB;
+    height: 40px;
+    line-height: 40px;
+}
+.order-list .order-controls a {
+    top: 2px;
+}
+.order-item:first-child {
+    margin-top: 2px;
+}
+.order-item:last-child {
+    padding-bottom: 0px;
+    border-bottom: none;
+}
+.order-item-quantity {
+    font-family: 'bebas_neue_book';
+    display: inline-block;
+}
+.order-item-name a {
+    text-decoration: none;
+    color: #AE814A;
+}
+.order-details {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.order-details > div {
+    float: left;
+}
+.order-summary {
+    overflow: hidden;
+    border-top: 2px solid #565656;
+    padding-top: 10px;
+}
+.order-item-price {
+    min-width: 70px;
+    text-align: right;
+}
+.order-controls {
+    position: relative;
+    margin-left: 10px;
+}
+.order-controls a {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    position: relative;
+    top: 6px;
+}
+.order-controls .subtract {
+    left: 2px;
+}
+.order-controls .add {
+    right: 2px;
+}
+.order-controls a:before {
+    content: " ";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 2px;
+    margin: auto;
+}
+.order-controls .subtract:before {
+    border-width: 9px 9px 9px 0;
+    border-style: solid;
+    border-color: transparent #CDA87B transparent  transparent;
+}
+.order-controls .add:before {
+    border-width: 9px 0 9px 9px;
+    border-style: solid;
+    border-color: transparent transparent transparent #CDA87B;
+}
+.order-total {
+    float: right;
+}
+.remember-wrapper {
+    float: left;
+    font-family: 'bebas_neue_book';
+    font-size: 18px;
+}
+.additional-block.additional-block-lg:before {
+    top: 110px;
+}
+.additional-block.additional-block-lg:after {
+    top: 233px;
+}
+/*END Order list*/
+
+/*Form styles*/
+.form-wrapper {
+    float: left;
+    margin-top: 5px;
+    width: 50%;
+}
+.form-wrapper label {
+    display: block;
+    border-bottom: 1px dashed #DBDBDB;
+    padding-bottom: 6px;
+}
+.form-wrapper .label-msg {
+    font-family: 'bebas_neue_bold';
+    font-size: 21px;
+    float: left;
+    min-width: 130px;
+}
+.form-wrapper input, .form-wrapper textarea,
+.form-wrapper input:focus, .form-wrapper textarea:focus {
+    border: none;
+    outline: none;
+    overflow: hidden;
+    resize: none;
+    float: left;
+    font-size: 15px;
+}
+.form-wrapper textarea {
+    width: 300px;
+    margin-top: 4px;
+    height: 103px;
+}
+.form-wrapper input {
+    margin-top: 6px;
+}
+.form-wrapper .textarea-holder {
+    margin-top: 12px;
+}
+.form-wrapper .order-btn {
+    height: 68px;
+    background: #000;
+    box-shadow: none;
+    color: #fff;
+    font-size: 36px;
+    line-height: 68px;
+    font-family: 'bebas_neue_book';
+    padding: 0 68px;
+    float: right;
+    border: none;
+    display: block;
+    border-radius: 6px;
+    margin-top: 22px;
+}
+.form-wrapper .order-btn:disabled {
+    opacity: 0.5;
+    cursor: no-drop;
+}
+
+form .error, form input.ng-untouched.ng-invalid + .error {
+    display: none;
+    clear: both;
+}
+form input.ng-invalid.ng-dirty + .error {
+    display: block;
+    color:red;
+}
+/*END Form styles*/
+
+/*Footer styles*/
+footer .logo-holder,
+footer .logo {
+    float: none;
+}
+footer .logo {
+    margin: 20px auto 30px;
+}
+footer .footer-info {
+    font-size: 15px;
+    color: #000;
+}
+footer .footer-info a {
+    color: #000;
+    text-decoration: none;
+}
+/*END Footer styles*/
+
+/*Popover Styles*/
+.doneness-wrapper {
+    position: relative;
+}
+.doneness-trigger {
+    position: absolute;
+    right: 11px;
+    top: -50px;
+    text-decoration: none;
+}
+.doneness-icon {
+    background: url('../img/sprite.svg') no-repeat -50px 0;
+    width: 18px;
+    height: 23px;
+    display: block;
+    margin: 0 auto 3px;
+}
+.doneness-msg {
+    font-family: "bebas_neue_book";
+    color: #000;
+    font-size: 12px;
+    letter-spacing: 0.5;
+}
+.doneness-popover {
+    position: absolute;
+    right: -8px;
+    top: 0;
+    width: 345px;
+    height: 186px;
+    background: url('../img/doneness-popup-bg.png') no-repeat 0 0;
+    background-size: 100%;
+    z-index: 10;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 34px 24px;
+    box-shadow: 0px 21px 40px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+}
+.doneness-grid {
+    overflow: hidden;
+    position: relative;
+}
+.doneness-grid:before,
+.doneness-grid:after {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px dashed #CDA87B;
+    height: 1px;
+    left: 0;
+}
+.doneness-grid:before {
+    top: 39px;
+}
+.doneness-grid:after {
+    top: 80px;
+}
+.doneness-labels-wrapper {
+    position: absolute;
+}
+.doneness-labels-wrapper .doneness-label,
+.radio-group-wrapper label {
+    height: 40px;
+}
+.doneness-labels-wrapper .doneness-label {
+    line-height: 40px;
+}
+.radio-group-wrapper label {
+    width: 40px;
+    text-align: center;
+}
+.radio-group-wrapper label:before {
+    margin-top: 4px;
+}
+.radio-group-wrapper {
+    margin-left: 70px;
+    overflow: auto;
+    white-space: nowrap;
+}
+.radio-group-wrapper .radio-group {
+    display: inline-block;
+    border-right: 1px dashed #CDA87B;
+}
+.radio-group-wrapper .radio-group:first-child {
+    border-left: 1px dashed #CDA87B;
+}
+.radio-group-wrapper label:last-child {
+    border-bottom: none;
+}
+.doneness-label {
+    font-family: "bebas_neue_book";
+    letter-spacing: 0.5;
+}
+.doneness-label.medium {
+    font-family: "bebas_neue_bold";
+}
+/*END Popover Styles*/
+
+
+
+.payment-label-group {
+    margin-top: 12px;
+    float: left;
+}
+
+.payment-label-group label {
+    margin-bottom: 2px;
+    border-bottom: none;
+}
+
+.popup {
+    height: 288px !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto !important;
+    text-align: center;
+}
+.popup-dismiss {
+    background: url('../img/sprite.svg') no-repeat -100px 0;
+    display: block;
+    position: absolute;
+    top: 37px;
+    right: 35px;
+    width: 20px;
+    height: 20px;
+}
+.backdrop {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+}
+.popup h3 {
+    font-size: 21px;
+    margin-top: 40px;
+}
+.popup h3:after {
+    content: none;
+}
+.popup .additional-block {
+    position: relative;
+
+}
+.popup a {
+    color: #C59351;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
