@@ -14,10 +14,10 @@
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body ng-controller="MainController" ng-class="{'o-hid': currentPath === '/failure' || 
-                                                             currentPath === '/success' ||
-                                                             currentPath === '/error' ||
-                                                             currentPath === '/pending' }">
+    <body ng-controller="MainController" ng-class="{'o-hid': $state.current.name === 'success' ||
+                                                             $state.current.name === 'error' || 
+                                                             $state.current.name === 'pending' ||
+                                                             $state.current.name === 'failure'}">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->

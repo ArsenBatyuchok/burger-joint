@@ -4,6 +4,7 @@ angular
     // routes on website
     .config(function($stateProvider, $urlRouterProvider) {
         $urlRouterProvider.otherwise("/");
+        // don't forget to add body o-hid class in html if you are adding new states
         $stateProvider
             .state('root', {
                 url: "/"
@@ -42,10 +43,11 @@ angular
     })
 
     // Controller
-	.controller('MainController', function($scope, $document, $filter, $location) {
+	.controller('MainController', function($scope, $document, $filter, $location, $rootScope, $state) {
 
+        $rootScope.$state = $state;
+        
         // data
-
         $scope.menu = {
             burgers: [
                 {
@@ -307,6 +309,10 @@ angular
   }
 }
 );
+
+function popupController ($rootScope) {
+    $rootScope.popupShown = true;
+}
 
 // comment
 
