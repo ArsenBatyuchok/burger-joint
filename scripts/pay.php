@@ -1,45 +1,52 @@
 <?php
+
 require 'classes/email.class.php';
 require 'classes/database.class.php';
 require 'classes/LiqPay.php';
+require 'classes/smsclient.class.php';
 $params = require 'params.php';
-if (isset($_GET['data'])) {
-    $data = json_decode($_GET['data']);
-    $amount = $data->totalPrice;
+$request = json_decode(file_get_contents("php://input"));
+if (isset($request)) {
+
+    $amount = $request->totalPrice->sum;
     try {
         $db = new Database();
         $db->beginTransaction();
-        $response = $db->insertClient($data->textMessage, $data->phoneNumber, $amount, $_GET['data']);
+        $response = $db->insertClient($request->textMessage, $request->phoneNumber, $amount, json_encode($request));
         if (!$response['state']) {
             die('Server error. Please contact to administrator.');
         }
-        if ($data->paymentMethod == 'onlinePayment') { // online paid
+        if ($request->paymentMethod == 'onlinePayment') { // online paid
             $publicKey = $params['liqpay']['publicKey'];
             $privateKey = $params['liqpay']['privateKey'];
             $lp = new LiqPay($publicKey, $privateKey);
             $url = $lp->cnb_form(array(
                 'version' => '3',
                 'amount' => $amount,
+//                'amount' => 1,
                 'currency' => 'UAH',
                 'description' => 'payment for order '.$response['id'].' for burgerjoint.com.ua',
-                'server_url' => "{$_SERVER['HTTP_HOST']}/scripts/server.php",
-                'result_url' => "{$_SERVER['HTTP_HOST']}/index.html#/pending",
+                'server_url' => "http://{$_SERVER['HTTP_HOST']}/scripts/server.php",
+                'result_url' => "http://{$_SERVER['HTTP_HOST']}/scripts/result.php?id={$response['id']}",
                 'order_id' => $response['id'],
             ));
-            header("Location: {$url}");
         } else {
+            $sms = new SmsClient($params['SmsUkraine']['login'], $params['SmsUkraine']['password']);
             $email = new Email();
-            if ($email->sendEmail($data, true, $response['id'])) {
+            if ($email->sendEmail($request, true, $response['id'])) {
                 $db->setAsPaid($response['id']);
-                header("Location: ../index.html#/success");
+                $sms->sendSMS('BurgerJoint', $params['adminNumber'], 'Нове замовлення ' . $response['id']);
+                $url = 'http://' . $_SERVER['HTTP_HOST'] . '/index.html#/success';
             } else {
-                header("Location: ../index.html#/failure");
+                $url = 'http://' .$_SERVER['HTTP_HOST'] .'/index.html#/failure';
             }
         }
         $db->commit();
-    } catch(PDOException $e) {
+        echo $url; die;
+    } catch(Exception $e) {
         $email->sendEmail('Сталася помилка - '.$e->getMessage(), false);
         $db->rollback();
+        echo 'index.html#/failure'; die;
     }
 } else {
     throw new InvalidArgumentException('Data not isset');

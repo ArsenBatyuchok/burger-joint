@@ -6,8 +6,8 @@ require 'classes/smsclient.class.php';
 $params = require 'params.php';
 $email = new Email();
 $sms = new SmsClient($params['SmsUkraine']['login'], $params['SmsUkraine']['password']);
-
 $lp = new LiqPay($params['liqpay']['publicKey'], $params['liqpay']['privateKey']);
+
 if (isset ($_POST['data'])) {
     $dataPost = json_decode(base64_decode( $_POST['data']));
     $db = new Database();
