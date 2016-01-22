@@ -1,12 +1,647 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="563e4fcb-54d4-49a3-b377-7d2c40d946bb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/pay.php" afterPath="$PROJECT_DIR$/scripts/pay.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/result.php" afterPath="$PROJECT_DIR$/scripts/result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="7fe18c1d-1034-4289-88c4-c14dbb9bf262" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burger.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/composer.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/helper.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/mediaqueries.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/normalize.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/TenorSans-Regulartenor.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/TenorSans-Regulartenor.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/TenorSans-Regulartenor.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/TenorSans-Regulartenor.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/bebasneue_bold-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/bebasneue_bold-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/bebasneue_bold-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/bebasneue_bold-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/bebasneue_bold-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/bebasneue_book-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/bebasneue_book-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/bebasneue_book-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/bebasneue_book-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/bebasneue_book-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/additional-block-border-mobile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/background-block-lg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/background-block-md-mobile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/background-block-md.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/background-block-sm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/background-img-border-btm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/background-img.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/background-text.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/burger-border-img.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/burger1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/burger10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/burger2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/burger3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/burger4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/burger5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/burger6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/burger7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/burger8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/burger9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/doneness-popup-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sprite.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/jquery-2.1.4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/jquery.maskedinput.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/modernizr-2.8.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/ui-bootstrap-0.13.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/classes/LiqPay.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/classes/database.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/classes/email.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/classes/smsclient.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/classes/table.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/cron.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/params.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/pay.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/server.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/UPGRADING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/build.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/_downloads/guzzle-schema-1.0.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/_static/guzzle-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/_static/homepage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/_static/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/_static/prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/_static/prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/_templates/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/_templates/leftbar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/_templates/nav_links.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/batching/batching.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/conf.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/docs.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/getting-started/faq.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/getting-started/installation.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/getting-started/overview.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/http-client/client.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/http-client/entity-bodies.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/http-client/http-redirects.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/http-client/request.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/http-client/response.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/http-client/uri-templates.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/index.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/iterators/guzzle-iterators.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/iterators/resource-iterators.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/async-plugin.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/backoff-plugin.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/cache-plugin.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/cookie-plugin.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/creating-plugins.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/curl-auth-plugin.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/history-plugin.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/log-plugin.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/md5-validator-plugin.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/mock-plugin.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/oauth-plugin.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/plugins-list.rst.inc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/plugins/plugins-overview.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/requirements.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/testing/unit-testing.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/webservice-client/guzzle-service-descriptions.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/webservice-client/using-the-service-builder.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/docs/webservice-client/webservice-client.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/phar-stub.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/phing/build.properties.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/phing/imports/dependencies.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/phing/imports/deploy.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/phing/tasks/ComposerLintTask.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/phing/tasks/GuzzlePearPharPackageTask.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/phing/tasks/GuzzleSubSplitTask.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/AbstractBatchDecorator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/Batch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/BatchBuilder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/BatchClosureDivisor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/BatchClosureTransfer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/BatchCommandTransfer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/BatchDivisorInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/BatchInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/BatchRequestTransfer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/BatchSizeDivisor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/BatchTransferInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/Exception/BatchTransferException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/ExceptionBufferingBatch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/FlushingBatch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/HistoryBatch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/NotifyingBatch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Batch/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Cache/AbstractCacheAdapter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Cache/CacheAdapterFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Cache/CacheAdapterInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Cache/ClosureCacheAdapter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Cache/DoctrineCacheAdapter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Cache/NullCacheAdapter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Cache/Zf1CacheAdapter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Cache/Zf2CacheAdapter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Cache/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/AbstractHasDispatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/Collection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/Event.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/Exception/BadMethodCallException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/Exception/ExceptionCollection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/Exception/GuzzleException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/Exception/InvalidArgumentException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/Exception/RuntimeException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/Exception/UnexpectedValueException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/FromConfigInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/HasDispatcherInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/ToArrayInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/Version.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/AbstractEntityBodyDecorator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/CachingEntityBody.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/ClientInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Curl/CurlHandle.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Curl/CurlMulti.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Curl/CurlMultiInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Curl/CurlMultiProxy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Curl/CurlVersion.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Curl/RequestMediator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/EntityBody.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/EntityBodyInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/BadResponseException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/ClientErrorResponseException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/CouldNotRewindStreamException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/CurlException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/HttpException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/MultiTransferException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/RequestException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/ServerErrorResponseException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/TooManyRedirectsException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/IoEmittingEntityBody.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/AbstractMessage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/EntityEnclosingRequest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/EntityEnclosingRequestInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/Header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/Header/CacheControl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/Header/HeaderCollection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/Header/HeaderFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/Header/HeaderFactoryInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/Header/HeaderInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/Header/Link.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/MessageInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFileInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/Request.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/RequestFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/RequestFactoryInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/RequestInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Message/Response.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Mimetypes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/QueryAggregator/CommaAggregator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/QueryAggregator/DuplicateAggregator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/QueryAggregator/PhpAggregator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/QueryAggregator/QueryAggregatorInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/QueryString.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/ReadLimitEntityBody.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/RedirectPlugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Resources/cacert.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/StaticClient.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Url.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Inflection/Inflector.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Inflection/InflectorInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Inflection/MemoizingInflector.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Inflection/PreComputedInflector.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Inflection/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Iterator/AppendIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Iterator/ChunkedIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Iterator/FilterIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Iterator/MapIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Iterator/MethodProxyIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Iterator/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Iterator/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/AbstractLogAdapter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/ArrayLogAdapter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/ClosureLogAdapter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/LogAdapterInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/MessageFormatter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/MonologLogAdapter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/PsrLogAdapter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/Zf1LogAdapter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/Zf2LogAdapter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Log/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/Cookie/CookieParser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/Cookie/CookieParserInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/Message/AbstractMessageParser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/Message/MessageParser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/Message/MessageParserInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/Message/PeclHttpMessageParser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/ParserRegistry.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/UriTemplate/PeclUriTemplate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/UriTemplate/UriTemplate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/UriTemplate/UriTemplateInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/Url/UrlParser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/Url/UrlParserInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Parser/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Async/AsyncPlugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Async/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/AbstractBackoffStrategy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/AbstractErrorCodeBackoffStrategy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/BackoffLogger.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/BackoffPlugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/BackoffStrategyInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/CallbackBackoffStrategy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/ConstantBackoffStrategy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/CurlBackoffStrategy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/ExponentialBackoffStrategy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/HttpBackoffStrategy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/LinearBackoffStrategy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/ReasonPhraseBackoffStrategy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/TruncatedBackoffStrategy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/CacheKeyProviderInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/CachePlugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/CacheStorageInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/CallbackCanCacheStrategy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/CanCacheStrategyInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/DefaultCacheKeyProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/DefaultCacheStorage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/DefaultCanCacheStrategy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/DefaultRevalidation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/DenyRevalidation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/RevalidationInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/SkipRevalidation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/Cookie.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/CookieJar/ArrayCookieJar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/CookieJar/CookieJarInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/CookieJar/FileCookieJar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/CookiePlugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/Exception/InvalidCookieException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/CurlAuth/CurlAuthPlugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/CurlAuth/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/ErrorResponse/ErrorResponseExceptionInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/ErrorResponse/ErrorResponsePlugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/ErrorResponse/Exception/ErrorResponseException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/ErrorResponse/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/History/HistoryPlugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/History/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Log/LogPlugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Log/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Md5/CommandContentMd5Plugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Md5/Md5ValidatorPlugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Md5/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Mock/MockPlugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Mock/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Oauth/OauthPlugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/Oauth/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Plugin/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/AbstractConfigLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Builder/ServiceBuilder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Builder/ServiceBuilderInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Builder/ServiceBuilderLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/CachingConfigLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/ClientInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/AbstractCommand.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/ClosureCommand.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/CommandInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/CreateResponseClassEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/DefaultRequestSerializer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/DefaultResponseParser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/AliasFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/CompositeFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/ConcreteClassFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/FactoryInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/MapFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/ServiceDescriptionFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/AbstractRequestVisitor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/BodyVisitor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/HeaderVisitor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/JsonVisitor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/PostFieldVisitor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/PostFileVisitor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/QueryVisitor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/RequestVisitorInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/ResponseBodyVisitor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/XmlVisitor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/AbstractResponseVisitor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/BodyVisitor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/HeaderVisitor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/JsonVisitor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/ReasonPhraseVisitor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/ResponseVisitorInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/StatusCodeVisitor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/XmlVisitor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/VisitorFlyweight.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/OperationCommand.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/OperationResponseParser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/RequestSerializerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/ResponseClassInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Command/ResponseParserInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/ConfigLoaderInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Description/Operation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Description/OperationInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Description/Parameter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Description/SchemaFormatter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Description/SchemaValidator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Description/ServiceDescription.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Description/ServiceDescriptionInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Description/ServiceDescriptionLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Description/ValidatorInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/CommandException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/CommandTransferException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/DescriptionBuilderException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/InconsistentClientTransferException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/ResponseClassException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/ServiceBuilderException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/ServiceNotFoundException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/ValidationException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/AbstractResourceIteratorFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/CompositeResourceIteratorFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/MapResourceIteratorFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/Model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/ResourceIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/ResourceIteratorApplyBatched.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/ResourceIteratorClassFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/ResourceIteratorFactoryInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/ResourceIteratorInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Service/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Stream/PhpStreamRequestFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Stream/Stream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Stream/StreamInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Stream/StreamRequestFactoryInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Stream/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/AbstractBatchDecoratorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/BatchBuilderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/BatchClosureDivisorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/BatchClosureTransferTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/BatchCommandTransferTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/BatchRequestTransferTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/BatchSizeDivisorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/BatchTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/ExceptionBufferingBatchTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/FlushingBatchTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/HistoryBatchTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Batch/NotifyingBatchTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Cache/CacheAdapterFactoryTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Cache/CacheAdapterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Cache/ClosureCacheAdapterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Cache/NullCacheAdapterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Cache/Zf2CacheAdapterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Common/AbstractHasDispatcherTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Common/CollectionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Common/EventTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Common/Exception/BatchTransferExceptionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Common/Exception/ExceptionCollectionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Common/VersionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/GuzzleTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/AbstractEntityBodyDecoratorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/CachingEntityBodyTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/ClientTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Curl/CurlHandleTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Curl/CurlMultiProxyTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Curl/CurlMultiTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Curl/CurlVersionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Curl/RequestMediatorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/EntityBodyTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Exception/CurlExceptionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Exception/ExceptionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Exception/MultiTransferExceptionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/IoEmittingEntityBodyTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/AbstractMessageTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/EntityEnclosingRequestTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/Header/HeaderFactoryTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/Header/LinkTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/HeaderComparison.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/HeaderComparisonTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/HeaderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/PostFileTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/RequestFactoryTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/RequestTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Message/ResponseTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/MimetypesTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/QueryAggregator/CommaAggregatorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/QueryAggregator/DuplicateAggregatorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/QueryAggregator/PhpAggregatorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/QueryStringTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/ReadLimitEntityBodyTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/RedirectPluginTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/Server.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/StaticClientTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/UrlTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Http/server.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Inflection/InflectorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Inflection/MemoizingInflectorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Inflection/PreComputedInflectorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Iterator/AppendIteratorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Iterator/ChunkedIteratorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Iterator/FilterIteratorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Iterator/MapIteratorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Iterator/MethodProxyIteratorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Log/ArrayLogAdapterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Log/ClosureLogAdapterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Log/MessageFormatterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Log/PsrLogAdapterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Log/Zf2LogAdapterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Mock/CustomResponseModel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Mock/ErrorResponseMock.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Mock/ExceptionMock.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Mock/MockMulti.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Mock/MockObserver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Mock/MockSubject.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Parser/Cookie/CookieParserProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Parser/Cookie/CookieParserTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Parser/Message/MessageParserProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Parser/Message/MessageParserTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Parser/Message/PeclHttpMessageParserTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Parser/ParserRegistryTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Parser/UriTemplate/AbstractUriTemplateTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Parser/UriTemplate/PeclUriTemplateTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Parser/UriTemplate/UriTemplateTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Async/AsyncPluginTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/AbstractBackoffStrategyTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/BackoffLoggerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/BackoffPluginTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/CallbackBackoffStrategyTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/ConstantBackoffStrategyTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/CurlBackoffStrategyTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/ExponentialBackoffStrategyTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/HttpBackoffStrategyTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/LinearBackoffStrategyTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/ReasonPhraseBackoffStrategyTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Backoff/TruncatedBackoffStrategyTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cache/CachePluginTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cache/CallbackCanCacheStrategyTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cache/DefaultCacheStorageTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cache/DefaultCanCacheStrategyTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cache/DefaultRevalidationTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cache/DenyRevalidationTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cache/SkipRevalidationTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cookie/CookieJar/ArrayCookieJarTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cookie/CookieJar/FileCookieJarTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cookie/CookiePluginTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Cookie/CookieTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/CurlAuth/CurlAuthPluginTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/ErrorResponse/ErrorResponsePluginTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/History/HistoryPluginTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Log/LogPluginTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Md5/CommandContentMd5PluginTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Md5/Md5ValidatorPluginTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Mock/MockPluginTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Plugin/Oauth/OauthPluginTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/AbstractConfigLoaderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Builder/ServiceBuilderLoaderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Builder/ServiceBuilderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/CachingConfigLoaderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/ClientTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/AbstractCommandTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/ClosureCommandTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/CommandTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/DefaultRequestSerializerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/DefaultResponseParserTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/Factory/AliasFactoryTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/Factory/CompositeFactoryTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/Factory/ConcreteClassFactoryTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/Factory/MapFactoryTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/Factory/ServiceDescriptionFactoryTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Request/AbstractVisitorTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Request/BodyVisitorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Request/HeaderVisitorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Request/JsonVisitorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Request/PostFieldVisitorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Request/PostFileVisitorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Request/QueryVisitorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Request/ResponseBodyVisitorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Request/XmlVisitorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Response/AbstractResponseVisitorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Response/BodyVisitorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Response/HeaderVisitorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Response/JsonVisitorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Response/ReasonPhraseVisitorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Response/StatusCodeVisitorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/Response/XmlVisitorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/LocationVisitor/VisitorFlyweightTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/OperationCommandTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Command/OperationResponseParserTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Description/OperationTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Description/ParameterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Description/SchemaFormatterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Description/SchemaValidatorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Description/ServiceDescriptionLoaderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Description/ServiceDescriptionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Exception/CommandTransferExceptionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Exception/InconsistentClientTransferExceptionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Exception/ValidationExceptionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Mock/Command/IterableCommand.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Mock/Command/MockCommand.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Mock/Command/OtherCommand.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Mock/Command/Sub/Sub.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Mock/MockClient.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Mock/Model/MockCommandIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Resource/CompositeResourceIteratorFactoryTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Resource/MapResourceIteratorFactoryTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Resource/ModelTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Resource/ResourceIteratorClassFactoryTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Service/Resource/ResourceIteratorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Stream/PhpStreamRequestFactoryTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/Stream/StreamTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/FileBody.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/description/bar.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/description/baz.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/description/foo.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/description/recursive.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/mock_response" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/services/json1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/services/json2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/services/services.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/test_service.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/test_service2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/Guzzle/Tests/TestData/test_service_3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/tests/bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/SharedHostInstall.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Connection/Exceptions/GenericHTTPError.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Connection/Exceptions/InvalidCredentials.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Connection/Exceptions/MissingEndpoint.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Connection/Exceptions/MissingRequiredParameters.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Connection/Exceptions/NoDomainsConfigured.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Constants/Constants.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Lists/OptInHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Lists/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Messages/BatchMessage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Messages/Exceptions/InvalidParameter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Messages/Exceptions/InvalidParameterType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Messages/Exceptions/MissingRequiredMIMEParameters.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Messages/Exceptions/TooManyParameters.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Messages/MessageBuilder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Messages/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/Connection/ConnectionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/Lists/OptInHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/MailgunTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/MailgunTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/Messages/BatchMessageTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/Messages/MessageBuilderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/Messages/StandardMessageTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/Mock/Connection/TestBroker.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/Mock/Mailgun.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/TestAssets/mailgun_icon1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php/tests/Mailgun/Tests/TestAssets/mailgun_icon2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/ContainerAwareEventDispatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcherInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Debug/WrappedListener.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/DependencyInjection/RegisterListenersPass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Event.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventDispatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventDispatcherInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventSubscriberInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/GenericEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/ImmutableEventDispatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/AbstractEventDispatcherTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/ContainerAwareEventDispatcherTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/Debug/TraceableEventDispatcherTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/DependencyInjection/RegisterListenersPassTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/EventDispatcherTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/EventTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/GenericEventTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/ImmutableEventDispatcherTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/phpunit.xml.dist" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendor/angular-ui-router.min.js" afterPath="$PROJECT_DIR$/js/vendor/angular-ui-router.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/error.tpl.html" afterPath="$PROJECT_DIR$/templates/error.tpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/failure.tpl.html" afterPath="$PROJECT_DIR$/templates/failure.tpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pending.tpl.html" afterPath="$PROJECT_DIR$/templates/pending.tpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/success.tpl.html" afterPath="$PROJECT_DIR$/templates/success.tpl.html" />
     </list>
-    <ignored path="burger.iws" />
+    <ignored path="burger-joint.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,133 +655,37 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="burger" />
+    <favorites_list name="burger-joint" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="cron.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/cron.php">
+      <file leaf-file-name="angular-ui-router.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/burger-joint/js/vendor/angular-ui-router.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="666">
-              <caret line="12" column="79" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/classes/database.class.php">
+      <file leaf-file-name="error.tpl.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/burger-joint/templates/error.tpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1604" max-vertical-offset="2862">
-              <caret line="102" column="20" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
-              <folding>
-                <marker date="1450773676000" expanded="true" signature="1809:1877" placeholder="SELECT * FRO..Client..." />
-                <marker date="1450773676000" expanded="true" signature="2245:2394" placeholder="INSERT INTO ..." />
-                <marker date="1450773676000" expanded="true" signature="2960:3004" placeholder="SELECT max(c..Client..." />
-                <marker date="1450773676000" expanded="true" signature="3259:3320" placeholder="UPDATE Clien..." />
-                <marker date="1450773676000" expanded="true" signature="3567:3628" placeholder="UPDATE Clien..." />
-                <marker date="1450773676000" expanded="true" signature="3889:3958" placeholder="UPDATE Clien..." />
-                <marker date="1450773676000" expanded="true" signature="4208:4245" placeholder="SELECT * FRO..Client..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="result.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/result.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1540107" vertical-offset="0" max-vertical-offset="935">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smsclient.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/classes/smsclient.class.php">
+      <file leaf-file-name="pending.tpl.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/burger-joint/templates/pending.tpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="760" max-vertical-offset="3834">
-              <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
-              <folding>
-                <element signature="e#14#1129#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="email.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/classes/email.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="5706">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <marker date="1453382849554" expanded="true" signature="2244:2503" placeholder="..." />
-                <marker date="1453382849554" expanded="true" signature="3251:3617" placeholder="..." />
-                <marker date="1453382849554" expanded="true" signature="3839:4171" placeholder="..." />
-                <marker date="1453382849554" expanded="true" signature="4357:4767" placeholder="..." />
-                <marker date="1453382849554" expanded="true" signature="4983:5370" placeholder="..." />
-                <marker date="1453382849554" expanded="true" signature="5717:6249" placeholder="..." />
-                <marker date="1453382849554" expanded="true" signature="6313:6736" placeholder="..." />
-                <marker date="1453382849554" expanded="true" signature="7098:7440" placeholder="..." />
-                <marker date="1453382849554" expanded="true" signature="7615:7981" placeholder="..." />
-                <marker date="1453382849554" expanded="true" signature="8201:8533" placeholder="..." />
-                <marker date="1453382849554" expanded="true" signature="8719:9115" placeholder="..." />
-                <marker date="1453382849554" expanded="true" signature="9335:9667" placeholder="..." />
-                <marker date="1453382849554" expanded="true" signature="9854:10266" placeholder="..." />
-                <marker date="1453382849554" expanded="true" signature="10486:10873" placeholder="..." />
-                <marker date="1453382849554" expanded="true" signature="11060:11472" placeholder="..." />
-                <marker date="1453382849554" expanded="true" signature="11691:12078" placeholder="..." />
-                <marker date="1453382849554" expanded="true" signature="12209:12557" placeholder="..." />
-                <marker date="1453382849554" expanded="false" signature="12246:12259" placeholder="..." />
-                <marker date="1453382849554" expanded="false" signature="12302:12315" placeholder="..." />
-                <marker date="1453382849554" expanded="false" signature="12358:12371" placeholder="..." />
-                <marker date="1453382849554" expanded="false" signature="12414:12427" placeholder="..." />
-                <marker date="1453382849554" expanded="true" signature="13877:13985" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pay.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/pay.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.407408" vertical-offset="106" max-vertical-offset="1062">
-              <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4910" max-vertical-offset="5832">
-              <caret line="277" column="0" selection-start-line="277" selection-start-column="0" selection-end-line="277" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="success.tpl.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/success.tpl.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="306">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="params.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/params.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="540">
-              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.2764505">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -160,48 +699,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scripts/LiqPay.php" />
-        <option value="$PROJECT_DIR$/js/sendParams.js" />
-        <option value="$PROJECT_DIR$/scripts/composer.json" />
-        <option value="$PROJECT_DIR$/scripts/mail/mail.php" />
-        <option value="$PROJECT_DIR$/scripts/mail/style/main.css" />
-        <option value="$PROJECT_DIR$/scripts/mail/layout/mail.php" />
-        <option value="$PROJECT_DIR$/scripts/functions.php" />
-        <option value="$PROJECT_DIR$/scripts/email.class.php" />
-        <option value="$PROJECT_DIR$/scripts/success.php" />
-        <option value="$PROJECT_DIR$/scripts/fail.php" />
-        <option value="$PROJECT_DIR$/scripts/classes/sms.class.php" />
-        <option value="$PROJECT_DIR$/scripts/test.php" />
-        <option value="$PROJECT_DIR$/scripts/classes/table.sql" />
-        <option value="$PROJECT_DIR$/scripts/classes/LiqPay.php" />
-        <option value="$PROJECT_DIR$/scripts/server.php" />
-        <option value="$PROJECT_DIR$/scripts/classes/smsclient.class.php" />
-        <option value="$PROJECT_DIR$/scripts/classes/database.class.php" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/templates/success.tpl.html" />
-        <option value="$PROJECT_DIR$/scripts/params.php" />
-        <option value="$PROJECT_DIR$/scripts/classes/email.class.php" />
-        <option value="$PROJECT_DIR$/scripts/cron.php" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/scripts/pay.php" />
-        <option value="$PROJECT_DIR$/scripts/result.php" />
+        <option value="$PROJECT_DIR$/burger-joint/templates/pending.tpl.html" />
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
-  <component name="PhpServers">
-    <servers>
-      <server host="127.0.0.1" name="Unnamed" />
-    </servers>
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1920" />
-    <option name="width" value="1922" />
-    <option name="height" value="1084" />
+    <option name="x" value="1429" />
+    <option name="y" value="24" />
+    <option name="width" value="1857" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -224,34 +738,45 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="burger" />
+              <option name="myItemId" value="burger-joint" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="burger" />
+              <option name="myItemId" value="burger-joint" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="burger" />
+              <option name="myItemId" value="burger-joint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="burger-joint" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="burger" />
+              <option name="myItemId" value="burger-joint" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="burger" />
+              <option name="myItemId" value="burger-joint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="burger-joint" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -261,47 +786,41 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="burger" />
+              <option name="myItemId" value="burger-joint" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="burger" />
+              <option name="myItemId" value="burger-joint" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="burger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="burger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="burger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="burger" />
+              <option name="myItemId" value="burger-joint" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="burger-joint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="burger-joint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="burger-joint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -310,72 +829,35 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="reference.webide.settings.project.settings.php.debug" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/scripts" />
-      <recent name="$PROJECT_DIR$/scripts/classes" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/js/vendor" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/scripts/classes" />
-      <recent name="$PROJECT_DIR$/scripts/mail/layout" />
-    </key>
-  </component>
-  <component name="RunManager" selected="PHP Web Application.table">
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <pass-parent-envs>true</pass-parent-envs>
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
-    <configuration default="false" name="Unnamed" type="PhpLocalRunConfigurationType" factoryName="PHP Console" singleton="true" path="$PROJECT_DIR$/scripts/pay.php">
-      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="table" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="Unnamed" start_url="http://burger.loc/index.html#/success">
-      <RunnerSettings RunnerId="PhpWebAppDebugRunner" />
-      <ConfigurationWrapper RunnerId="PhpWebAppDebugRunner" />
-      <method />
-    </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="PHP Script.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="PHP Web Application.table" />
-    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -383,37 +865,37 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="563e4fcb-54d4-49a3-b377-7d2c40d946bb" name="Default" comment="" />
-      <created>1437722046727</created>
+      <changelist id="7fe18c1d-1034-4289-88c4-c14dbb9bf262" name="Default" comment="" />
+      <created>1450258527584</created>
       <option name="number" value="Default" />
-      <updated>1437722046727</updated>
+      <updated>1450258527584</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="1922" height="1084" extended-state="6" />
-    <editor active="true" />
+    <frame x="1429" y="24" width="1857" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22851364" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18636848" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962587" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39877924" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18221977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3274244" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -427,534 +909,31 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
-    </option>
-  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/scripts/classes/email.class.php</url>
-          <line>14</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/scripts/classes/email.class.php</url>
-          <line>48</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/scripts/classes/email.class.php</url>
-          <line>50</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/scripts/classes/email.class.php</url>
-          <line>58</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/scripts/classes/email.class.php</url>
-          <line>67</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="24" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/result.php">
+    <entry file="file://$PROJECT_DIR$/burger-joint/js/vendor/angular-ui-router.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="432">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/params.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="540">
-          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/server.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="666">
-          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/cron.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/json.php">
+    <entry file="file://$PROJECT_DIR$/burger-joint/templates/error.tpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1264" max-vertical-offset="5616">
-          <caret line="88" column="9" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/classes/smsclient.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="760" max-vertical-offset="3834">
-          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
-          <folding>
-            <element signature="e#14#1129#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/classes/database.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1940" max-vertical-offset="2862">
-          <caret line="131" column="5" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/pay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="91" max-vertical-offset="1044">
-          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/params.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="540">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/server.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="666">
-          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/cron.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="684">
-          <caret line="28" column="106" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="106" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/pay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1062">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/classes/email.class.php">
+    <entry file="file://$PROJECT_DIR$/burger-joint/templates/pending.tpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4048" max-vertical-offset="5166">
-          <caret line="248" column="25" selection-start-line="248" selection-start-column="25" selection-end-line="248" selection-end-column="25" />
-          <folding>
-            <marker date="1453382849554" expanded="true" signature="2244:2503" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="3251:3617" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="3839:4171" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="4357:4767" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="4983:5370" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="5717:6249" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="6313:6736" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="7098:7440" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="7615:7981" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="8201:8533" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="8719:9115" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="9335:9667" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="9854:10266" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="10486:10873" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="11060:11472" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="11691:12078" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="12209:12557" placeholder="..." />
-            <marker date="1453382849554" expanded="false" signature="12246:12259" placeholder="..." />
-            <marker date="1453382849554" expanded="false" signature="12302:12315" placeholder="..." />
-            <marker date="1453382849554" expanded="false" signature="12358:12371" placeholder="..." />
-            <marker date="1453382849554" expanded="false" signature="12414:12427" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="13877:13985" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/params.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="540">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/server.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="648">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/cron.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="684">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/classes/smsclient.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="666" max-vertical-offset="3150">
-          <caret line="75" column="29" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="29" />
-          <folding>
-            <element signature="e#14#1129#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/pay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="918">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/classes/database.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="2286">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/classes/email.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5292">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1453382849554" expanded="true" signature="2244:2503" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="3251:3617" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="3839:4171" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="4357:4767" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="4983:5370" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="5717:6249" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="6313:6736" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="7098:7440" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="7615:7981" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="8201:8533" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="8719:9115" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="9335:9667" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="9854:10266" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="10486:10873" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="11060:11472" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="11691:12078" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="12209:12557" placeholder="..." />
-            <marker date="1453382849554" expanded="false" signature="12246:12259" placeholder="..." />
-            <marker date="1453382849554" expanded="false" signature="12302:12315" placeholder="..." />
-            <marker date="1453382849554" expanded="false" signature="12358:12371" placeholder="..." />
-            <marker date="1453382849554" expanded="false" signature="12414:12427" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="13877:13985" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3734" max-vertical-offset="20556">
-          <caret line="225" column="9" selection-start-line="225" selection-start-column="9" selection-end-line="225" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1926">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/params.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="594">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/server.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="648">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/cron.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/classes/smsclient.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="87" max-vertical-offset="3150">
-          <caret line="75" column="29" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="29" />
-          <folding>
-            <element signature="e#14#1129#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/pay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="918">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/classes/database.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1370" max-vertical-offset="2286">
-          <caret line="117" column="73" selection-start-line="117" selection-start-column="73" selection-end-line="117" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/classes/email.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="5292">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <marker date="1453382849554" expanded="true" signature="2244:2503" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="3251:3617" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="3839:4171" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="4357:4767" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="4983:5370" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="5717:6249" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="6313:6736" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="7098:7440" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="7615:7981" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="8201:8533" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="8719:9115" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="9335:9667" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="9854:10266" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="10486:10873" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="11060:11472" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="11691:12078" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="12209:12557" placeholder="..." />
-            <marker date="1453382849554" expanded="false" signature="12246:12259" placeholder="..." />
-            <marker date="1453382849554" expanded="false" signature="12302:12315" placeholder="..." />
-            <marker date="1453382849554" expanded="false" signature="12358:12371" placeholder="..." />
-            <marker date="1453382849554" expanded="false" signature="12414:12427" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="13877:13985" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/params.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="594">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="1853" max-vertical-offset="16884">
-          <caret line="117" column="16" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/PDO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.814815" vertical-offset="11840" max-vertical-offset="24516">
-          <caret line="668" column="20" selection-start-line="668" selection-start-column="20" selection-end-line="668" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/Core_c.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.851851" vertical-offset="2758" max-vertical-offset="6264">
-          <caret line="171" column="6" selection-start-line="171" selection-start-column="6" selection-end-line="171" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3734" max-vertical-offset="20556">
-          <caret line="225" column="9" selection-start-line="225" selection-start-column="9" selection-end-line="225" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/server.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="666">
-          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/json.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1264" max-vertical-offset="5616">
-          <caret line="88" column="9" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="17572" max-vertical-offset="86418">
-          <caret line="994" column="0" selection-start-line="994" selection-start-column="0" selection-end-line="994" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/classes/LiqPay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1156" max-vertical-offset="3078">
-          <caret line="102" column="20" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36734694" vertical-offset="1008" max-vertical-offset="15246">
-          <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/classes/smsclient.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="760" max-vertical-offset="3834">
-          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
-          <folding>
-            <element signature="e#14#1129#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Curl/CurlMulti.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.4444447" vertical-offset="852" max-vertical-offset="7614">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3326613" vertical-offset="8457" max-vertical-offset="10548">
-          <caret line="479" column="64" selection-start-line="479" selection-start-column="62" selection-end-line="479" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="361" max-vertical-offset="1926">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/success.tpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="306">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/classes/database.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1604" max-vertical-offset="2862">
-          <caret line="102" column="20" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
-          <folding>
-            <marker date="1450773676000" expanded="true" signature="1809:1877" placeholder="SELECT * FRO..Client..." />
-            <marker date="1450773676000" expanded="true" signature="2245:2394" placeholder="INSERT INTO ..." />
-            <marker date="1450773676000" expanded="true" signature="2960:3004" placeholder="SELECT max(c..Client..." />
-            <marker date="1450773676000" expanded="true" signature="3259:3320" placeholder="UPDATE Clien..." />
-            <marker date="1450773676000" expanded="true" signature="3567:3628" placeholder="UPDATE Clien..." />
-            <marker date="1450773676000" expanded="true" signature="3889:3958" placeholder="UPDATE Clien..." />
-            <marker date="1450773676000" expanded="true" signature="4208:4245" placeholder="SELECT * FRO..Client..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/params.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="540">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/classes/email.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="5706">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1453382849554" expanded="true" signature="2244:2503" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="3251:3617" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="3839:4171" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="4357:4767" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="4983:5370" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="5717:6249" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="6313:6736" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="7098:7440" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="7615:7981" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="8201:8533" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="8719:9115" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="9335:9667" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="9854:10266" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="10486:10873" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="11060:11472" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="11691:12078" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="12209:12557" placeholder="..." />
-            <marker date="1453382849554" expanded="false" signature="12246:12259" placeholder="..." />
-            <marker date="1453382849554" expanded="false" signature="12302:12315" placeholder="..." />
-            <marker date="1453382849554" expanded="false" signature="12358:12371" placeholder="..." />
-            <marker date="1453382849554" expanded="false" signature="12414:12427" placeholder="..." />
-            <marker date="1453382849554" expanded="true" signature="13877:13985" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4910" max-vertical-offset="5832">
-          <caret line="277" column="0" selection-start-line="277" selection-start-column="0" selection-end-line="277" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/cron.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="666">
-          <caret line="12" column="79" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/pay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.407408" vertical-offset="106" max-vertical-offset="1062">
-          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/result.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1540107" vertical-offset="0" max-vertical-offset="935">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.2764505">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
