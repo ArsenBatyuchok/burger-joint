@@ -42,7 +42,9 @@ angular
     })
 
     // Controller
-	.controller('MainController', function($scope, $document, $filter, $location, $http) {
+	.controller('MainController', function($scope, $document, $filter, $location, $http, $rootScope, $state) {
+
+        $rootScope.$state = $state;
 
         // data
 
