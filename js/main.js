@@ -42,13 +42,13 @@ angular
     })
 
     // Controller
-	.controller('MainController', function($scope, $document, $filter, $location, $http, $rootScope, $state) {
+	.controller('MainController', function($scope, $document, $filter, $location, $http, $rootScope, $state, $window) {
 
         $rootScope.$state = $state;
 
         $rootScope.$on('$stateChangeSuccess', function() {
             // scroll to top when state event fired
-            window.scrollTo(0, 0);
+            $window.scrollTo(0, 0);
         });
 
         // data
