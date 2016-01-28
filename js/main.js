@@ -46,6 +46,11 @@ angular
 
         $rootScope.$state = $state;
 
+        $rootScope.$on('$stateChangeSuccess', function() {
+            // scroll to top when state event fired
+            window.scrollTo(0, 0);
+        });
+
         // data
 
         $scope.menu = {
