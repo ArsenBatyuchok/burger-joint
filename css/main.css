@@ -617,6 +617,10 @@ h2:after {
     margin-top: 4px;
     height: 103px;
 }
+.ng-submitted .label-msg.invalid,
+.ng-touched .label-msg.invalid {
+    color: #C84E3D;
+}
 .form-wrapper input {
     margin-top: 6px;
 }

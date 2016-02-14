@@ -513,19 +513,32 @@
                             </div>
                         </div>
                         <div class="form-wrapper">
-                            <form name="orderForm" novalidate>
+                            <form name="orderForm" ng-submit="getFullOrderDetails(orderForm)" novalidate>
                                 <label for="phoneNumberInput" class="o-hid">
-                                    <div class="label-msg">Ваш телефон</div>
-                                    <input type="text" id="phoneNumberInput" name="phoneNumber" ng-maxlength="10" ng-pattern="/[0-9]{10}/" required
-                                           placeholder="067 374 57 73"
+                                    <div class="label-msg" 
+                                         ng-class="{'invalid': orderForm.phoneNumber.$invalid}">
+                                        Ваш телефон
+                                    </div>
+                                    <input type="text" 
+                                           id="phoneNumberInput" 
+                                           phone-input 
+                                           ng-minlength="14"
+                                           name="phoneNumber" 
+                                           required
+                                           placeholder="(067) 123-4567"
                                            ng-model="fullOrderDetails.phoneNumber"  />
-                                     <div class="error">Номер телефону має складатися із 10 цифр</div>
                                 </label>
                                 <label for="deliveryInput" class="textarea-holder o-hid">
-                                    <div class="label-msg">Куди веземо?</div>
+                                    <div class="label-msg" 
+                                         ng-class="{'invalid': orderForm.textMessage.$invalid}">
+                                        Куди веземо?
+                                    </div>
                                     <textarea id="deliveryInput" 
                                               ng-model="fullOrderDetails.textMessage" 
-                                              placeholder="Вулиця, номер будинку, номер квартири" required></textarea>
+                                              name="textMessage"
+                                              placeholder="Вулиця, номер будинку, номер квартири" 
+                                              required>
+                                    </textarea>
                                 </label>
                                 <div class="payment-label-group">
                                     <input type="radio" id="cashPaymentInput" class="bj-radio" name="paymentMethod" ng-model="fullOrderDetails.paymentMethod" value="cashPayment" />
@@ -537,7 +550,13 @@
                                         Карткою онлайн
                                     </label>
                                 </div>
-                                <button type="button" class="order-btn" ng-click="getFullOrderDetails()" ng-disabled="orderForm.$invalid">
+                                <button type="submit" class="order-btn" ng-disabled="!(filteredBurgers.length ||
+                                              filteredSalads.length ||
+                                              filteredFries.length ||
+                                              filteredDrinks.length ||
+                                              filteredBeer.length ||
+                                              filteredWater.length ||
+                                              filteredSauces.length)">
                                     Замовити
                                 </button>
                             </form>
@@ -566,6 +585,7 @@
         <script src="js/vendor/ui-bootstrap-0.13.0.min.js"></script>
         <script src="js/vendor/angular-ui-router.min.js"></script>
         <script src="js/vendor/jquery.maskedinput.min.js"></script>
+        <script src="js/vendor/phone-val.js"></script>
         <script src="js/main.js"></script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <!--<script>

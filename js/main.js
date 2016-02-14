@@ -1,5 +1,5 @@
 angular
-    .module('burgerApp', ['ui.bootstrap', 'ui.router'])
+    .module('burgerApp', ['ui.bootstrap', 'ui.router', 'phoneVal'])
 
     // routes on website
     .config(function($stateProvider, $urlRouterProvider) {
@@ -261,7 +261,11 @@ angular
             return total;
         }
 
-        $scope.getFullOrderDetails = function() {
+        $scope.getFullOrderDetails = function(form) {
+
+            if (form.$invalid) {
+                return;
+            }
             $scope.fullOrderDetails.ordered = [];
 
             for (var array in $scope.menu) {
