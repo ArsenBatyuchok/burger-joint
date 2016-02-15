@@ -231,8 +231,14 @@ angular
         }
         $scope.qtyIncrement = function(item) {
             item.qty += 1;
+            if (item.hasOwnProperty('doneness')) {
+                item.doneness.push("medium");
+            }
         }
         $scope.qtyDecrement = function(item) {
+            if (item.hasOwnProperty('doneness')) {
+                item.doneness.splice(-1,1);
+            }
             if(item.hasOwnProperty('checked')) {
                 item.qty -= 1;
                 if (item.qty == 0) {
@@ -292,12 +298,15 @@ angular
             //}
             //
             //var d = getURLParameter('XDEBUG_SESSION_START');
-
-
+            //
+            //
             //$http.post('../scripts/pay.php' + '?XDEBUG_SESSION_START=' + d, $scope.data).success(function ($data) {
+            //    debugger
+            //});
 
 
             $http.post('../scripts/pay.php', $scope.data).success(function ($data) {
+                debugger
                 location.replace($data);
                 location.href = $data
             });

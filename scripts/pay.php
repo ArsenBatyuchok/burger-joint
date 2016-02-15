@@ -7,6 +7,9 @@ require 'classes/smsclient.class.php';
 $params = require 'params.php';
 $request = json_decode(file_get_contents("php://input"));
 if (isset($request)) {
+    if (empty($request->ordered)) {
+        echo 'http://'.$_SERVER['HTTP_HOST'];die;
+    }
 
     $amount = $request->totalPrice->sum;
     try {
@@ -44,7 +47,7 @@ if (isset($request)) {
         $db->commit();
         echo $url; die;
     } catch(Exception $e) {
-        $email->sendEmail('Сталася помилка - '.$e->getMessage(), false);
+        $email->sendEmail('Сталася помилка - '.$e->getMessage(), false, $response['id']);
         $db->rollback();
         echo 'index.html#/failure'; die;
     }
