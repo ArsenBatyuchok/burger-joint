@@ -306,7 +306,6 @@ angular
 
 
             $http.post('../scripts/pay.php', $scope.data).success(function ($data) {
-                debugger
                 location.replace($data);
                 location.href = $data
             });
