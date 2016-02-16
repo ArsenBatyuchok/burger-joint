@@ -46,6 +46,8 @@ angular
 
         $rootScope.$state = $state;
 
+
+
         $rootScope.$on('$stateChangeSuccess', function() {
             // scroll to top when state event fired
             $window.scrollTo(0, 0);
@@ -182,8 +184,14 @@ angular
                 {name: "Часниковий", price: 15, qty: 0, checked: false, type: "sauces"},
                 {name: "Грибний", price: 15, qty: 0, checked: false, type: "sauces"}
             ]
-        }
+        };
         // end data
+
+        $scope.orig = angular.copy($scope.menu);
+
+        $scope.reset = function() {
+            $scope.menu = angular.copy($scope.orig);
+        };
 
         if(localStorage['menu']) {
             $.extend(true, $scope.menu, JSON.parse(localStorage['menu']));
@@ -272,7 +280,9 @@ angular
             if (form.$invalid) {
                 return;
             }
+
             $scope.fullOrderDetails.ordered = [];
+
 
             for (var array in $scope.menu) {
                 for (var i=0; i < $scope.menu[array].length; i++) {
@@ -281,6 +291,7 @@ angular
                     }
                 }
             }
+
             $scope.fullOrderDetails.totalPrice = $scope.calcTotal();
             $scope.data = $scope.fullOrderDetails;
             if ($scope.fullOrderDetails.rememberOrder) {
@@ -289,9 +300,9 @@ angular
                 localStorage['textMessage'] = $scope.fullOrderDetails.textMessage;
                 localStorage['paymentMethod'] = $scope.fullOrderDetails.paymentMethod;
             } else {
+                localStorage.clear();
                 localStorage['menu'] = '';
             }
-
 
             //function getURLParameter(name) {
             //    return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
@@ -307,8 +318,18 @@ angular
 
             $http.post('../scripts/pay.php', $scope.data).success(function ($data) {
                 location.replace($data);
-                location.href = $data
+                location.href = $data;
+
+                if (!$scope.fullOrderDetails.rememberOrder) {
+                    $scope.fullOrderDetails = {};
+
+                    $scope.reset();
+
+                    form.$setPristine();
+                    form.$setUntouched();
+                }
             });
+
         }
     })
 
