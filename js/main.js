@@ -322,7 +322,7 @@ angular
 
                 if (!$scope.fullOrderDetails.rememberOrder) {
                     $scope.fullOrderDetails = {};
-
+                    $scope.fullOrderDetails.paymentMethod = 'cashPayment';
                     $scope.reset();
 
                     form.$setPristine();
