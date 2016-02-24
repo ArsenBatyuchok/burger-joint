@@ -46,6 +46,8 @@ angular
 
         $rootScope.$state = $state;
 
+
+
         $rootScope.$on('$stateChangeSuccess', function() {
             // scroll to top when state event fired
             $window.scrollTo(0, 0);
@@ -182,13 +184,20 @@ angular
                 {name: "Часниковий", price: 15, qty: 0, checked: false, type: "sauces"},
                 {name: "Грибний", price: 15, qty: 0, checked: false, type: "sauces"}
             ]
-        }
+        };
         // end data
+
+        $scope.orig = angular.copy($scope.menu);
+
+        $scope.reset = function() {
+            $scope.menu = angular.copy($scope.orig);
+        };
+
         if(localStorage['menu']) {
             $.extend(true, $scope.menu, JSON.parse(localStorage['menu']));
             $scope.fullOrderDetails = {
                 ordered: [],
-                phoneNumber: Number(localStorage.phoneNumber),
+                phoneNumber: localStorage.phoneNumber,
                 textMessage: localStorage.textMessage,
                 paymentMethod: localStorage.paymentMethod,
                 totalPrice: 0,
@@ -231,8 +240,14 @@ angular
         }
         $scope.qtyIncrement = function(item) {
             item.qty += 1;
+            if (item.hasOwnProperty('doneness')) {
+                item.doneness.push("medium");
+            }
         }
         $scope.qtyDecrement = function(item) {
+            if (item.hasOwnProperty('doneness')) {
+                item.doneness.splice(-1,1);
+            }
             if(item.hasOwnProperty('checked')) {
                 item.qty -= 1;
                 if (item.qty == 0) {
@@ -266,7 +281,9 @@ angular
             if (form.$invalid) {
                 return;
             }
+
             $scope.fullOrderDetails.ordered = [];
+
 
             for (var array in $scope.menu) {
                 for (var i=0; i < $scope.menu[array].length; i++) {
@@ -275,6 +292,7 @@ angular
                     }
                 }
             }
+
             $scope.fullOrderDetails.totalPrice = $scope.calcTotal();
             $scope.data = $scope.fullOrderDetails;
             if ($scope.fullOrderDetails.rememberOrder) {
@@ -283,6 +301,7 @@ angular
                 localStorage['textMessage'] = $scope.fullOrderDetails.textMessage;
                 localStorage['paymentMethod'] = $scope.fullOrderDetails.paymentMethod;
             } else {
+                localStorage.clear();
                 localStorage['menu'] = '';
             }
 
@@ -291,15 +310,27 @@ angular
             //}
             //
             //var d = getURLParameter('XDEBUG_SESSION_START');
-
-
+            //
+            //
             //$http.post('../scripts/pay.php' + '?XDEBUG_SESSION_START=' + d, $scope.data).success(function ($data) {
+            //    debugger
+            //});
 
 
             $http.post('../scripts/pay.php', $scope.data).success(function ($data) {
                 location.replace($data);
                 location.href = $data;
+
+                if (!$scope.fullOrderDetails.rememberOrder) {
+                    $scope.fullOrderDetails = {};
+                    $scope.fullOrderDetails.paymentMethod = 'cashPayment';
+                    $scope.reset();
+
+                    form.$setPristine();
+                    form.$setUntouched();
+                }
             });
+
         }
     })
 
@@ -323,7 +354,7 @@ angular
                 scope.$watch(iAttrs.offClickActivator, function(activate) {
                     if (activate) {
                         $timeout(function() {
-                                        $document.one('click touchend', eventHandler);
+                            $document.one('click touchend', eventHandler);
                         });
                     } else {
                         $document.off('click touchend', eventHandler);
