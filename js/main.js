@@ -296,10 +296,10 @@ angular
             //$http.post('../scripts/pay.php' + '?XDEBUG_SESSION_START=' + d, $scope.data).success(function ($data) {
 
 
-            // $http.post('../scripts/pay.php', $scope.data).success(function ($data) {
-            //     location.replace($data);
-            //     location.href = $data;
-            // });
+            $http.post('../scripts/pay.php', $scope.data).success(function ($data) {
+                location.replace($data);
+                location.href = $data;
+            });
         }
     })
 
