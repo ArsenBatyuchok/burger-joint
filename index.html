@@ -85,27 +85,24 @@
                                                     <div class="radio-group-wrapper">
                                                         <div class="radio-group" 
                                                              ng-repeat="item in burger.doneness track by $index">
-                                                            <input type="radio" 
-                                                                   class="doneness-radio"
-                                                                   name="donenessRadio{{$parent.$index}}{{$index}}"
-                                                                   id="donenessRadioWellDone{{$parent.$index}}{{$index}}"
-                                                                   ng-model="burger.doneness[$index]"
-                                                                   value="welldone" />
-                                                            <label for="donenessRadioWellDone{{$parent.$index}}{{$index}}"></label>
-                                                            <input type="radio" 
-                                                                   class="doneness-radio"
-                                                                   name="donenessRadio{{$parent.$index}}{{$index}}"
-                                                                   id="donenessRadioMedium{{$parent.$index}}{{$index}}"
-                                                                   ng-model="burger.doneness[$index]"
-                                                                   value="medium" />
-                                                            <label for="donenessRadioMedium{{$parent.$index}}{{$index}}"></label>
-                                                            <input type="radio" 
-                                                                   class="doneness-radio"
-                                                                   name="donenessRadio{{$parent.$index}}{{$index}}"
-                                                                   id="donenessRadioMediumRare{{$parent.$index}}{{$index}}"
-                                                                   ng-model="burger.doneness[$index]"
-                                                                   value="mediumrare" />
-                                                            <label for="donenessRadioMediumRare{{$parent.$index}}{{$index}}"></label>
+                                                            <button type="button" 
+                                                                    class="doneness-btn" 
+                                                                    ng-class="{'active': burger.doneness[$index] === 'welldone'}"
+                                                                    ng-click="burger.doneness[$index] = 'welldone'">
+                                                                <div class="icon-doneness"></div>
+                                                            </button>
+                                                            <button type="button" 
+                                                                    class="doneness-btn"
+                                                                    ng-class="{'active': burger.doneness[$index] === 'medium'}"
+                                                                    ng-click="burger.doneness[$index] = 'medium'">
+                                                                <div class="icon-doneness"></div>
+                                                            </button>
+                                                            <button type="button" 
+                                                                    class="doneness-btn"
+                                                                    ng-class="{'active': burger.doneness[$index] === 'mediumrare'}"
+                                                                    ng-click="burger.doneness[$index] = 'mediumrare'">
+                                                                <div class="icon-doneness"></div>
+                                                            </button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -522,7 +519,6 @@
                                     <input type="text" 
                                            id="phoneNumberInput" 
                                            phone-input 
-                                           ng-minlength="14"
                                            name="phoneNumber" 
                                            required
                                            placeholder="(067) 123-4567"

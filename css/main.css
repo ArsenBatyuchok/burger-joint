@@ -426,41 +426,6 @@ h2:after {
 /*END Custom radio Styles*/
 
 
-/*Custom Radio Styles*/
-.doneness-radio {
-    opacity: 0;
-    visibility: hidden;
-    height: 0;
-    width: 0;
-    position: absolute;
-}
-.doneness-radio + label:before {
-    content: "";
-    position: relative;
-    top: 4px;
-    display: inline-block;
-    width: 18px;
-    height: 23px;
-    background-image: url('../img/sprite.svg');
-    background-repeat: no-repeat;
-    opacity: 0.2;
-}
-.doneness-radio + label {
-    cursor: pointer;
-    height: 40px;
-    display: block;
-}
-.doneness-radio + label:before {
-    background-position: -50px 0px;
-
-}
-
-.doneness-radio:checked + label:before {
-    opacity: 1;
-}
-/*END Custom Radio Styles*/
-
-
 /*Order list*/
 .order-list {
     list-style-type: none;
@@ -771,8 +736,33 @@ footer .footer-info a {
 .doneness-label.medium {
     font-family: "bebas_neue_bold";
 }
-/*END Popover Styles*/
 
+/*doneness buttons styles*/
+.radio-group-wrapper .doneness-btn {
+    display: block;
+    opacity: 0.2;
+    width: 40px;
+    height: 40px;
+    background-color: transparent !important;
+    border: none;
+    outline: none !important;
+    padding: 0;
+}
+
+.radio-group-wrapper .doneness-btn.active {
+    opacity: 1;
+}
+.doneness-btn .icon-doneness {
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    width: 18px;
+    height: 23px;
+    background: url('../img/sprite.svg') no-repeat -50px 0;
+}
+
+/*END doneness buttons styles*/
+/*END Popover Styles*/
 
 
 .payment-label-group {

@@ -42,7 +42,7 @@ angular
     })
 
     // Controller
-	.controller('MainController', function($scope, $document, $filter, $location, $http, $rootScope, $state, $window) {
+	.controller('MainController', function($scope, $document, $filter, $location, $http, $rootScope, $state, $window, $timeout) {
 
         $rootScope.$state = $state;
 
@@ -60,8 +60,8 @@ angular
                     desc: "Булка з сезамом, соковита котлета з яловичини приготована на вугіллі з листям салату, соленим огірком, цибулею, помідором і соусом",
                     img: "img/burger1.png",
                     price: 65,
-                    qty: 0,
-                    doneness: [],
+                    qty: 2,
+                    doneness: ["medium", "welldone"],
                     type: "burgers"
                 },
                 {
@@ -184,14 +184,13 @@ angular
             ]
         }
         // end data
-
         if(localStorage['menu']) {
             $.extend(true, $scope.menu, JSON.parse(localStorage['menu']));
             $scope.fullOrderDetails = {
                 ordered: [],
-                phoneNumber: localStorage['phoneNumber'],
-                textMessage: localStorage['textMessage'],
-                paymentMethod: localStorage['paymentMethod'],
+                phoneNumber: Number(localStorage.phoneNumber),
+                textMessage: localStorage.textMessage,
+                paymentMethod: localStorage.paymentMethod,
                 totalPrice: 0,
                 rememberOrder: true
             };
@@ -205,6 +204,7 @@ angular
                 rememberOrder: false
             };
         }
+        
         $scope.addItemWithCheckbox = function(item) {
             if (item.checked) {
                 item.qty = 1;
@@ -286,7 +286,6 @@ angular
                 localStorage['menu'] = '';
             }
 
-
             //function getURLParameter(name) {
             //    return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
             //}
@@ -297,44 +296,43 @@ angular
             //$http.post('../scripts/pay.php' + '?XDEBUG_SESSION_START=' + d, $scope.data).success(function ($data) {
 
 
-            $http.post('../scripts/pay.php', $scope.data).success(function ($data) {
-                location.replace($data);
-                location.href = $data
-            });
+            // $http.post('../scripts/pay.php', $scope.data).success(function ($data) {
+            //     location.replace($data);
+            //     location.href = $data;
+            // });
         }
     })
 
 // doneness directive
 .directive('offClick', function($document, $parse, $timeout) {
-  return {
-    restrict: 'A',
-    compile: function(tElement, tAttrs) {
-      var fn = $parse(tAttrs.offClick);
-      
-      return function(scope, iElement, iAttrs) {
-        function eventHandler(ev) {
-          if (iElement[0].contains(ev.target)) {
-            $document.one('click touchend', eventHandler);
-          } else {
-            scope.$apply(function() {
-              fn(scope);
-            });
-          }
+    return {
+        restrict: 'A',
+        compile: function(tElement, tAttrs) {
+            var fn = $parse(tAttrs.offClick);
+            
+            return function(scope, iElement, iAttrs) {
+                function eventHandler(ev) {
+                    if (iElement[0].contains(ev.target)) {
+                        $document.one('click touchend', eventHandler);
+                    } else {
+                        scope.$apply(function() {
+                            fn(scope);
+                        });
+                    }
+                }
+                scope.$watch(iAttrs.offClickActivator, function(activate) {
+                    if (activate) {
+                        $timeout(function() {
+                                        $document.one('click touchend', eventHandler);
+                        });
+                    } else {
+                        $document.off('click touchend', eventHandler);
+                    }
+                });
+            };
         }
-        scope.$watch(iAttrs.offClickActivator, function(activate) {
-          if (activate) {
-            $timeout(function() {
-                    $document.one('click touchend', eventHandler);
-            });
-          } else {
-            $document.off('click touchend', eventHandler);
-          }
-        });
-      };
     }
-  }
-}
-);
+});
 
 // comment
 
