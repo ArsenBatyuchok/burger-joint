@@ -13,7 +13,7 @@ class Database extends PDO
     const STATUS_PAID = 1;
     const STATUS_UNPAID = 0;
     const ERROR = 2;
-    const MAX_ERROR_COUNT = 30;
+    const MAX_ERROR_COUNT = 10;
 
     protected $transactionCounter = 0;
 
