@@ -62,8 +62,8 @@ angular
                     desc: "Булка з сезамом, соковита котлета з яловичини приготована на вугіллі з листям салату, соленим огірком, цибулею, помідором і соусом",
                     img: "img/burger1.png",
                     price: 65,
-                    qty: 2,
-                    doneness: ["medium", "welldone"],
+                    qty: 0,
+                    doneness: [],
                     type: "burgers"
                 },
                 {
