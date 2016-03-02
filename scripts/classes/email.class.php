@@ -257,16 +257,23 @@ class Email
                         <td style='border: none;'></td>
                         <td style='border: none;'></td>
                         <td style='border: none;'></td>
+                        <td>Доставка</td>
+                        <td>";
+        $result .= ($data->totalPrice->includeDelivery) ? self::DELIVERY : '0';
+        $result .= "</td></tr>";
+        $result .= "<tr>
+                        <td style='border: none;'></td>
+                        <td style='border: none;'></td>
+                        <td style='border: none;'></td>
+                        <td style='border: none;'></td>
                         <td>Всього</td>
                         <td>{$data->totalPrice->sum}</td>
                     </tr>";
+
         $result .= '</table>';
         $result .= "Номер телефона - {$data->phoneNumber}<br>";
         $result .= "Адреса - {$data->textMessage}<br>";
         $result .= "Спосiб оплати - {$data->paymentMethod}<br>";
-        if ($data->totalPrice->includeDelivery == true) {
-            $result .= 'Доставка - ' . self::DELIVERY . ' грн';
-        }
         return (string)$result;
     }
 
