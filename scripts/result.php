@@ -9,10 +9,12 @@ $res = $liqpay->api("payment/status", array(
     'version'       => '3',
     'order_id'      => $id,
 ));
-if ($res->result != 'error') {
-    header("Location: /index.html#/pending");
-} else {
+if ($res->result == 'ok') {
+    header("Location: /index.html#/success");
+} elseif($res->result == 'error') {
     header("Location: /index.html#/failure");
+} else {
+    header("Location: /index.html#/pending");
 }
 
 ?>

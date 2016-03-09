@@ -4,6 +4,7 @@ use Mailgun\Mailgun;
 
 class Email
 {
+    const DELIVERY = 30;
     const TYPE_WATER = 'water';
     const TYPE_BEER = 'beer';
     const TYPE_DRINK = 'drinks';
@@ -17,34 +18,34 @@ class Email
         $data = require dirname(__DIR__) . '/params.php';
         $mgClient = new Mailgun($data['mailGun']['apiKey']);
 
-//	$mgClient->sendMessage($data['mailGun']['domain'],
-//	    [
-//	        'from'    => "Burger Joint <postmaster@sandbox826ba91f3f2e476dbd8feefea0b862c6.mailgun.org>",
-//	        'to'      => "alexandr.sharygin@iqria.com",
-//	        'subject' => 'Замовлення '.$order,
-//	        'html'    => ($state)? $this->setMessage($message) : $message,
-//	    ]);
-//	$mgClient->sendMessage($data['mailGun']['domain'],
-//	    [
-//	        'from'    => "Burger Joint <postmaster@sandbox826ba91f3f2e476dbd8feefea0b862c6.mailgun.org>",
-//	        'to'      => "alexandr.vasiliev@iqria.com",
-//	        'subject' => 'Замовлення '.$order,
-//	        'html'    => ($state)? $this->setMessage($message) : $message,
-//	    ]);
-//	$mgClient->sendMessage($data['mailGun']['domain'],
-//	    [
-//	        'from'    => "Burger Joint <postmaster@sandbox826ba91f3f2e476dbd8feefea0b862c6.mailgun.org>",
-//	        'to'      => "lidiya.chuhlib@iqria.com",
-//	        'subject' => 'Замовлення '.$order,
-//	        'html'    => ($state)? $this->setMessage($message) : $message,
-//	    ]);
-//        $mgClient->sendMessage($data['mailGun']['domain'],
-//            [
-//                'from'    => "Burger Joint <postmaster@sandbox826ba91f3f2e476dbd8feefea0b862c6.mailgun.org>",
-//                'to'      => "burgerjoint.delivery@gmail.com",
-//                'subject' => 'Замовлення '.$order,
-//                'html'    => ($state)? $this->setMessage($message) : $message,
-//            ]);
+        $mgClient->sendMessage($data['mailGun']['domain'],
+            [
+                'from'    => "Burger Joint <postmaster@sandbox826ba91f3f2e476dbd8feefea0b862c6.mailgun.org>",
+                'to'      => "alexandr.sharygin@iqria.com",
+                'subject' => 'Замовлення '.$order,
+                'html'    => ($state)? $this->setMessage($message) : $message,
+            ]);
+        $mgClient->sendMessage($data['mailGun']['domain'],
+            [
+                'from'    => "Burger Joint <postmaster@sandbox826ba91f3f2e476dbd8feefea0b862c6.mailgun.org>",
+                'to'      => "alexandr.vasiliev@iqria.com",
+                'subject' => 'Замовлення '.$order,
+                'html'    => ($state)? $this->setMessage($message) : $message,
+            ]);
+        $mgClient->sendMessage($data['mailGun']['domain'],
+            [
+                'from'    => "Burger Joint <postmaster@sandbox826ba91f3f2e476dbd8feefea0b862c6.mailgun.org>",
+                'to'      => "lidiya.chuhlib@iqria.com",
+                'subject' => 'Замовлення '.$order,
+                'html'    => ($state)? $this->setMessage($message) : $message,
+            ]);
+        $mgClient->sendMessage($data['mailGun']['domain'],
+            [
+                'from'    => "Burger Joint <postmaster@sandbox826ba91f3f2e476dbd8feefea0b862c6.mailgun.org>",
+                'to'      => "burgerjoint.delivery@gmail.com",
+                'subject' => 'Замовлення '.$order,
+                'html'    => ($state)? $this->setMessage($message) : $message,
+            ]);
 
         return $mgClient->sendMessage($data['mailGun']['domain'],
             [
@@ -256,9 +257,19 @@ class Email
                         <td style='border: none;'></td>
                         <td style='border: none;'></td>
                         <td style='border: none;'></td>
+                        <td>Доставка</td>
+                        <td>";
+        $result .= ($data->totalPrice->includeDelivery) ? self::DELIVERY : '0';
+        $result .= "</td></tr>";
+        $result .= "<tr>
+                        <td style='border: none;'></td>
+                        <td style='border: none;'></td>
+                        <td style='border: none;'></td>
+                        <td style='border: none;'></td>
                         <td>Всього</td>
                         <td>{$data->totalPrice->sum}</td>
                     </tr>";
+
         $result .= '</table>';
         $result .= "Номер телефона - {$data->phoneNumber}<br>";
         $result .= "Адреса - {$data->textMessage}<br>";
