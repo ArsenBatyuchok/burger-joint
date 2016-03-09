@@ -623,6 +623,9 @@ form input.ng-invalid.ng-dirty + .error {
 /*END Form styles*/
 
 /*Footer styles*/
+footer {
+    margin-bottom: 90px;
+}
 footer .logo-holder,
 footer .logo {
     float: none;
@@ -818,7 +821,7 @@ footer .footer-info a {
 
 
 .social {
-    margin-top: 10px;
+    margin-bottom: 40px;
 }
 .socialWidgetContainer, .TA_socialButtonIcon {
     display: inline-block !important;
