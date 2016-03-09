@@ -817,6 +817,31 @@ footer .footer-info a {
 }
 
 
+.social {
+    margin-top: 10px;
+}
+.socialWidgetContainer, .TA_socialButtonIcon {
+    display: inline-block !important;
+}
+.TA_socialButtonIcon {
+    position: relative;
+    top: 1px;
+    margin: 0 3px;
+}
+.instagram-icon {
+    display: inline-block;
+    background: url('../img/instagram-icon.png') no-repeat 0 0;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+    margin: 0 3px;
+}
+.fb-like {
+    margin: 0 3px;
+}
+
 
 
 
