@@ -626,6 +626,10 @@ form input.ng-invalid.ng-dirty + .error {
 footer {
     margin-bottom: 30px;
 }
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
 footer .logo-holder,
 footer .logo {
     float: none;
@@ -860,6 +864,7 @@ footer .footer-info a {
 .contact-us a {
     color: #AE814A;
 }
+
 
 
 
