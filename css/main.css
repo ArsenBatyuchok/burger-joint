@@ -839,20 +839,20 @@ footer .footer-info a {
     display: inline-block;
     background: url('../img/instagram-icon.png') no-repeat 0 0;
     background-size: cover;
-    width: 20px;
-    height: 20px;
+    width: 33px;
+    height: 33px;
     position: relative;
-    top: 5px;
+    top: 11px;
     margin: 0 3px;
 }
 .facebook-icon {
     display: inline-block;
     background: url('../img/facebook-icon.png') no-repeat 0 0;
     background-size: cover;
-    width: 20px;
-    height: 20px;
+    width: 33px;
+    height: 33px;
     position: relative;
-    top: 5px;
+    top: 11px;
     margin: 0 3px;
 }
 .fb-like {
