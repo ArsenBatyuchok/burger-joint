@@ -66,7 +66,7 @@
                                                 <a href="javascript:void(0)" class="add" ng-click="itemIncrement(burger)"></a>
                                             </div>
                                         </div>
-                                        <div class="doneness-wrapper" ng-show="burger.qty > 0">
+                                        <div class="doneness-wrapper" ng-show="burger.doneness && burger.qty > 0">
                                             <a href="javascript:void(0)" class="doneness-trigger" ng-click="visible=true">
                                                 <div class="doneness-icon"></div>
                                                 <div class="doneness-msg">Прожарка</div>

@@ -117,7 +117,6 @@ angular
                     img: "img/burger7.png",
                     price: 60,
                     qty: 0,
-                    doneness: [],
                     type: "burgers"
                 },
                 {
@@ -127,7 +126,6 @@ angular
                     img: "img/burger8.png",
                     price: 60,
                     qty: 0,
-                    doneness: [],
                     type: "burgers"
                 },
                 {
@@ -136,7 +134,6 @@ angular
                     img: "img/burger9.png",
                     price: 55,
                     qty: 0,
-                    doneness: [],
                     type: "burgers"
                 },
                 {
