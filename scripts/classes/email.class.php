@@ -11,6 +11,7 @@ class Email
     const TYPE_FRIES = 'fries';
     const TYPE_SALAD = 'salads';
     const TYPE_BURGER = 'burgers';
+    const TYPE_BURGER2 = 'burgers2';
     const TYPE_SAUCES = 'sauces';
 
     public function sendEmail($message, $state = true, $order)
@@ -73,10 +74,34 @@ class Email
         $countDrink = $this->countType($data->ordered, self::TYPE_DRINK);
         $countWater = $this->countType($data->ordered, self::TYPE_WATER);
         $countSauces = $this->countType($data->ordered, self::TYPE_SAUCES);
+        $countBurger2 = $this->countType($data->ordered, self::TYPE_BURGER2);
         $stateBurger = false;
         for ($i=0; $i<count($data->ordered); $i++) {
             $order = $data->ordered[$i];
-            if ($order->type == self::TYPE_SAUCES) { // sauces start
+            if ($order->type == self::TYPE_BURGER2) { // burges2 start
+                $result .= "<tr>
+                                <td rowspan='".$countBurger2."'>Бургури</td>
+                                <td>{$order->name}</td>
+                                <td>{$order->details}</td>
+                                <td>{$order->price}</td>
+                                <td>{$order->qty}</td>
+                                <td>" .($order->qty * $order->price) . "</td>
+                            </tr>";
+                if ($countBurger2 > 1) {
+                    $countBurger2--;
+                    while ($countBurger2 != 0) {
+                        $order = $data->ordered[++$i];
+                        $result .= "<tr>
+                                        <td>{$order->name}</td>
+                                        <td>{$order->details}</td>
+                                        <td>{$order->price}</td>
+                                        <td>{$order->qty}</td>
+                                        <td>" .($order->qty * $order->price) . "</td>
+                                    </tr>";
+                        $countBurger2--;
+                    }
+                }
+            } elseif ($order->type == self::TYPE_SAUCES) { // sauces start
                 $result .= "<tr>
                                 <td rowspan='".$countSauces."'>Соуси</td>
                                 <td colspan='2'>{$order->name}</td>

@@ -113,11 +113,12 @@ angular
                 },
                 {
                     name: "З куркою",
+                    details: "",
                     desc: "Булка з сезамом, соковите куряче філе приготоване на вугіллі з соусом айолі, листям салату, помідором та соленими огірками",
                     img: "img/burger7.png",
                     price: 60,
                     qty: 0,
-                    type: "burgers"
+                    type: "burgers2"
                 },
                 {
                     name: "З куркою",
@@ -126,15 +127,16 @@ angular
                     img: "img/burger8.png",
                     price: 60,
                     qty: 0,
-                    type: "burgers"
+                    type: "burgers2"
                 },
                 {
                     name: "Вегабургер",
+                    details: "",
                     desc: "Булка з сезамом, котлета з нуту приготована на вугіллі з листям салату, помідором, соленими огірками, цибулею та домашнім майонезом",
                     img: "img/burger9.png",
                     price: 55,
                     qty: 0,
-                    type: "burgers"
+                    type: "burgers2"
                 },
                 {
                     name: "Дитячий",
