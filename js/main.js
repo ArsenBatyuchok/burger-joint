@@ -196,6 +196,7 @@ angular
             $.extend(true, $scope.menu, JSON.parse(localStorage['menu']));
             $scope.fullOrderDetails = {
                 ordered: [],
+                userName: localStorage.userName,
                 phoneNumber: localStorage.phoneNumber,
                 textMessage: localStorage.textMessage,
                 paymentMethod: localStorage.paymentMethod,
@@ -205,6 +206,7 @@ angular
         } else {
             $scope.fullOrderDetails = {
                 ordered: [],
+                userName: "",
                 phoneNumber: "",
                 textMessage: "",
                 paymentMethod: "cashPayment",
@@ -296,6 +298,7 @@ angular
             $scope.data = $scope.fullOrderDetails;
             if ($scope.fullOrderDetails.rememberOrder) {
                 localStorage['menu'] = JSON.stringify($scope.menu);
+                localStorage['userName'] = $scope.fullOrderDetails.userName;
                 localStorage['phoneNumber'] = $scope.fullOrderDetails.phoneNumber;
                 localStorage['textMessage'] = $scope.fullOrderDetails.textMessage;
                 localStorage['paymentMethod'] = $scope.fullOrderDetails.paymentMethod;

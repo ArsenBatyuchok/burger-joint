@@ -516,10 +516,19 @@
                         </div>
                         <div class="form-wrapper">
                             <form name="orderForm" ng-submit="getFullOrderDetails(orderForm)" novalidate>
-                                <label for="phoneNumberInput" class="o-hid">
+                                <label for="nameInput" class="o-hid">
+                                    <div class="label-msg">
+                                        Ваше iм’я
+                                    </div>
+                                    <input type="text" 
+                                           id="nameInput" 
+                                           name="nameInput" 
+                                           ng-model="fullOrderDetails.userName"  />
+                                </label>
+                                <label for="phoneNumberInput" class="o-hid textarea-holder">
                                     <div class="label-msg" 
                                          ng-class="{'invalid': orderForm.phoneNumber.$invalid}">
-                                        Ваш телефон
+                                        Ваш телефон <span class="text-danger">*</span>
                                     </div>
                                     <input type="text" 
                                            id="phoneNumberInput" 
@@ -532,7 +541,7 @@
                                 <label for="deliveryInput" class="textarea-holder o-hid">
                                     <div class="label-msg" 
                                          ng-class="{'invalid': orderForm.textMessage.$invalid}">
-                                        Куди веземо?
+                                        Куди веземо? <span class="text-danger">*</span>
                                     </div>
                                     <textarea id="deliveryInput" 
                                               ng-model="fullOrderDetails.textMessage" 

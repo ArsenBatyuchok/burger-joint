@@ -562,6 +562,9 @@ h2:after {
     border-bottom: 1px dashed #DBDBDB;
     padding-bottom: 6px;
 }
+.text-danger {
+    color: #C84E3D;
+}
 .form-wrapper .label-msg {
     font-family: 'bebas_neue_bold';
     font-size: 21px;
@@ -580,7 +583,7 @@ h2:after {
 .form-wrapper textarea {
     width: 300px;
     margin-top: 4px;
-    height: 103px;
+    height: 80px;
 }
 .ng-submitted .label-msg.invalid,
 .ng-touched .label-msg.invalid {
