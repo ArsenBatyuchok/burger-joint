@@ -112,6 +112,15 @@ angular
                     type: "burgers"
                 },
                 {
+                    name: "Дитячий",
+                    desc: "Булочка, міні котлета з яловичини приготована на вугіллі з листям салату, помідором, соленими огірками, цибулею та соусом",
+                    img: "img/burger10.png",
+                    price: 50,
+                    qty: 0,
+                    doneness: [],
+                    type: "burgers"
+                },
+                {
                     name: "З куркою",
                     details: "",
                     desc: "Булка з сезамом, соковите куряче філе приготоване на вугіллі з соусом айолі, листям салату, помідором та соленими огірками",
@@ -137,15 +146,6 @@ angular
                     price: 55,
                     qty: 0,
                     type: "burgers2"
-                },
-                {
-                    name: "Дитячий",
-                    desc: "Булочка, міні котлета з яловичини приготована на вугіллі з листям салату, помідором, соленими огірками, цибулею та соусом",
-                    img: "img/burger10.png",
-                    price: 50,
-                    qty: 0,
-                    doneness: [],
-                    type: "burgers"
                 }
             ],
             salads: [
@@ -317,6 +317,7 @@ angular
 
 
             $http.post('../scripts/pay.php', $scope.data).success(function ($data) {
+                debugger
                 location.replace($data);
                 location.href = $data;
 

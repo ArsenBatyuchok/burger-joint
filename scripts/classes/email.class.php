@@ -80,7 +80,7 @@ class Email
             $order = $data->ordered[$i];
             if ($order->type == self::TYPE_BURGER2) { // burges2 start
                 $result .= "<tr>
-                                <td rowspan='".$countBurger2."'>Бургури</td>
+                                <td rowspan='".$countBurger2."'>Бургери</td>
                                 <td>{$order->name}</td>
                                 <td>{$order->details}</td>
                                 <td>{$order->price}</td>
