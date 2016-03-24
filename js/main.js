@@ -168,8 +168,8 @@ angular
                 { name: "Redbull", details: "0.25", price: 35, qty: 0, checked: false, type: "drinks"}
             ],
             beer: [
-                {name: "Corona", details: "0.33", price: 35, qty: 0, checked: false, type: "beer"},
-                {name: "Bavaria", details: "0.5", price: 25, qty: 0, checked: false, type: "beer"},
+                {name: "Corona", details: "0.33", price: 40, qty: 0, checked: false, type: "beer"},
+                {name: "Bavaria", details: "0.5", price: 28, qty: 0, checked: false, type: "beer"},
                 {name: "STELLA ARTOIS б/а", details: "0.5", price: 35, qty: 0, checked: false, type: "beer"}
             ],
             water: [
