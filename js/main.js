@@ -53,6 +53,7 @@ angular
         $rootScope.$on('$stateChangeSuccess', function() {
             // scroll to top when state event fired
             $window.scrollTo(0, 0);
+            $scope.orderBtnDisabled = false;
         });
 
         // data
