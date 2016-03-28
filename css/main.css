@@ -843,28 +843,31 @@ footer .footer-info a {
     top: 1px;
     margin: 0 3px;
 }
-.instagram-icon {
-    display: inline-block;
-    background: url('../img/instagram-icon.png') no-repeat 0 0;
-    background-size: cover;
+.social-icon {
+    background-image: url('../img/social-sprite.svg');
     width: 33px;
     height: 33px;
+}
+.instagram-icon {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: -66px 0;
     position: relative;
     top: 11px;
-    margin: 0 3px;
 }
 .facebook-icon {
     display: inline-block;
-    background: url('../img/facebook-icon.png') no-repeat 0 0;
-    background-size: cover;
-    width: 33px;
-    height: 33px;
+    background-repeat: no-repeat;
+    background-position: -33px 0;
     position: relative;
     top: 11px;
-    margin: 0 3px;
 }
-.fb-like {
-    margin: 0 3px;
+.tripadvisor-icon {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    position: relative;
+    top: 11px;
 }
 .contact-us {
     margin-top: 15px;
