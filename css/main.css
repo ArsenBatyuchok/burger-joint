@@ -278,6 +278,7 @@ h2:after {
 /*Additional Section styles*/
 .additional {
     background: url('../img/background-text.png') repeat-y 0 0;
+    background-attachment: fixed;
     background-color: #fff;
     background-size: 100%;
     padding-top: 100px;
