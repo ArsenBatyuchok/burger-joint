@@ -44,81 +44,84 @@
                     <div class="burger-wrapper">
                         <div class="burger-row">
                             <div class="burger-block" ng-repeat="burger in menu.burgers">
-                                <div class="img-holder">
-                                    <img ng-src="{{ burger.img }}" alt="{{ burger.name }}" />
-                                </div>
-                                <div class="burger-info">
-                                    <div class="burger-header clearfix">
-                                        <h3 class="f-left">
-                                            {{ burger.name }}
-                                            <span class="item-details">
-                                                {{ burger.details }}
-                                            </span>
-                                        </h3>
-                                        <a href="javascript:void(0)" 
-                                           class="burger-add" 
-                                           ng-click="itemIncrement(burger)" 
-                                           ng-show="burger.qty == 0">
-                                        </a>
-                                        <div class="f-right burger-quantity-wrapper" ng-show="burger.qty > 0">
-                                            <div class="order-controls">
-                                                <a href="javascript:void(0)" class="subtract" ng-click="itemDecrement(burger)"></a>
-                                                <div class="order-item-quantity">{{ burger.qty }}</div>
-                                                <a href="javascript:void(0)" class="add" ng-click="itemIncrement(burger)"></a>
-                                            </div>
-                                        </div>
-                                        <div class="doneness-wrapper" ng-show="burger.doneness && burger.qty > 0">
-                                            <a href="javascript:void(0)" class="doneness-trigger" ng-click="visible=true">
-                                                <div class="doneness-icon"></div>
-                                                <div class="doneness-msg">Прожарка</div>
+                                <div class="burger-block-inner clearfix">
+                                    <div class="img-holder">
+                                        <img ng-src="{{ burger.img }}" alt="{{ burger.name }}" />
+                                    </div>
+                                    <div class="burger-info">
+                                        <div class="burger-header clearfix">
+                                            <h3 class="f-left">
+                                                {{ burger.name }}
+                                                <span class="item-details">
+                                                    {{ burger.details }}
+                                                </span>
+                                            </h3>
+                                            <a href="javascript:void(0)" 
+                                               class="burger-add" 
+                                               ng-click="itemIncrement(burger)" 
+                                               ng-show="burger.qty == 0">
                                             </a>
-                                            <div class="doneness-popover" 
-                                                 ng-show="visible" 
-                                                 off-click="visible=false" 
-                                                 off-click-activator="visible">
-                                                <div class="doneness-grid">
-                                                    <div class="doneness-labels-wrapper">
-                                                        <div class="doneness-label">Well Done</div>
-                                                        <div class="doneness-label medium">Medium</div>
-                                                        <div class="doneness-label">Medium Rare</div>
-                                                    </div>
-                                                    <div class="radio-group-wrapper">
-                                                        <div class="radio-group" 
-                                                             ng-repeat="item in burger.doneness track by $index">
-                                                            <button type="button" 
-                                                                    class="doneness-btn" 
-                                                                    ng-class="{'active': burger.doneness[$index] === 'welldone'}"
-                                                                    ng-click="burger.doneness[$index] = 'welldone'">
-                                                                <div class="icon-doneness"></div>
-                                                            </button>
-                                                            <button type="button" 
-                                                                    class="doneness-btn"
-                                                                    ng-class="{'active': burger.doneness[$index] === 'medium'}"
-                                                                    ng-click="burger.doneness[$index] = 'medium'">
-                                                                <div class="icon-doneness"></div>
-                                                            </button>
-                                                            <button type="button" 
-                                                                    class="doneness-btn"
-                                                                    ng-class="{'active': burger.doneness[$index] === 'mediumrare'}"
-                                                                    ng-click="burger.doneness[$index] = 'mediumrare'">
-                                                                <div class="icon-doneness"></div>
-                                                            </button>
+                                            <div class="f-right burger-quantity-wrapper" ng-show="burger.qty > 0">
+                                                <div class="order-controls">
+                                                    <a href="javascript:void(0)" class="subtract" ng-click="itemDecrement(burger)"></a>
+                                                    <div class="order-item-quantity">{{ burger.qty }}</div>
+                                                    <a href="javascript:void(0)" class="add" ng-click="itemIncrement(burger)"></a>
+                                                </div>
+                                            </div>
+                                            <div class="doneness-wrapper" ng-show="burger.doneness && burger.qty > 0">
+                                                <a href="javascript:void(0)" class="doneness-trigger" ng-click="visible=true">
+                                                    <div class="doneness-icon"></div>
+                                                    <div class="doneness-msg">Прожарка</div>
+                                                </a>
+                                                <div class="doneness-popover" 
+                                                     ng-show="visible" 
+                                                     off-click="visible=false" 
+                                                     off-click-activator="visible">
+                                                    <div class="doneness-grid">
+                                                        <div class="doneness-labels-wrapper">
+                                                            <div class="doneness-label">Well Done</div>
+                                                            <div class="doneness-label medium">Medium</div>
+                                                            <div class="doneness-label">Medium Rare</div>
+                                                        </div>
+                                                        <div class="radio-group-wrapper">
+                                                            <div class="radio-group" 
+                                                                 ng-repeat="item in burger.doneness track by $index">
+                                                                <button type="button" 
+                                                                        class="doneness-btn" 
+                                                                        ng-class="{'active': burger.doneness[$index] === 'welldone'}"
+                                                                        ng-click="burger.doneness[$index] = 'welldone'">
+                                                                    <div class="icon-doneness"></div>
+                                                                </button>
+                                                                <button type="button" 
+                                                                        class="doneness-btn"
+                                                                        ng-class="{'active': burger.doneness[$index] === 'medium'}"
+                                                                        ng-click="burger.doneness[$index] = 'medium'">
+                                                                    <div class="icon-doneness"></div>
+                                                                </button>
+                                                                <button type="button" 
+                                                                        class="doneness-btn"
+                                                                        ng-class="{'active': burger.doneness[$index] === 'mediumrare'}"
+                                                                        ng-click="burger.doneness[$index] = 'mediumrare'">
+                                                                    <div class="icon-doneness"></div>
+                                                                </button>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="desc">
-                                        <p>
-                                            {{ burger.desc }}
-                                        </p>
-                                        <div class="price">
-                                            <span class="amount">{{ burger.price }}</span>
-                                            <span class="currency">грн</span>
+                                        <div class="desc">
+                                            <p>
+                                                {{ burger.desc }}
+                                            </p>
+                                            <div class="price">
+                                                <span class="amount">{{ burger.price }}</span>
+                                                <span class="currency">грн</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                                
                             </div>
                         </div>
                     </div>

@@ -151,6 +151,10 @@ h2:after {
     display: inline-block;
     margin-bottom: 90px;
 }
+.burger-block-inner {
+    max-width: 506px;
+    margin: 0 auto;
+}
 .burger-block .img-holder {
     max-width: 133px;
     float: left;

@@ -95,6 +95,10 @@
 		float: none;
 		margin-bottom: 10px;
 	}
+	.burger-block-inner {
+	    max-width: 300px;
+	    margin: 0 auto;
+	}
 	.burger-row .burger-block {
 		width: 45%;
   		display: inline-block;
