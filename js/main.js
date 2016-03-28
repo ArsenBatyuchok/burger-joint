@@ -46,6 +46,8 @@ angular
 
         $rootScope.$state = $state;
 
+        $scope.orderBtnDisabled = false;
+
 
 
         $rootScope.$on('$stateChangeSuccess', function() {
@@ -282,6 +284,8 @@ angular
             if (form.$invalid) {
                 return;
             }
+
+            $scope.orderBtnDisabled = true;
 
             $scope.fullOrderDetails.ordered = [];
 
