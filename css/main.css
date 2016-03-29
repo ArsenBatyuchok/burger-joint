@@ -93,7 +93,7 @@ header.container {
     float: left;
 }
 .logo-msg {
-    font-size: 23px;
+    font-size: 16px;
     color: #fff;
     text-transform: uppercase;
     line-height: 1.15;
@@ -602,7 +602,7 @@ h2:after {
 }
 .form-wrapper .order-btn {
     height: 68px;
-    background: #000;
+    background: #AE814A;
     box-shadow: none;
     color: #fff;
     font-size: 36px;
@@ -745,11 +745,8 @@ footer .footer-info a {
     border-bottom: none;
 }
 .doneness-label {
-    font-family: "bebas_neue_book";
-    letter-spacing: 0.5;
-}
-.doneness-label.medium {
     font-family: "bebas_neue_bold";
+    letter-spacing: 0.5;
 }
 
 /*doneness buttons styles*/
@@ -781,7 +778,7 @@ footer .footer-info a {
 
 
 .payment-label-group {
-    margin-top: 12px;
+    margin-top: 20px;
     float: left;
 }
 

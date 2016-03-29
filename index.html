@@ -6,7 +6,10 @@
         <title>Burger Joint</title>
         <meta name="description" content="Доставка бургерів у Львові">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-        <meta property="og:image" content="http://arsenbatyuchok.github.io/burger-joint/img/logo.png" />
+        <meta property="og:image" content="http://burgerjoint.com.ua/img/logo.png" />
+        <meta property="og:url" content="http://burgerjoint.com.ua/" />
+        <meta property="og:title" content="Burger Joint" />
+        <meta property="og:description" content="Доставка бургерів у Львові" />
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/helper.css">
@@ -28,13 +31,15 @@
                     <div class="logo-holder">
                         <div class="logo"></div>
                         <div class="logo-msg">
-                            Доставка <br>Бургерів
+                            Доставка <br>Бургерів <br>у львові
                         </div>
                     </div>
                     <div class="header-info">
-                        <a href="tel:+380322355029">+38 (032) 235 50 29</a>
-                        <a href="tel:+380682355029">+38 (068) 235 50 29</a>
-                        <div>10:00-23:00 без вихiдних</div>
+                        <div>
+                            <a href="tel:+380682355029">+38 (068) 235 50 29</a>,
+                            <a href="tel:+380322355029">+38 (032) 235 50 29</a>
+                        </div>
+                        <div>кожного дня з 10:00 по 23:00</div>
                     </div>
                 </header>
             </section>
@@ -532,7 +537,7 @@
                                 <label for="phoneNumberInput" class="o-hid textarea-holder">
                                     <div class="label-msg" 
                                          ng-class="{'invalid': orderForm.phoneNumber.$invalid}">
-                                        Ваш телефон <span class="text-danger">*</span>
+                                        Ваш телефон
                                     </div>
                                     <input type="text" 
                                            id="phoneNumberInput" 
@@ -545,12 +550,12 @@
                                 <label for="deliveryInput" class="textarea-holder o-hid">
                                     <div class="label-msg" 
                                          ng-class="{'invalid': orderForm.textMessage.$invalid}">
-                                        Куди веземо? <span class="text-danger">*</span>
+                                        Куди веземо?
                                     </div>
                                     <textarea id="deliveryInput" 
                                               ng-model="fullOrderDetails.textMessage" 
                                               name="textMessage"
-                                              placeholder="Вулиця, номер будинку, номер квартири" 
+                                              placeholder="Вулиця, номер будинку, номер квартири, додатковий коментар"
                                               required>
                                     </textarea>
                                 </label>
