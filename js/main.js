@@ -273,8 +273,8 @@ angular
                 }, 0);
             }
             // adding delivery price if sum is bigger than 100 UAH
-            if (total.sum < 100) {
-                total.sum += 30;
+            if (total.sum < 170) {
+                total.sum += 40;
                 total.includeDelivery = true;
             }
             return total;
