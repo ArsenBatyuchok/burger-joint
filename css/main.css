@@ -45,6 +45,13 @@
 .ng-cloak {
     display: none;
 }
+.ng-cloak-negative {
+    display: none;
+}
+.ng-cloak-negative.ng-cloak {
+    display: block !important;
+    height: 1px;
+}
 
 
 /*Page Styles*/
