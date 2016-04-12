@@ -42,6 +42,9 @@
 .o-hid {
     overflow: hidden;
 }
+.ng-cloak {
+    display: none;
+}
 
 
 /*Page Styles*/
