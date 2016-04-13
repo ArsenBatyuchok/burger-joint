@@ -4,7 +4,7 @@ use Mailgun\Mailgun;
 
 class Email
 {
-    const DELIVERY = 30;
+    const DELIVERY = 40;
     const TYPE_WATER = 'water';
     const TYPE_BEER = 'beer';
     const TYPE_DRINK = 'drinks';
@@ -297,6 +297,9 @@ class Email
 
         $result .= '</table>';
         $result .= "Номер телефона - {$data->phoneNumber}<br>";
+        if (isset($data->userName) && $data->userName) {
+            $result .= "I'мя - {$data->userName}<br>";
+        }
         $result .= "Адреса - {$data->textMessage}<br>";
         $result .= "Спосiб оплати - {$data->paymentMethod}<br>";
         return (string)$result;
