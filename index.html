@@ -272,39 +272,6 @@
                 <div class="additional-row">
                     <div class="additional-block additional-block-sm">
                         <h3>
-                            Пиво
-                        </h3>
-                        <div class="additional-list">
-                            <div class="additional-list-item" ng-repeat="beer in menu.beer">
-                                <input type="checkbox" 
-                                       class="bj-checkbox"
-                                       name="beerInput"
-                                       ng-model="beer.checked"
-                                       ng-change="addItemWithCheckbox(beer)"
-                                       id="beerInput{{$index}}" />
-                                <label for="beerInput{{$index}}">
-                                    <span class="item-name">
-                                        {{ beer.name }}
-                                    </span>
-                                </label>
-                                <span class="item-details">
-                                    {{ beer.details }}
-                                </span>
-                                <div class="additional-quantity-wrapper" ng-show="beer.qty > 0">
-                                    <div class="order-controls">
-                                        <a href="javascript:void(0)" class="subtract" ng-click="itemDecrement(beer)"></a>
-                                        <div class="order-item-quantity">{{ beer.qty }}</div>
-                                        <a href="javascript:void(0)" class="add" ng-click="itemIncrement(beer)"></a>
-                                    </div>
-                                </div>
-                                <span class="price">
-                                    {{ beer.price }}
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="additional-block additional-block-sm">
-                        <h3>
                             Вода
                         </h3>
                         <div class="additional-list">
@@ -343,7 +310,6 @@
                                               filteredSalads.length ||
                                               filteredFries.length ||
                                               filteredDrinks.length ||
-                                              filteredBeer.length ||
                                               filteredWater.length ||
                                               filteredSauces.length
                                               ">
@@ -353,7 +319,6 @@
                                               filteredSalads.length ||
                                               filteredFries.length ||
                                               filteredDrinks.length ||
-                                              filteredBeer.length ||
                                               filteredWater.length ||
                                               filteredSauces.length
                                               ">
@@ -419,25 +384,6 @@
                                         </div>
                                     </li>
                                     <li class="order-item" ng-repeat="item in filteredDrinks = (menu.drinks | ordered)">
-                                        <div class="order-item-name">
-                                            {{ item.name }}
-                                        </div>
-                                        <div class="order-details">
-                                            <div class="order-controls">
-                                                <a href="javascript:void(0)" 
-                                                   class="subtract" 
-                                                   ng-click="qtyDecrement(item)"></a>
-                                                <div class="order-item-quantity">{{ item.qty }}</div>
-                                                <a href="javascript:void(0)" 
-                                                   class="add" 
-                                                   ng-click="qtyIncrement(item)"></a>
-                                            </div>
-                                            <div class="order-item-price">
-                                                <span class="order-item-price-amount">{{ item.price }}</span> грн
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="order-item" ng-repeat="item in filteredBeer = (menu.beer | ordered)">
                                         <div class="order-item-name">
                                             {{ item.name }}
                                         </div>
@@ -579,7 +525,6 @@
                                               filteredSalads.length ||
                                               filteredFries.length ||
                                               filteredDrinks.length ||
-                                              filteredBeer.length ||
                                               filteredWater.length ||
                                               filteredSauces.length) || orderBtnDisabled">
                                     Замовити

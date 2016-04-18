@@ -170,11 +170,6 @@ angular
                 { name: "Mirinda", details: "0.5", price: 20, qty: 0, checked: false, type: "drinks"},
                 { name: "Redbull", details: "0.25", price: 35, qty: 0, checked: false, type: "drinks"}
             ],
-            beer: [
-                {name: "Corona", details: "0.33", price: 40, qty: 0, checked: false, type: "beer"},
-                {name: "Bavaria", details: "0.5", price: 28, qty: 0, checked: false, type: "beer"},
-                {name: "STELLA ARTOIS б/а", details: "0.5", price: 35, qty: 0, checked: false, type: "beer"}
-            ],
             water: [
                 {name: "Аква Мiнерале газ.", details: "0.6", price: 20, qty: 0, checked: false, type: "water"},
                 {name: "Аква Мiнерале негаз.", details: "0.6", price: 20, qty: 0, checked: false, type: "water"},
