@@ -4,6 +4,7 @@ angular
     // routes on website
     .config(function($stateProvider, $urlRouterProvider) {
         $urlRouterProvider.otherwise("/");
+
         $stateProvider
             .state('root', {
                 url: "/"
@@ -23,6 +24,10 @@ angular
             .state('failure', {
                 url: "/failure",
                 templateUrl: '../templates/failure.tpl.html'
+            })
+            .state('closed', {
+                url: "/closed",
+                templateUrl: '../templates/closed.tpl.html'
             });
         })
 
@@ -46,9 +51,19 @@ angular
 
         $rootScope.$state = $state;
 
+        initialize();
+        function initialize() {
+            var current = new Date().getHours();
+            // redirect to a /closed state if site accessed at non-working hours
+            current > 10 && current < 23? setRoute('root'): setRoute('closed');
+        }
+        function setRoute(state) {
+            $timeout(function() {
+                $state.go(state);
+            });
+        }
+
         $scope.orderBtnDisabled = false;
-
-
 
         $rootScope.$on('$stateChangeSuccess', function() {
             // scroll to top when state event fired
@@ -366,6 +381,3 @@ angular
         }
     }
 });
-
-// comment
-
