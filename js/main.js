@@ -55,7 +55,11 @@ angular
         function initialize() {
             var current = new Date().getHours();
             // redirect to a /closed state if site accessed at non-working hours
-            current > 10 && current < 23? setRoute('root'): setRoute('closed');
+            if (current < 10 && current > 23) {
+                setRoute('closed');
+                return false;
+            }
+            return true;
         }
         function setRoute(state) {
             $timeout(function() {
@@ -65,8 +69,11 @@ angular
 
         $scope.orderBtnDisabled = false;
 
-        $rootScope.$on('$stateChangeStart', function() {
+        $rootScope.$on('$stateChangeStart', function(event, toState, toParams, fromState, fromParams) {
             initialize();
+            if (toState.name === 'closed' && initialize()) {
+                setRoute('root');
+            }
         });
 
         $rootScope.$on('$stateChangeSuccess', function() {
