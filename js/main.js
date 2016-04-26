@@ -55,7 +55,7 @@ angular
         function initialize() {
             var current = new Date().getHours();
             // redirect to a /closed state if site accessed at non-working hours
-            if (current < 10 && current > 23) {
+            if (current < 10 || current > 23) {
                 setRoute('closed');
                 return false;
             }
