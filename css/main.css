@@ -807,6 +807,12 @@ footer .footer-info a {
     margin: auto !important;
     text-align: center;
 }
+.popup.popup-closed p {
+    margin: 7px 0;
+}
+.popup.popup-closed h3 {
+    margin-top: 10px;
+}
 .popup-dismiss {
     background: url('../img/sprite.svg') no-repeat -100px 0;
     display: block;
