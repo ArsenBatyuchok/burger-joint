@@ -90,7 +90,7 @@ angular
                     name: "Класичний",
                     desc: "Булка з сезамом, котлета з яловичини приготована на вугіллі з листям салату, соленим огірком, цибулею, помідором і соусом",
                     img: "img/burger1.png",
-                    price: 75,
+                    price: 85,
                     qty: 0,
                     doneness: [],
                     type: "burgers"
@@ -99,7 +99,7 @@ angular
                     name: "Класичний з сиром",
                     desc: "Класичний бургер з американським сиром чеддер",
                     img: "img/burger2.png",
-                    price: 85,
+                    price: 90,
                     qty: 0,
                     doneness: [],
                     type: "burgers"
@@ -108,7 +108,7 @@ angular
                     name: "Грибний з сиром",
                     desc: "Булка з сезамом, котлета з яловичини приготована на вугіллі рясно полита грибним соусом з листям салату, печерицями на грилі та плавленим швейцарським сиром",
                     img: "img/burger3.png",
-                    price: 80,
+                    price: 90,
                     qty: 0,
                     doneness: [],
                     type: "burgers"
@@ -117,7 +117,7 @@ angular
                     name: "Мексиканський",
                     desc: "Булка з сезамом, котлета з яловичини приготована на вугіллі з цибулею на грилі, гострим перцем, листям салату, подвійним американським сиром чеддер і соусом",
                     img: "img/burger4.png",
-                    price: 85,
+                    price: 95,
                     qty: 0,
                     doneness: [],
                     type: "burgers"
@@ -126,7 +126,7 @@ angular
                     name: "Барбек’ю-бейкон",
                     desc: "Булка з сезамом, котлета з яловичини приготована на вугіллі з класичним барбек’ю соусом, цибулею на грилі, листям салату, хрумким бейконом, сиром чеддер і домашнім майонезом",
                     img: "img/burger5.png",
-                    price: 85,
+                    price: 95,
                     qty: 0,
                     doneness: [],
                     type: "burgers"
@@ -135,7 +135,7 @@ angular
                     name: "Сулугунi",
                     desc: "Булка з сезамом, котлета з яловичини приготована на вугіллі з сиром сулугуні в середині, листям салату, помідором, соленими огірками, цибулею та соусом",
                     img: "img/burger6.png",
-                    price: 85,
+                    price: 90,
                     qty: 0,
                     doneness: [],
                     type: "burgers"
@@ -144,7 +144,7 @@ angular
                     name: "Дитячий",
                     desc: "Булочка, міні котлета з яловичини приготована на вугіллі з листям салату, помідором, соленими огірками, цибулею та соусом",
                     img: "img/burger10.png",
-                    price: 60,
+                    price: 70,
                     qty: 0,
                     doneness: [],
                     type: "burgers"
@@ -154,7 +154,7 @@ angular
                     details: "",
                     desc: "Булка з сезамом, куряче філе приготоване на вугіллі з соусом айолі, листям салату, помідором та соленими огірками",
                     img: "img/burger7.png",
-                    price: 70,
+                    price: 75,
                     qty: 0,
                     type: "burgers2"
                 },
@@ -163,7 +163,7 @@ angular
                     details: "в медово-гiрчичному соусi",
                     desc: "Булка з сезамом, куряче філе приготоване на вугіллі з швейцарським сиром, медово-гірчичним соусом, соленими огірками та домашнім майонезом",
                     img: "img/burger8.png",
-                    price: 75,
+                    price: 80,
                     qty: 0,
                     type: "burgers2"
                 },
@@ -172,34 +172,34 @@ angular
                     details: "",
                     desc: "Булка з сезамом, котлета з нуту приготована на вугіллі з листям салату, помідором, соленими огірками, цибулею та домашнім майонезом",
                     img: "img/burger9.png",
-                    price: 65,
+                    price: 75,
                     qty: 0,
                     type: "burgers2"
                 }
             ],
             salads: [
-                { name: "З куркою на грилi", price: 55, qty: 0, checked: false, type: "salads"},
-                { name: "З яловичиною", price: 65, qty: 0, checked: false, type: "salads"},
-                { name: "Вегетарiанський", price: 50, qty: 0, checked: false, type: "salads"}
+                { name: "З куркою на грилi", price: 65, qty: 0, checked: false, type: "salads"},
+                { name: "З яловичиною", price: 75, qty: 0, checked: false, type: "salads"},
+                { name: "Вегетарiанський", price: 60, qty: 0, checked: false, type: "salads"}
             ],
             fries: [
-                { name: "Натуральна", price: 25, qty: 0, checked: false, type: "fries"},
-                { name: "Сирна", price: 30, qty: 0, checked: false, type: "fries"},
-                { name: "Часникова", price: 30, qty: 0, checked: false, type: "fries"},
-                { name: "Гостра", price: 30, qty: 0, checked: false, type: "fries"}
+                { name: "Натуральна", price: 30, qty: 0, checked: false, type: "fries"},
+                { name: "Сирна", price: 35, qty: 0, checked: false, type: "fries"},
+                { name: "Часникова", price: 35, qty: 0, checked: false, type: "fries"},
+                { name: "Гостра", price: 35, qty: 0, checked: false, type: "fries"}
             ],
             drinks: [
-                { name: "Pepsi", details: "0.5", price: 20, qty: 0, checked: false, type: "drinks"},
-                { name: "Pepsi Light", details: "0.5", price: 20, qty: 0, checked: false, type: "drinks"},
-                { name: "Schweppes", details: "0.5", price: 20, qty: 0, checked: false, type: "drinks"},
-                { name: "7UP", details: "0.5", price: 20, qty: 0, checked: false, type: "drinks"},
-                { name: "Mirinda", details: "0.5", price: 20, qty: 0, checked: false, type: "drinks"},
-                { name: "Redbull", details: "0.25", price: 35, qty: 0, checked: false, type: "drinks"}
+                { name: "Pepsi", details: "0.5", price: 25, qty: 0, checked: false, type: "drinks"},
+                { name: "Pepsi Light", details: "0.5", price: 25, qty: 0, checked: false, type: "drinks"},
+                { name: "Schweppes", details: "0.5", price: 25, qty: 0, checked: false, type: "drinks"},
+                { name: "7UP", details: "0.5", price: 25, qty: 0, checked: false, type: "drinks"},
+                { name: "Mirinda", details: "0.5", price: 25, qty: 0, checked: false, type: "drinks"},
+                { name: "Redbull", details: "0.25", price: 45, qty: 0, checked: false, type: "drinks"}
             ],
             water: [
                 {name: "Аква Мiнерале газ.", details: "0.6", price: 20, qty: 0, checked: false, type: "water"},
                 {name: "Аква Мiнерале негаз.", details: "0.6", price: 20, qty: 0, checked: false, type: "water"},
-                {name: "Поляна Квасова газ.", details: "0.5", price: 30, qty: 0, checked: false, type: "water"}
+                {name: "Поляна Квасова газ.", details: "0.5", price: 35, qty: 0, checked: false, type: "water"}
             ],
             sauces: [
                 {name: "Барбек’ю", price: 15, qty: 0, checked: false, type: "sauces"},
