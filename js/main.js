@@ -216,28 +216,28 @@ angular
             $scope.menu = angular.copy($scope.orig);
         };
 
-        if(localStorage['menu']) {
-            $.extend(true, $scope.menu, JSON.parse(localStorage['menu']));
-            $scope.fullOrderDetails = {
-                ordered: [],
-                userName: localStorage.userName,
-                phoneNumber: localStorage.phoneNumber,
-                textMessage: localStorage.textMessage,
-                paymentMethod: localStorage.paymentMethod,
-                totalPrice: 0,
-                rememberOrder: true
-            };
-        } else {
-            $scope.fullOrderDetails = {
-                ordered: [],
-                userName: "",
-                phoneNumber: "",
-                textMessage: "",
-                paymentMethod: "cashPayment",
-                totalPrice: 0,
-                rememberOrder: false
-            };
-        }
+        // if(localStorage['menu']) {
+        //     $.extend(true, $scope.menu, JSON.parse(localStorage['menu']));
+        //     $scope.fullOrderDetails = {
+        //         ordered: [],
+        //         userName: localStorage.userName,
+        //         phoneNumber: localStorage.phoneNumber,
+        //         textMessage: localStorage.textMessage,
+        //         paymentMethod: localStorage.paymentMethod,
+        //         totalPrice: 0,
+        //         rememberOrder: true
+        //     };
+        // } else {
+        $scope.fullOrderDetails = {
+            ordered: [],
+            userName: "",
+            phoneNumber: "",
+            textMessage: "",
+            paymentMethod: "cashPayment",
+            totalPrice: 0,
+            rememberOrder: false
+        };
+        // }
         
         $scope.addItemWithCheckbox = function(item) {
             if (item.checked) {
@@ -294,7 +294,7 @@ angular
                 }, 0);
             }
             // adding delivery price if sum is bigger than 100 UAH
-            if (total.sum < 170) {
+            if (total.sum < 185) {
                 total.sum += 40;
                 total.includeDelivery = true;
             }
@@ -322,16 +322,16 @@ angular
 
             $scope.fullOrderDetails.totalPrice = $scope.calcTotal();
             $scope.data = $scope.fullOrderDetails;
-            if ($scope.fullOrderDetails.rememberOrder) {
-                localStorage['menu'] = JSON.stringify($scope.menu);
-                localStorage['userName'] = $scope.fullOrderDetails.userName;
-                localStorage['phoneNumber'] = $scope.fullOrderDetails.phoneNumber;
-                localStorage['textMessage'] = $scope.fullOrderDetails.textMessage;
-                localStorage['paymentMethod'] = $scope.fullOrderDetails.paymentMethod;
-            } else {
-                localStorage.clear();
-                localStorage['menu'] = '';
-            }
+            // if ($scope.fullOrderDetails.rememberOrder) {
+            //     localStorage['menu'] = JSON.stringify($scope.menu);
+            //     localStorage['userName'] = $scope.fullOrderDetails.userName;
+            //     localStorage['phoneNumber'] = $scope.fullOrderDetails.phoneNumber;
+            //     localStorage['textMessage'] = $scope.fullOrderDetails.textMessage;
+            //     localStorage['paymentMethod'] = $scope.fullOrderDetails.paymentMethod;
+            // } else {
+            //     localStorage.clear();
+            //     localStorage['menu'] = '';
+            // }
 
             //function getURLParameter(name) {
             //    return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
