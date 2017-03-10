@@ -7,9 +7,9 @@
         <meta name="description" content="Доставка бургерів у Львові">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <meta property="og:image" content="http://burgerjoint.com.ua/img/logo-fb.png" />
-        <meta property="og:image:secure_url" content="https://burgerjoint.com.ua/img/logo-fb.png" /> 
-        <meta property="og:image:type" content="image/png" /> 
-        <meta property="og:image:width" content="200" /> 
+        <meta property="og:image:secure_url" content="https://burgerjoint.com.ua/img/logo-fb.png" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:url" content="http://burgerjoint.com.ua/" />
         <meta property="og:title" content="Burger Joint" />
@@ -64,9 +64,9 @@
                                                     {{ burger.details }}
                                                 </span>
                                             </h3>
-                                            <a href="javascript:void(0)" 
-                                               class="burger-add" 
-                                               ng-click="itemIncrement(burger)" 
+                                            <a href="javascript:void(0)"
+                                               class="burger-add"
+                                               ng-click="itemIncrement(burger)"
                                                ng-show="burger.qty == 0">
                                             </a>
                                             <div class="f-right burger-quantity-wrapper" ng-show="burger.qty > 0">
@@ -81,9 +81,9 @@
                                                     <div class="doneness-icon"></div>
                                                     <div class="doneness-msg">Прожарка</div>
                                                 </a>
-                                                <div class="doneness-popover" 
-                                                     ng-show="visible" 
-                                                     off-click="visible=false" 
+                                                <div class="doneness-popover"
+                                                     ng-show="visible"
+                                                     off-click="visible=false"
                                                      off-click-activator="visible">
                                                     <div class="doneness-grid">
                                                         <div class="doneness-labels-wrapper">
@@ -92,21 +92,21 @@
                                                             <div class="doneness-label">Medium Rare</div>
                                                         </div>
                                                         <div class="radio-group-wrapper">
-                                                            <div class="radio-group" 
+                                                            <div class="radio-group"
                                                                  ng-repeat="item in burger.doneness track by $index">
-                                                                <button type="button" 
-                                                                        class="doneness-btn" 
+                                                                <button type="button"
+                                                                        class="doneness-btn"
                                                                         ng-class="{'active': burger.doneness[$index] === 'welldone'}"
                                                                         ng-click="burger.doneness[$index] = 'welldone'">
                                                                     <div class="icon-doneness"></div>
                                                                 </button>
-                                                                <button type="button" 
+                                                                <button type="button"
                                                                         class="doneness-btn"
                                                                         ng-class="{'active': burger.doneness[$index] === 'medium'}"
                                                                         ng-click="burger.doneness[$index] = 'medium'">
                                                                     <div class="icon-doneness"></div>
                                                                 </button>
-                                                                <button type="button" 
+                                                                <button type="button"
                                                                         class="doneness-btn"
                                                                         ng-class="{'active': burger.doneness[$index] === 'mediumrare'}"
                                                                         ng-click="burger.doneness[$index] = 'mediumrare'">
@@ -129,7 +129,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -143,7 +143,7 @@
                         </h3>
                         <div class="additional-list">
                             <div class="additional-list-item" ng-repeat="salad in menu.salads">
-                                <input type="checkbox" 
+                                <input type="checkbox"
                                        class="bj-checkbox"
                                        name="saladInput"
                                        ng-model="salad.checked"
@@ -169,14 +169,14 @@
                     </div>
                 </div>
                 <div class="additional-row">
-                    
+
                     <div class="additional-block additional-block-sm">
                         <h3>
                             КАРТОПЛЯ ФРІ
                         </h3>
                         <div class="additional-list">
                             <div class="additional-list-item" ng-repeat="fries in menu.fries">
-                                <input type="checkbox" 
+                                <input type="checkbox"
                                        class="bj-checkbox"
                                        name="friesInput"
                                        ng-model="fries.checked"
@@ -206,7 +206,7 @@
                         </h3>
                         <div class="additional-list">
                             <div class="additional-list-item" ng-repeat="sauce in menu.sauces">
-                                <input type="checkbox" 
+                                <input type="checkbox"
                                        class="bj-checkbox"
                                        name="sauceInput"
                                        ng-model="sauce.checked"
@@ -238,7 +238,7 @@
                         </h3>
                         <div class="additional-list">
                             <div class="additional-list-item" ng-repeat="drink in menu.drinks">
-                                <input type="checkbox" 
+                                <input type="checkbox"
                                        class="bj-checkbox"
                                        name="drinkInput"
                                        ng-model="drink.checked"
@@ -273,7 +273,7 @@
                         </h3>
                         <div class="additional-list">
                             <div class="additional-list-item additional-list-item-water" ng-repeat="water in menu.water">
-                                <input type="checkbox" 
+                                <input type="checkbox"
                                        class="bj-checkbox"
                                        name="waterInput"
                                        ng-model="water.checked"
@@ -324,19 +324,19 @@
                                     Ваше замовлення:
                                 </div>
                                 <ul class="order-list">
-                                    
+
                                     <li class="order-item" ng-repeat="item in filteredBurgers = (menu.burgers | ordered)">
                                         <div class="order-item-name">
                                             Бургер {{ item.name }}
                                         </div>
                                         <div class="order-details">
                                             <div class="order-controls">
-                                                <a href="javascript:void(0)" 
-                                                   class="subtract" 
+                                                <a href="javascript:void(0)"
+                                                   class="subtract"
                                                    ng-click="qtyDecrement(item)"></a>
                                                 <div class="order-item-quantity">{{ item.qty }}</div>
-                                                <a href="javascript:void(0)" 
-                                                   class="add" 
+                                                <a href="javascript:void(0)"
+                                                   class="add"
                                                    ng-click="qtyIncrement(item)"></a>
                                             </div>
                                             <div class="order-item-price">
@@ -350,12 +350,12 @@
                                         </div>
                                         <div class="order-details">
                                             <div class="order-controls">
-                                                <a href="javascript:void(0)" 
-                                                   class="subtract" 
+                                                <a href="javascript:void(0)"
+                                                   class="subtract"
                                                    ng-click="qtyDecrement(item)"></a>
                                                 <div class="order-item-quantity">{{ item.qty }}</div>
-                                                <a href="javascript:void(0)" 
-                                                   class="add" 
+                                                <a href="javascript:void(0)"
+                                                   class="add"
                                                    ng-click="qtyIncrement(item)"></a>
                                             </div>
                                             <div class="order-item-price">
@@ -369,12 +369,12 @@
                                         </div>
                                         <div class="order-details">
                                             <div class="order-controls">
-                                                <a href="javascript:void(0)" 
-                                                   class="subtract" 
+                                                <a href="javascript:void(0)"
+                                                   class="subtract"
                                                    ng-click="qtyDecrement(item)"></a>
                                                 <div class="order-item-quantity">{{ item.qty }}</div>
-                                                <a href="javascript:void(0)" 
-                                                   class="add" 
+                                                <a href="javascript:void(0)"
+                                                   class="add"
                                                    ng-click="qtyIncrement(item)"></a>
                                             </div>
                                             <div class="order-item-price">
@@ -388,12 +388,12 @@
                                         </div>
                                         <div class="order-details">
                                             <div class="order-controls">
-                                                <a href="javascript:void(0)" 
-                                                   class="subtract" 
+                                                <a href="javascript:void(0)"
+                                                   class="subtract"
                                                    ng-click="qtyDecrement(item)"></a>
                                                 <div class="order-item-quantity">{{ item.qty }}</div>
-                                                <a href="javascript:void(0)" 
-                                                   class="add" 
+                                                <a href="javascript:void(0)"
+                                                   class="add"
                                                    ng-click="qtyIncrement(item)"></a>
                                             </div>
                                             <div class="order-item-price">
@@ -407,12 +407,12 @@
                                         </div>
                                         <div class="order-details">
                                             <div class="order-controls">
-                                                <a href="javascript:void(0)" 
-                                                   class="subtract" 
+                                                <a href="javascript:void(0)"
+                                                   class="subtract"
                                                    ng-click="qtyDecrement(item)"></a>
                                                 <div class="order-item-quantity">{{ item.qty }}</div>
-                                                <a href="javascript:void(0)" 
-                                                   class="add" 
+                                                <a href="javascript:void(0)"
+                                                   class="add"
                                                    ng-click="qtyIncrement(item)"></a>
                                             </div>
                                             <div class="order-item-price">
@@ -426,12 +426,12 @@
                                         </div>
                                         <div class="order-details">
                                             <div class="order-controls">
-                                                <a href="javascript:void(0)" 
-                                                   class="subtract" 
+                                                <a href="javascript:void(0)"
+                                                   class="subtract"
                                                    ng-click="qtyDecrement(item)"></a>
                                                 <div class="order-item-quantity">{{ item.qty }}</div>
-                                                <a href="javascript:void(0)" 
-                                                   class="add" 
+                                                <a href="javascript:void(0)"
+                                                   class="add"
                                                    ng-click="qtyIncrement(item)"></a>
                                             </div>
                                             <div class="order-item-price">
@@ -441,14 +441,14 @@
                                     </li>
                                     <li class="order-item" ng-if="calcTotal().includeDelivery">
                                         <div class="order-item-name">
-                                            Доставка 
+                                            Доставка
                                             <span class="item-details">
-                                                (замовлення до 185 грн)
+                                                (замовлення до {{ minDeliveryPrice }} грн)
                                             </span>
                                         </div>
                                         <div class="order-details">
                                             <div class="order-item-price">
-                                                <span class="order-item-price-amount">40</span> грн
+                                                <span class="order-item-price-amount">{{ deliveryPrice }}</span> грн
                                             </div>
                                         </div>
                                     </li>
@@ -467,7 +467,7 @@
                                         </label>
                                     </div> -->
                                     <div class="order-total">
-                                        Загалом: 
+                                        Загалом:
                                         <span class="order-total-amount">{{ calcTotal().sum }}</span>
                                         грн
                                     </div>
@@ -480,31 +480,31 @@
                                     <div class="label-msg">
                                         Ваше iм’я
                                     </div>
-                                    <input type="text" 
-                                           id="nameInput" 
-                                           name="nameInput" 
+                                    <input type="text"
+                                           id="nameInput"
+                                           name="nameInput"
                                            ng-model="fullOrderDetails.userName"  />
                                 </label>
                                 <label for="phoneNumberInput" class="o-hid textarea-holder">
-                                    <div class="label-msg" 
+                                    <div class="label-msg"
                                          ng-class="{'invalid': orderForm.phoneNumber.$invalid}">
                                         Ваш телефон
                                     </div>
-                                    <input type="text" 
-                                           id="phoneNumberInput" 
-                                           name="phoneNumber" 
+                                    <input type="text"
+                                           id="phoneNumberInput"
+                                           name="phoneNumber"
                                            required
                                            placeholder="(067) 123-4567"
-                                           minlength="10" 
+                                           minlength="10"
                                            ng-model="fullOrderDetails.phoneNumber"  />
                                 </label>
                                 <label for="deliveryInput" class="textarea-holder o-hid">
-                                    <div class="label-msg" 
+                                    <div class="label-msg"
                                          ng-class="{'invalid': orderForm.textMessage.$invalid}">
                                         Куди веземо?
                                     </div>
-                                    <textarea id="deliveryInput" 
-                                              ng-model="fullOrderDetails.textMessage" 
+                                    <textarea id="deliveryInput"
+                                              ng-model="fullOrderDetails.textMessage"
                                               name="textMessage"
                                               placeholder="Вулиця, номер будинку, номер квартири, додатковий коментар"
                                               required>
@@ -549,11 +549,11 @@
                     </div>
                 </footer>
             </section>
-            
+
             <!-- popups with error/success will be injected here -->
             <ui-view></ui-view>
-            
-            
+
+
         </div>
         <!-- tripadvisor script -->
         <script src="https://www.jscache.com/wejs?wtype=socialButtonIcon&amp;uniq=730&amp;locationId=8014796&amp;color=green&amp;size=med&amp;lang=en_US&amp;display_version=2"></script>

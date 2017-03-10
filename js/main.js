@@ -50,6 +50,8 @@ angular
 	.controller('MainController', function($scope, $document, $filter, $location, $http, $rootScope, $state, $window, $timeout) {
 
         $rootScope.$state = $state;
+        $scope.minDeliveryPrice = 275;
+        $scope.deliveryPrice = 50;
 
         initialize();
         function initialize() {
@@ -267,7 +269,7 @@ angular
             rememberOrder: false
         };
         // }
-        
+
         $scope.addItemWithCheckbox = function(item) {
             if (item.checked) {
                 item.qty = 1;
@@ -318,13 +320,13 @@ angular
                 includeDelivery: null
             };
             for (var array in $scope.menu) {
-                total.sum += $scope.menu[array].reduce(function(acc, el) { 
-                    return acc + el.price * el.qty 
+                total.sum += $scope.menu[array].reduce(function(acc, el) {
+                    return acc + el.price * el.qty
                 }, 0);
             }
             // adding delivery price if sum is bigger than 100 UAH
-            if (total.sum < 185) {
-                total.sum += 40;
+            if (total.sum < 275) {
+                total.sum += 50;
                 total.includeDelivery = true;
             }
             return total;
@@ -397,7 +399,7 @@ angular
         restrict: 'A',
         compile: function(tElement, tAttrs) {
             var fn = $parse(tAttrs.offClick);
-            
+
             return function(scope, iElement, iAttrs) {
                 function eventHandler(ev) {
                     if (iElement[0].contains(ev.target)) {
