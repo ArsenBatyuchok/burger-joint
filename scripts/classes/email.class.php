@@ -4,7 +4,7 @@ use Mailgun\Mailgun;
 
 class Email
 {
-    const DELIVERY = 40;
+    const DELIVERY = 50;
     const TYPE_WATER = 'water';
     const TYPE_BEER = 'beer';
     const TYPE_DRINK = 'drinks';
