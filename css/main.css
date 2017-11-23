@@ -54,6 +54,18 @@
 }
 
 
+.text-center {
+    text-align: center;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+.nomargin-bottom {
+    margin-bottom: 0;
+}
+
+
 /*Page Styles*/
 html, body {
     font-family: 'tenor_sansregular', sans-serif;

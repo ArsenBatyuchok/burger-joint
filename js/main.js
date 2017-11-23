@@ -50,7 +50,7 @@ angular
 	.controller('MainController', function($scope, $document, $filter, $location, $http, $rootScope, $state, $window, $timeout) {
 
         $rootScope.$state = $state;
-        $scope.minDeliveryPrice = 275;
+        $scope.minDeliveryPrice = 300;
         $scope.deliveryPrice = 50;
 
         initialize();
@@ -206,6 +206,16 @@ angular
                     qty: 0,
                     doneness: [],
                     type: "burgers2"
+                },
+                {
+                    name: "Ранч",
+                    details: "",
+                    desc: "Булка з сезамом, соковита котлета з яловичини приготована на вугіллі, рукола, сир чеддер, смажені гриби, цибуля фрі та соус ранч",
+                    img: "img/burger14.JPG",
+                    price: 110,
+                    qty: 0,
+                    doneness: [],
+                    type: "burgers2"
                 }
             ],
             salads: [
@@ -222,14 +232,15 @@ angular
             drinks: [
                 { name: "Pepsi", details: "0.5", price: 25, qty: 0, checked: false, type: "drinks"},
                 { name: "Pepsi Light", details: "0.5", price: 25, qty: 0, checked: false, type: "drinks"},
+                { name: "Dr. Pepper", details: "0.35", price: 50, qty: 0, checked: false, type: "drinks"},
                 { name: "Schweppes", details: "0.5", price: 25, qty: 0, checked: false, type: "drinks"},
                 { name: "7UP", details: "0.5", price: 25, qty: 0, checked: false, type: "drinks"},
                 { name: "Mirinda", details: "0.5", price: 25, qty: 0, checked: false, type: "drinks"},
                 { name: "Redbull", details: "0.25", price: 45, qty: 0, checked: false, type: "drinks"}
             ],
             water: [
-                {name: "Аква Мiнерале газ.", details: "0.6", price: 20, qty: 0, checked: false, type: "water"},
-                {name: "Аква Мiнерале негаз.", details: "0.6", price: 20, qty: 0, checked: false, type: "water"},
+                {name: "Аква Мiнерале газ.", details: "0.5", price: 20, qty: 0, checked: false, type: "water"},
+                {name: "Аква Мiнерале негаз.", details: "0.5", price: 20, qty: 0, checked: false, type: "water"},
                 {name: "Поляна Квасова газ.", details: "0.5", price: 35, qty: 0, checked: false, type: "water"}
             ],
             sauces: [
@@ -325,7 +336,7 @@ angular
                 }, 0);
             }
             // adding delivery price if sum is bigger than 100 UAH
-            if (total.sum < 275) {
+            if (total.sum < 300) {
                 total.sum += 50;
                 total.includeDelivery = true;
             }
