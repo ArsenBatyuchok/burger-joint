@@ -193,7 +193,7 @@ angular
                     details: "",
                     desc: "Булка з сезамом, соковитий стейк з лосося приготований на вугіллі з листям айсберг, огірком, цибулею та домашнім соусом тартар",
                     img: "img/burger12.png",
-                    price: 140,
+                    price: 150,
                     qty: 0,
                     type: "burgers2"
                 },
@@ -233,10 +233,10 @@ angular
                 {name: "Поляна Квасова газ.", details: "0.5", price: 35, qty: 0, checked: false, type: "water"}
             ],
             sauces: [
-                {name: "Барбек’ю", price: 15, qty: 0, checked: false, type: "sauces"},
-                {name: "Чiлi", price: 15, qty: 0, checked: false, type: "sauces"},
-                {name: "Часниковий", price: 15, qty: 0, checked: false, type: "sauces"},
-                {name: "Грибний", price: 15, qty: 0, checked: false, type: "sauces"}
+                {name: "Барбек’ю", price: 20, qty: 0, checked: false, type: "sauces"},
+                {name: "Чiлi", price: 20, qty: 0, checked: false, type: "sauces"},
+                {name: "Часниковий", price: 20, qty: 0, checked: false, type: "sauces"},
+                {name: "Грибний", price: 20, qty: 0, checked: false, type: "sauces"}
             ]
         };
         // end data
